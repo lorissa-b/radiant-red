@@ -192,7 +192,7 @@ MoveEnd:
 	move SLASH,        ATTACK_UP1_SIDE_EFFECT,      50, STEEL,     95, 35 ; Metal Claw
 	move WING_ATTACK,  DEFENSE_UP1_SIDE_EFFECT,     70, STEEL,     90, 25 ; Steel Wing
 	move HEADBUTT,     FLINCH_SIDE_EFFECT1,         80, STEEL,    100, 15 ; Iron Head
-	move AURORA_BEAM,  SPECIAL_DOWN1_SIDE_EFFECT,   80, STEEL,    100, 10 ; Flash Cannon
+	move AURORA_BEAM,  SPECIAL_DOWN_SIDE_EFFECT,   80, STEEL,    100, 10 ; Flash Cannon
 	move STRUGGLE,     SPECIAL_DOWN1_EFFECT,        50, BUG,      100, 20 ; Struggle Bug
 	move MIST,         SILVER_WIND_EFFECT,          60, BUG,      100,  5 ; Silver Wind
 	move AURORA_BEAM,  CONFUSION_SIDE_EFFECT,       75, BUG,      100, 15 ; Signal Beam
