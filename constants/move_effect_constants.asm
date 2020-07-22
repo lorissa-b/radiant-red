@@ -104,6 +104,8 @@ const_value = 0
 	const ATTACK_UP1_SIDE_EFFECT2    ; $61: 20% chance to raise attack 1 stage
 	const DEFENSE_UP1_SIDE_EFFECT    ; $62: 10% chance to raise defense 1 stage
 	const TRI_ATTACK_EFFECT          ; Randomly burn, freeze, or paralyze the opponent
+	const BURN_EFFECT
+	const DRAGON_DANCE_EFFECT
 
 ; fixed damage constants
 SONICBOOM_DAMAGE   EQU 20

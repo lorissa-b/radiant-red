@@ -2,7 +2,6 @@ MtMoonSquareMons:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 12,ZIGZAGOON
 	db 12,GEODUDE
 	db 13,SANDSHREW
 	db 13,GEODUDE
@@ -11,7 +10,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 15,ONIX
 	db 13,CLEFAIRY
 	db 15,CLEFAIRY
-	db 15,MURKROW
 
 ; Water Mons
 	db $05
@@ -24,12 +22,10 @@ IF DEF(_HARD) ; Difficult Rom
 	db 50,SEAKING
 	db 50,SEAKING
 	db 55,SLOWBRO
-	db 55,SLOWKING
 
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 9,ZIGZAGOON
 	db 9,GEODUDE
 	db 10,SANDSHREW
 	db 10,GEODUDE
@@ -38,7 +34,6 @@ ELSE ; Normal Rom
 	db 12,ONIX
 	db 10,CLEFAIRY
 	db 12,CLEFAIRY
-	db 12,MURKROW
 
 ; Water Mons
 	db $05
@@ -51,5 +46,4 @@ ELSE ; Normal Rom
 	db 20,SEAKING
 	db 20,SEAKING
 	db 25,SLOWBRO
-	db 25,SLOWKING
 ENDC

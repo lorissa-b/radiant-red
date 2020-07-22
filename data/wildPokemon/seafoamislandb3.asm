@@ -10,7 +10,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 41,STARYU
 	db 41,KINGLER
 	db 49,STARYU
-	db 49,SLOWKING
 	db 43,DEWGONG
 
 ; Water Mons
@@ -27,7 +26,6 @@ ELSE ; Normal Rom
 	db 31,STARYU
 	db 31,KRABBY
 	db 29,STARYU
-	db 39,SLOWKING
 	db 37,DEWGONG
 
 ; Water Mons

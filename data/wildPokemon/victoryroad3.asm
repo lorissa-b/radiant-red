@@ -10,7 +10,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 61,GRAVELER
 	db 62,GOLBAT
 	db 65,MACHOKE
-	db 67,STEELIX
 	db 69,MAROWAK
 
 ; Water Mons
@@ -27,7 +26,6 @@ ELSE ; Normal Rom
 	db 41,GRAVELER
 	db 42,GOLBAT
 	db 45,MACHOKE
-	db 47,STEELIX
 	db 49,MAROWAK
 
 ; Water Mons

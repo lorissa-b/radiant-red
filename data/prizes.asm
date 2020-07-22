@@ -24,7 +24,7 @@ PrizeMenuMon1Cost:
 	db "@"
 
 PrizeMenuMon2Entries:
-	db HERACROSS
+	db PINSIR
 	db DRATINI
 	db PORYGON
 	db "@"

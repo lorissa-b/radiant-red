@@ -12,7 +12,7 @@ Route7Object:
 	db $d, $3, $2 ; Route7Text1
 
 	db $1 ; objects
-	object SPRITE_BERRY_TREE, $F, $5, STAY, NONE, $1
+	;object SPRITE_BERRY_TREE, $F, $5, STAY, NONE, $1
 
 	; warp-to
 	EVENT_DISP ROUTE_7_WIDTH, $9, $12 ; ROUTE_7_GATE

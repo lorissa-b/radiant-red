@@ -11,7 +11,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 52,MR_MIME
 	db 48,TANGELA
 	db 50,TANGELA
-	db 52,TANGROWTH
 	
 ; Water Mons
 	db $05

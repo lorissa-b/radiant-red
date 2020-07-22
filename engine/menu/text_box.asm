@@ -688,7 +688,6 @@ DisplayFieldMoveMonMenu:
 FieldMoveNames:
 	db "Cut@"
 	db "Fly@"
-	db "Dive@" ; Unused
 	db "Surf@"
 	db "Strength@"
 	db "Flash@"
@@ -762,7 +761,7 @@ GetMonFieldMoves:
 FieldMoveDisplayData:
 	db CUT, $01, $0C
 	db FLY, $02, $0C
-	db DIVE, $03, $0C ; Unused
+	;db DIVE, $03, $0C ; Unused
 	db SURF, $04, $0C
 	db STRENGTH, $05, $0A
 	db FLASH, $06, $0C

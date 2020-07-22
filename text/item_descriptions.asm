@@ -588,60 +588,60 @@ _FloorB4FDescription::
 	text "B4F"
 	prompt
 
-_OranBerryDescription::
-	text "Restores 10 HP"
-	line "when used."
-	prompt
+; _OranBerryDescription::
+; 	text "Restores 10 HP"
+; 	line "when used."
+; 	prompt
 
-_SitrusBerryDescription::
-	text "Restores 30 HP"
-	line "when used."
-	prompt
+; _SitrusBerryDescription::
+; 	text "Restores 30 HP"
+; 	line "when used."
+; 	prompt
 
-_LeppaBerryDescription::
-	text "Restores 10 PP"
-	line "when used."
-	prompt
+; _LeppaBerryDescription::
+; 	text "Restores 10 PP"
+; 	line "when used."
+; 	prompt
 
-_PechaBerryDescription::
-	text "Cures a #mon of"
-	line "being Poisoned."
-	prompt
+; _PechaBerryDescription::
+; 	text "Cures a #mon of"
+; 	line "being Poisoned."
+; 	prompt
 
-_RawstBerryDescription::
-	text "Cures a #mon of"
-	line "being Burned."
-	prompt
+; _RawstBerryDescription::
+; 	text "Cures a #mon of"
+; 	line "being Burned."
+; 	prompt
 
-_AspearBerryDescription::
-	text "Cures a #mon of"
-	line "being Frozen."
-	prompt
+; _AspearBerryDescription::
+; 	text "Cures a #mon of"
+; 	line "being Frozen."
+; 	prompt
 
-_ChestoBerryDescription::
-	text "Wakes up a #mon"
-	line "that is Asleep."
-	prompt
+; _ChestoBerryDescription::
+; 	text "Wakes up a #mon"
+; 	line "that is Asleep."
+; 	prompt
 
-_CheriBerryDescription::
-	text "Cures a #mon of"
-	line "Paralysis."
-	prompt
+; _CheriBerryDescription::
+; 	text "Cures a #mon of"
+; 	line "Paralysis."
+; 	prompt
 
-_LumBerryDescription::
-	text "Cures #mon of"
-	line "any negative"
-	cont "status condition."
-	prompt
+; _LumBerryDescription::
+; 	text "Cures #mon of"
+; 	line "any negative"
+; 	cont "status condition."
+; 	prompt
 
-_SwegBerryDescription::
-	text "An extremely rare"
-	line "Berry."
+; _SwegBerryDescription::
+; 	text "An extremely rare"
+; 	line "Berry."
 
-	para "It increases a"
-	line "#mon's level by"
-	cont "1 when used."
-	prompt
+; 	para "It increases a"
+; 	line "#mon's level by"
+; 	cont "1 when used."
+; 	prompt
 
 _GoHomeDescription::
 	text "Go home."

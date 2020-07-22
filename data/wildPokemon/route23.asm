@@ -22,9 +22,7 @@ IF DEF(_HARD) ; Difficult Rom
 	db 55,SLOWBRO
 	db 50,SLOWBRO
 	db 55,GOLDUCK
-	db 55,SLOWKING
 	db 50,GOLDUCK
-	db 50,SLOWKING
 
 ELSE ; Normal Rom
 ; Grass Mons

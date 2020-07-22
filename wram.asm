@@ -2776,16 +2776,16 @@ wOaksLabCurScript:: ; d5f0
 	ds 1
 wPalletTownCurScript:: ; d5f1
 	ds 1
-wFarawayIslandInsideCurScript:: ; d5f2
-	ds 1
+; wFarawayIslandInsideCurScript:: ; d5f2
+; 	ds 1
 wBluesHouseCurScript:: ; d5f3
 	ds 1
 wViridianCityCurScript:: ; d5f4
 	ds 1
-wSouthernIslandInsideCurScript::
-	ds 1
-wNavelRockLugiaRoomCurScript::
-	ds 1
+; wSouthernIslandInsideCurScript::
+; 	ds 1
+; wNavelRockLugiaRoomCurScript::
+; 	ds 1
 wPewterCityCurScript:: ; d5f7
 	ds 1
 wRoute3CurScript:: ; d5f8
@@ -3389,10 +3389,10 @@ wSafariZoneGameOver:: ; da46
 wNumSafariBalls:: ; da47
 	ds 1
 
-wBerryTreeFlags::
-	ds 2
-wBerryStepCounter:: ; deee
-	ds 2
+; wBerryTreeFlags::
+; 	ds 2
+; wBerryStepCounter:: ; deee
+; 	ds 2
 
 wDayCareInUse:: ; da48
 ; bit 0 - Mon with Day Care Lady

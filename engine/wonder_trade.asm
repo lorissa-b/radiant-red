@@ -281,10 +281,6 @@ BannedMons: ; List of Pokemon not allowed to show up in Wonder Trade
 	db MOLTRES
 	db MEWTWO
 	db MEW
-	db LUGIA
-	db LATIOS
-	db LATIAS
-	db HO_OH
 	db $FF
 
 CheckValidLevel:
@@ -462,65 +458,6 @@ MinimumPokemonLevels: ; Offered Pokemon must be within the level range
 	db  20,  29 ; Dratini
 	db  30,  54 ; Dragonair
 	db  55, 100 ; Dragonite
-	db 255, 255 ; Mewtwo
-	db 255, 255 ; Mew
-	db 255, 255 ; Lugia
-	db   1,  23 ; Houndour
-	db  24, 100 ; Houndoom
-	db   1,  19 ; Murkrow
-	db  20, 100 ; Honchkrow
-	db  10, 100 ; Heracross
-	db  20, 100 ; Espeon
-	db  20, 100 ; Umbreon
-	db  20, 100 ; Glaceon
-	db  20, 100 ; Leafeon
-	db  20, 100 ; Sylveon
-	db  20, 100 ; Scizor
-	db  20, 100 ; Steelix
-	db  22, 100 ; Crobat
-	db  36, 100 ; Politoed
-	db  37, 100 ; Slowking
-	db  32, 100 ; Bellossom
-	db  55, 100 ; Kingdra
-	db  20, 100 ; Blissey
-	db  20, 100 ; Porygon 2
-	db  20, 100 ; Porygon Z
-	db  36, 100 ; Magmortar
-	db  36, 100 ; Electivire
-	db  36, 100 ; Magnezone
-	db  55, 100 ; Rhyperior
-	db  36, 100 ; Tangrowth
-	db  36, 100 ; Lickilicky
-	db   1,  14 ; Togepi
-	db  15,  29 ; Togetic
-	db  30, 100 ; Togekiss
-	db   1,  19 ; Sneasel
-	db  20, 100 ; Weavile
-	db  10, 100 ; Skarmory
-	db   1,  19 ; Misdreavus
-	db  20, 100 ; Mismagius
-	db   1, 100 ; Miltank
-	db   1,  26 ; Chinchou
-	db  27, 100 ; Lanturn
-	db   1,  37 ; Slugma
-	db  38, 100 ; Magcargo
-	db   1, 100 ; Torkoal
-	db 255, 255 ; Latias
-	db 255, 255 ; Latios
-	db  20, 100 ; Hitmontop
-	db   1,  20 ; Tyrogue
-	db   1,  15 ; Pichu
-	db   1,  15 ; Cleffa
-	db   1,  15 ; Igglybuff
-	db   1,  15 ; Smoochum
-	db   1,  15 ; Elekid
-	db   1,  15 ; Magby
-	db   1,  15 ; Mime Jr.
-	db   1,  15 ; Happiny
-	db   1,  15 ; Munchlax
-	db   1,  19 ; Zigzagoon
-	db  20, 100 ; Linoone
-	db 255, 255 ; Ho-oh
 
 
 WonderConnectCableText:

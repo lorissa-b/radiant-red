@@ -9,8 +9,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 61,ONIX
 	db 62,ONIX
 	db 64,RHYDON
-	db 64,CROBAT
-	db 62,STEELIX
 	db 63,MAROWAK
 
 ; Water Mons
@@ -26,8 +24,6 @@ ELSE ; Normal Rom
 	db 41,ONIX
 	db 42,ONIX
 	db 44,RHYDON
-	db 44,CROBAT
-	db 42,STEELIX
 	db 43,MAROWAK
 
 ; Water Mons

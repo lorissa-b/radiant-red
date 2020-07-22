@@ -8,8 +8,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 48,GRIMER
 	db 48,PONYTA
 	db 50,RAPIDASH
-	db 49,SLUGMA
-	db 48,SLUGMA
 	db 42,MUK
 	db 42,DODRIO
 
@@ -25,8 +23,6 @@ ELSE ; Normal Rom
 	db 28,GRIMER
 	db 28,PONYTA
 	db 30,PONYTA
-	db 29,SLUGMA
-	db 28,SLUGMA
 	db 32,MUK
 	db 32,DODRIO
 

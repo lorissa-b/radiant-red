@@ -73,8 +73,8 @@ IF DEF(_HARD) ; Hard Version
 	db 15, VENONAT
 	db 15, EKANS
 	db 15, EKANS
-	db 15, MURKROW
-	db 15, MURKROW
+	db 15, ODDISH
+	db 15, ODDISH
 ELSE ; Normal Version
 	db 10, PIDGEY
 	db 10, PIDGEY
@@ -84,8 +84,8 @@ ELSE ; Normal Version
 	db 10, VENONAT
 	db 10, EKANS
 	db 10, EKANS
-	db 10, MURKROW
-	db 10, MURKROW
+	db 10, ODDISH
+	db 10, ODDISH
 ENDC
 
 TreeMons3:
@@ -123,8 +123,8 @@ IF DEF(_HARD) ; Hard Version
 	db 25, SPEAROW
 	db 25, EXEGGCUTE
 	db 25, EXEGGCUTE
-	db 25, HERACROSS
-	db 25, HERACROSS
+	db 25, PINSIR
+	db 25, PINSIR
 ELSE ; Normal Version
 	db 15, EKANS
 	db 15, EKANS
@@ -134,8 +134,8 @@ ELSE ; Normal Version
 	db 15, SPEAROW
 	db 15, EXEGGCUTE
 	db 15, EXEGGCUTE
-	db 15, HERACROSS
-	db 15, HERACROSS
+	db 15, PINSIR
+	db 15, PINSIR
 ENDC
 
 TreeMons5:
@@ -146,9 +146,9 @@ IF DEF(_HARD) ; Hard Version
 	db 35, VENONAT
 	db 35, BEEDRILL
 	db 35, BUTTERFREE
-	db 35, MURKROW
-	db 35, MURKROW
-	db 35, HERACROSS
+	db 35, PIDGEY
+	db 35, PIDGEY
+	db 35, PINSIR
 	db 35, SCYTHER
 ELSE ; Normal Version
 	db 25, PARAS
@@ -157,9 +157,9 @@ ELSE ; Normal Version
 	db 25, VENONAT
 	db 25, BEEDRILL
 	db 25, BUTTERFREE
-	db 25, MURKROW
-	db 25, MURKROW
-	db 25, HERACROSS
+	db 25, PIDGEY
+	db 25, PIDGEY
+	db 25, PINSIR
 	db 25, SCYTHER
 ENDC
 
@@ -171,9 +171,9 @@ IF DEF(_HARD) ; Hard Version
 	db 45, VENONAT
 	db 45, BEEDRILL
 	db 45, BUTTERFREE
-	db 45, MURKROW
-	db 45, MURKROW
-	db 45, HERACROSS
+	db 45, PIDGEY
+	db 45, PIDGEY
+	db 45, PINSIR
 	db 45, PINSIR
 ELSE ; Normal Version
 	db 25, PARAS
@@ -182,9 +182,9 @@ ELSE ; Normal Version
 	db 25, VENONAT
 	db 25, BEEDRILL
 	db 25, BUTTERFREE
-	db 25, MURKROW
-	db 25, MURKROW
-	db 25, HERACROSS
+	db 25, PIDGEY
+	db 25, PIDGEY
+	db 25, PINSIR
 	db 25, PINSIR
 ENDC
 
@@ -199,7 +199,7 @@ IF DEF(_HARD) ; Hard Version
 	db 56, EXEGGCUTE
 	db 56, EXEGGCUTE
 	db 52, ARBOK
-	db 54, HERACROSS
+	db 54, PINSIR
 ELSE ; Normal Version
 	db 30, BEEDRILL
 	db 30, BUTTERFREE
@@ -210,7 +210,7 @@ ELSE ; Normal Version
 	db 31, EXEGGCUTE
 	db 31, EXEGGCUTE
 	db 31, ARBOK
-	db 31, HERACROSS
+	db 31, PINSIR
 ENDC
 
 TreeMons8: ; unused for now

@@ -97,8 +97,8 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	;call ClearScreen
-	call GetSylveonPalID ; HAX
-	ld a,SYLVEON
+	;call GetSylveonPalID ; HAX
+	;ld a,SYLVEON
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader

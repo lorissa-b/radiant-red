@@ -307,7 +307,7 @@ PlayShootingStar:
 	ld [wWholeScreenPaletteMonSpecies],a
 	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
 	call RunPaletteCommand
-	callba LoadMateoPresentsScreen
+	;callba LoadMateoPresentsScreen
 	ld a, %11100100
 	ld [rBGP], a
 	ld c, 180

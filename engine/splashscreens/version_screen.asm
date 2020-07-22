@@ -18,28 +18,28 @@ DisplayHackVersionScreen::
 	call EnableLCD
 	call Delay3
 	call GBPalNormal
-; display the version info text
-	coord hl, 2, 2
-	ld de, VersionScreenText
-	call PlaceString
-; wait for the player to press A
-	call WaitForTextScrollButtonPress
-; load the tilemap for the screen again
-	call CleanPikachuScreen
-; display the second page
-	coord hl, 2, 2
-	ld de, VersionScreenText2
-	call PlaceString
-	; wait for the player to press A
-	call WaitForTextScrollButtonPress
-; load the tilemap for the screen again
-	call CleanPikachuScreen
-; display the third page
-	coord hl, 2, 6
-	ld de, VersionScreenText3
-	call PlaceString
-	; wait for the player to press A
-	call WaitForTextScrollButtonPress
+; ; display the version info text
+; 	coord hl, 2, 2
+; 	ld de, VersionScreenText
+; 	call PlaceString
+; ; wait for the player to press A
+; 	call WaitForTextScrollButtonPress
+; ; load the tilemap for the screen again
+; 	call CleanPikachuScreen
+; ; display the second page
+; 	coord hl, 2, 2
+; 	ld de, VersionScreenText2
+; 	call PlaceString
+; 	; wait for the player to press A
+; 	call WaitForTextScrollButtonPress
+; ; load the tilemap for the screen again
+; 	call CleanPikachuScreen
+; ; display the third page
+; 	coord hl, 2, 6
+; 	ld de, VersionScreenText3
+; 	call PlaceString
+; 	; wait for the player to press A
+; 	call WaitForTextScrollButtonPress
 ; wipe the screen and go back
 	call ClearScreen
 	ret

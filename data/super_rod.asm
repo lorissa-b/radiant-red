@@ -43,7 +43,6 @@ FishingGroup1:
 	db 25,GYARADOS
 	db 25,KINGLER
 	db 25,CLOYSTER
-	db 25,LANTURN
 
 FishingGroup2:
 	db 3
@@ -76,7 +75,6 @@ FishingGroup6:
 	db 25,DRATINI
 	db 25,KINGLER
 	db 25,GOLDUCK
-	db 25,SLOWKING
 
 FishingGroup7:
 	db 4

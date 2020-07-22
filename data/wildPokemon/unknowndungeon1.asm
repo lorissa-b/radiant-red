@@ -2,16 +2,12 @@ DungeonMons1:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 60,CROBAT
-	db 65,CROBAT
 	db 65,GRAVELER
 	db 65,ONIX
 	db 65,RHYDON
 	db 62,SANDSLASH
 	db 64,VENOMOTH
 	db 64,PARASECT
-	db 65,STEELIX
-	db 65,RHYPERIOR
 
 ; Water Mons
 	db $03
@@ -29,16 +25,12 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 50,CROBAT
-	db 55,CROBAT
 	db 45,GRAVELER
 	db 55,ONIX
 	db 55,RHYDON
 	db 52,SANDSLASH
 	db 54,VENOMOTH
 	db 54,PARASECT
-	db 55,STEELIX
-	db 60,RHYPERIOR
 
 ; Water Mons
 	db $03

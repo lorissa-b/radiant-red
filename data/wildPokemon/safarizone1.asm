@@ -6,7 +6,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 36,DODUO
 	db 32,PARAS
 	db 35,EXEGGCUTE
-	db 43,HERACROSS
 	db 33,EXEGGCUTE
 	db 34,PINSIR
 	db 35,PARASECT
@@ -23,7 +22,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 33,SLOWBRO
 	db 34,STARMIE
 	db 35,GYARADOS
-	db 35,SLOWKING
 	db 38,DRATINI
 
 ELSE ; Normal Rom
@@ -33,7 +31,6 @@ ELSE ; Normal Rom
 	db 26,DODUO
 	db 22,PARAS
 	db 25,EXEGGCUTE
-	db 33,HERACROSS
 	db 23,EXEGGCUTE
 	db 24,PINSIR
 	db 25,PARASECT
@@ -50,6 +47,5 @@ ELSE ; Normal Rom
 	db 23,SLOWBRO
 	db 24,STARMIE
 	db 25,GYARADOS
-	db 25,SLOWKING
 	db 28,DRATINI
 ENDC

@@ -8,7 +8,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 25,MACHOP
 	db 26,GRAVELER
 	db 28,DITTO
-	db 25,TORKOAL
 	db 27,MACHOP
 	db 23,ONIX
 	db 25,ONIX
@@ -25,7 +24,6 @@ ELSE ; Normal Rom
 	db 15,MACHOP
 	db 16,GEODUDE
 	db 18,DITTO
-	db 15,TORKOAL
 	db 17,MACHOP
 	db 13,ONIX
 	db 15,ONIX

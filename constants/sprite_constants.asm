@@ -106,7 +106,7 @@ const_value = 1
 	const SPRITE_BAG                       ; $57
 	const SPRITE_OLD_AMBER                 ; $58
 	const SPRITE_POKEDEX                   ; $59
-	const SPRITE_BERRY_TREE                ; $5a
+;	const SPRITE_BERRY_TREE                ; $5a
 	const SPRITE_LYING_OLD_MAN             ; $5b
 	const SPRITE_SUDOWOODO                 ; $5c
 	const SPRITE_POKEY                     ; $5d

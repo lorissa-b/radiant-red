@@ -212,25 +212,25 @@ ItemDescriptionPointers:
 	db "@"
 	TX_FAR _FloorB4FDescription
 	db "@"
-	TX_FAR _OranBerryDescription
-	db "@"
-	TX_FAR _SitrusBerryDescription
-	db "@"
-	TX_FAR _LeppaBerryDescription
-	db "@"
-	TX_FAR _PechaBerryDescription
-	db "@"
-	TX_FAR _RawstBerryDescription
-	db "@"
-	TX_FAR _AspearBerryDescription
-	db "@"
-	TX_FAR _ChestoBerryDescription
-	db "@"
-	TX_FAR _CheriBerryDescription
-	db "@"
-	TX_FAR _LumBerryDescription
-	db "@"
-	TX_FAR _SwegBerryDescription
+	; TX_FAR _OranBerryDescription
+	; db "@"
+	; TX_FAR _SitrusBerryDescription
+	; db "@"
+	; TX_FAR _LeppaBerryDescription
+	; db "@"
+	; TX_FAR _PechaBerryDescription
+	; db "@"
+	; TX_FAR _RawstBerryDescription
+	; db "@"
+	; TX_FAR _AspearBerryDescription
+	; db "@"
+	; TX_FAR _ChestoBerryDescription
+	; db "@"
+	; TX_FAR _CheriBerryDescription
+	; db "@"
+	; TX_FAR _LumBerryDescription
+	; db "@"
+	; TX_FAR _SwegBerryDescription
 	db "@"
 	TX_FAR _GoHomeDescription
 	db "@"
@@ -573,25 +573,25 @@ ItemDescriptionPointers_Mart:
 	db "@"
 	TX_FAR _FloorB4FDescription_Mart
 	db "@"
-	TX_FAR _OranBerryDescription_Mart
-	db "@"
-	TX_FAR _SitrusBerryDescription_Mart
-	db "@"
-	TX_FAR _LeppaBerryDescription_Mart
-	db "@"
-	TX_FAR _PechaBerryDescription_Mart
-	db "@"
-	TX_FAR _RawstBerryDescription_Mart
-	db "@"
-	TX_FAR _AspearBerryDescription_Mart
-	db "@"
-	TX_FAR _ChestoBerryDescription_Mart
-	db "@"
-	TX_FAR _CheriBerryDescription_Mart
-	db "@"
-	TX_FAR _LumBerryDescription_Mart
-	db "@"
-	TX_FAR _SwegBerryDescription_Mart
+	; TX_FAR _OranBerryDescription_Mart
+	; db "@"
+	; TX_FAR _SitrusBerryDescription_Mart
+	; db "@"
+	; TX_FAR _LeppaBerryDescription_Mart
+	; db "@"
+	; TX_FAR _PechaBerryDescription_Mart
+	; db "@"
+	; TX_FAR _RawstBerryDescription_Mart
+	; db "@"
+	; TX_FAR _AspearBerryDescription_Mart
+	; db "@"
+	; TX_FAR _ChestoBerryDescription_Mart
+	; db "@"
+	; TX_FAR _CheriBerryDescription_Mart
+	; db "@"
+	; TX_FAR _LumBerryDescription_Mart
+	; db "@"
+	; TX_FAR _SwegBerryDescription_Mart
 	db "@"
 	TX_FAR _GoHomeDescription_Mart
 	db "@"

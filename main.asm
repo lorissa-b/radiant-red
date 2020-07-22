@@ -851,7 +851,7 @@ INCLUDE "engine/trade2.asm"
 INCLUDE "engine/battle/ai_read_move.asm"
 INCLUDE "data/moves.asm"
 INCLUDE "data/cries.asm"
-INCLUDE "engine/overworld/berrytree.asm"
+;INCLUDE "engine/overworld/berrytree.asm"
 
 ; Hooks for color hack
 INCLUDE "color/trade.asm"
@@ -2289,7 +2289,7 @@ ClipboardSprite:       INCBIN "gfx/sprites/clipboard.2bpp"
 OldAmberSprite:        INCBIN "gfx/sprites/old_amber.2bpp"
 PokedexSprite:         INCBIN "gfx/sprites/pokedex.2bpp"
 TownMapSprite:         INCBIN "gfx/sprites/map_ow.2bpp"
-BerryTreeSprite:       INCBIN "gfx/sprites/berry_tree.2bpp"
+;BerryTreeSprite:       INCBIN "gfx/sprites/berry_tree.2bpp"
 BagOverworldSprite:    INCBIN "gfx/sprites/bag.2bpp"
 BallSprite:            INCBIN "gfx/sprites/ball.2bpp"
 OmanyteSprite:         INCBIN "gfx/sprites/omanyte.2bpp"
@@ -2472,58 +2472,58 @@ NavelRockFerryBlocks:
 VermilionFerryBlocks: INCBIN "maps/VermilionFerryDock.blk"
 
 ; Faraway Island (Outside)
-INCLUDE "data/mapHeaders/FarawayIslandOutside.asm"
-INCLUDE "data/mapObjects/FarawayIslandOutside.asm"
-INCLUDE "scripts/FarawayIslandOutside.asm"
-FarawayIslandOutsideBlocks: INCBIN "maps/FarawayIslandOutside.blk"
+; INCLUDE "data/mapHeaders/FarawayIslandOutside.asm"
+; INCLUDE "data/mapObjects/FarawayIslandOutside.asm"
+; INCLUDE "scripts/FarawayIslandOutside.asm"
+; FarawayIslandOutsideBlocks: INCBIN "maps/FarawayIslandOutside.blk"
 
-; Faraway Island (Inside)
-INCLUDE "data/mapHeaders/FarawayIslandInside.asm"
-INCLUDE "data/mapObjects/FarawayIslandInside.asm"
-INCLUDE "scripts/FarawayIslandInside.asm"
-FarawayIslandInsideBlocks: INCBIN "maps/FarawayIslandInside.blk"
+; ; Faraway Island (Inside)
+; INCLUDE "data/mapHeaders/FarawayIslandInside.asm"
+; INCLUDE "data/mapObjects/FarawayIslandInside.asm"
+; INCLUDE "scripts/FarawayIslandInside.asm"
+; FarawayIslandInsideBlocks: INCBIN "maps/FarawayIslandInside.blk"
 
-; Southern Island (Outside)
-INCLUDE "data/mapHeaders/SouthernIslandOutside.asm"
-INCLUDE "data/mapObjects/SouthernIslandOutside.asm"
-INCLUDE "scripts/SouthernIslandOutside.asm"
-SouthernIslandOutsideBlocks: INCBIN "maps/SouthernIslandOutside.blk"
+; ; Southern Island (Outside)
+; INCLUDE "data/mapHeaders/SouthernIslandOutside.asm"
+; INCLUDE "data/mapObjects/SouthernIslandOutside.asm"
+; INCLUDE "scripts/SouthernIslandOutside.asm"
+; SouthernIslandOutsideBlocks: INCBIN "maps/SouthernIslandOutside.blk"
 
-; Southern Island (Inside)
-INCLUDE "data/mapHeaders/SouthernIslandInside.asm"
-INCLUDE "data/mapObjects/SouthernIslandInside.asm"
-INCLUDE "scripts/SouthernIslandInside.asm"
-SouthernIslandInsideBlocks: INCBIN "maps/SouthernIslandInside.blk"
+; ; Southern Island (Inside)
+; INCLUDE "data/mapHeaders/SouthernIslandInside.asm"
+; INCLUDE "data/mapObjects/SouthernIslandInside.asm"
+; INCLUDE "scripts/SouthernIslandInside.asm"
+; SouthernIslandInsideBlocks: INCBIN "maps/SouthernIslandInside.blk"
 
-; Navel Rock Ferry Dock
-INCLUDE "data/mapHeaders/NavelRockFerry.asm"
-INCLUDE "data/mapObjects/NavelRockFerry.asm"
-INCLUDE "scripts/NavelRockFerry.asm"
-; uses same map as Vermilion Ferry Dock
+; ; Navel Rock Ferry Dock
+; INCLUDE "data/mapHeaders/NavelRockFerry.asm"
+; INCLUDE "data/mapObjects/NavelRockFerry.asm"
+; INCLUDE "scripts/NavelRockFerry.asm"
+; ; uses same map as Vermilion Ferry Dock
 
-; Navel Rock (Outside)
-INCLUDE "data/mapHeaders/NavelRockOutside.asm"
-INCLUDE "data/mapObjects/NavelRockOutside.asm"
-INCLUDE "scripts/NavelRockOutside.asm"
-NavelRockOutsideBlocks: INCBIN "maps/NavelRockOutside.blk"
+; ; Navel Rock (Outside)
+; INCLUDE "data/mapHeaders/NavelRockOutside.asm"
+; INCLUDE "data/mapObjects/NavelRockOutside.asm"
+; INCLUDE "scripts/NavelRockOutside.asm"
+; NavelRockOutsideBlocks: INCBIN "maps/NavelRockOutside.blk"
 
-; Navel Rock (Cave 1)
-INCLUDE "data/mapHeaders/NavelRockCave1.asm"
-INCLUDE "data/mapObjects/NavelRockCave1.asm"
-INCLUDE "scripts/NavelRockCave1.asm"
-NavelRockCave1Blocks: INCBIN "maps/NavelRockCave1.blk"
+; ; Navel Rock (Cave 1)
+; INCLUDE "data/mapHeaders/NavelRockCave1.asm"
+; INCLUDE "data/mapObjects/NavelRockCave1.asm"
+; INCLUDE "scripts/NavelRockCave1.asm"
+; NavelRockCave1Blocks: INCBIN "maps/NavelRockCave1.blk"
 
 ; Navel Rock (Cave 2)
-INCLUDE "data/mapHeaders/NavelRockCave2.asm"
-INCLUDE "data/mapObjects/NavelRockCave2.asm"
-INCLUDE "scripts/NavelRockCave2.asm"
-NavelRockCave2Blocks: INCBIN "maps/NavelRockCave2.blk"
+; INCLUDE "data/mapHeaders/NavelRockCave2.asm"
+; INCLUDE "data/mapObjects/NavelRockCave2.asm"
+; INCLUDE "scripts/NavelRockCave2.asm"
+; NavelRockCave2Blocks: INCBIN "maps/NavelRockCave2.blk"
 
 ; Navel Rock (Lugia Room)
-INCLUDE "data/mapHeaders/NavelRockLugiaRoom.asm"
-INCLUDE "data/mapObjects/NavelRockLugiaRoom.asm"
-INCLUDE "scripts/NavelRockLugiaRoom.asm"
-NavelRockLugiaRoomBlocks: INCBIN "maps/NavelRockLugiaRoom.blk"
+; INCLUDE "data/mapHeaders/NavelRockLugiaRoom.asm"
+; INCLUDE "data/mapObjects/NavelRockLugiaRoom.asm"
+; INCLUDE "scripts/NavelRockLugiaRoom.asm"
+; NavelRockLugiaRoomBlocks: INCBIN "maps/NavelRockLugiaRoom.blk"
 
 ; Inside Ferry
 INCLUDE "data/mapHeaders/InsideFerry.asm"

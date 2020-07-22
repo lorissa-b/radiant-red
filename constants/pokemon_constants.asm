@@ -151,64 +151,7 @@ const_value = 1
 	const DRAGONITE   ; 149
 	const MEWTWO      ; 150
 	const MEW         ; 151
-	const LUGIA       ; 152
-	const HOUNDOUR    ; 153
-	const HOUNDOOM    ; 154
-	const MURKROW     ; 155
-	const HONCHKROW   ; 156
-	const HERACROSS   ; 157
-	const ESPEON      ; 158
-	const UMBREON     ; 159
-	const GLACEON     ; 160
-	const LEAFEON     ; 161
-	const SYLVEON     ; 162
-	const SCIZOR      ; 163
-	const STEELIX     ; 164
-	const CROBAT      ; 165
-	const POLITOED    ; 166
-	const SLOWKING    ; 167
-	const BELLOSSOM   ; 168
-	const KINGDRA     ; 169
-	const BLISSEY     ; 170
-	const PORYGON2    ; 171
-	const PORYGONZ    ; 172
-	const MAGMORTAR   ; 173
-	const ELECTIVIRE  ; 174
-	const MAGNEZONE   ; 175
-	const RHYPERIOR   ; 176
-	const TANGROWTH   ; 177
-	const LICKILICKY  ; 178
-	const TOGEPI      ; 179
-	const TOGETIC     ; 180
-	const TOGEKISS    ; 181
-	const SNEASEL     ; 182
-	const WEAVILE     ; 183
-	const SKARMORY    ; 184
-	const MISDREAVUS  ; 185
-	const MISMAGIUS   ; 186
-	const MILTANK     ; 187
-	const CHINCHOU    ; 188
-	const LANTURN     ; 189
-	const SLUGMA      ; 190
-	const MAGCARGO    ; 191
-	const TORKOAL     ; 192
-	const LATIAS      ; 193
-	const LATIOS      ; 194
-	const HITMONTOP   ; 195
-	const TYROGUE     ; 196
-	const PICHU       ; 197
-	const CLEFFA      ; 198
-	const IGGLYBUFF   ; 199
-	const SMOOCHUM    ; 200
-	const ELEKID      ; 201
-	const MAGBY       ; 202
-	const MIME_JR     ; 203
-	const HAPPINY     ; 204
-	const MUNCHLAX    ; 205
-	const ZIGZAGOON   ; 206
-	const LINOONE     ; 207
-	const HO_OH       ; 208
 
-MON_GHOST           EQU 252
-FOSSIL_KABUTOPS     EQU 253
-FOSSIL_AERODACTYL   EQU 254
+MON_GHOST           EQU 152
+FOSSIL_KABUTOPS     EQU 153
+FOSSIL_AERODACTYL   EQU 154

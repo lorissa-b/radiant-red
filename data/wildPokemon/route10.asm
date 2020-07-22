@@ -9,22 +9,15 @@ IF DEF(_HARD) ; Difficult Rom
 	db 23,MACHOP
 	db 23,MACHOP
 	db 27,GLOOM
-	db 27,BELLOSSOM
-	db 21,SKARMORY
-	db 23,SKARMORY
 
 ; Water Mons
 	db $0F
    	db 46,SEAKING
-	db 48,CHINCHOU
-	db 48,CHINCHOU
 	db 48,POLIWHIRL
 	db 47,SLOWPOKE
 	db 57,SLOWPOKE
 	db 55,SLOWBRO
 	db 55,SLOWBRO
-	db 60,LANTURN
-	db 60,LANTURN
 
 ELSE ; Normal Rom
 ; Grass Mons
@@ -36,20 +29,13 @@ ELSE ; Normal Rom
 	db 18,MACHOP
 	db 18,MACHOP
 	db 22,GLOOM
-	db 22,BELLOSSOM
-	db 16,SKARMORY
-	db 18,SKARMORY
 
 ; Water Mons
 	db $0F
    	db 16,GOLDEEN
-	db 18,CHINCHOU
-	db 18,CHINCHOU
 	db 18,POLIWAG
 	db 17,SLOWPOKE
 	db 17,SLOWPOKE
 	db 25,SLOWBRO
 	db 25,SLOWBRO
-	db 30,LANTURN
-	db 30,LANTURN
 ENDC

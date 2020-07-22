@@ -96,13 +96,13 @@ ItemPrices:
 	money 0     ; FLOOR_10F
 	money 0     ; FLOOR_11F
 	money 0     ; FLOOR_B4F
-	money 10    ; ORAN_BERRY
-	money 10    ; SITRUS_BERRY
-	money 10    ; LEPPA_BERRY
-	money 10    ; PECHA_BERRY
-	money 10    ; RAWST_BERRY
-	money 10    ; ASPEAR_BERRY
-	money 10    ; CHESTO_BERRY
-	money 10    ; CHERI_BERRY
-	money 10    ; LUM_BERRY
-	money 10    ; ACAI_BERRY
+	; money 10    ; ORAN_BERRY
+	; money 10    ; SITRUS_BERRY
+	; money 10    ; LEPPA_BERRY
+	; money 10    ; PECHA_BERRY
+	; money 10    ; RAWST_BERRY
+	; money 10    ; ASPEAR_BERRY
+	; money 10    ; CHESTO_BERRY
+	; money 10    ; CHERI_BERRY
+	; money 10    ; LUM_BERRY
+	; money 10    ; ACAI_BERRY

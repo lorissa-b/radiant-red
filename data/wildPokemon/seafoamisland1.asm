@@ -11,7 +11,6 @@ IF DEF(_HARD) ; Difficult Rom
 	db 49,GOLBAT
 	db 48,SLOWBRO
 	db 48,STARYU
-	db 42,SLOWKING
 
 ; Water Mons
 	db $00

@@ -477,45 +477,45 @@ MainInBattleLoop:
 	callab SwitchEnemyMon
 .noLinkBattle
 	ld a, [wPlayerSelectedMove]
-	cp EXTREMESPEED
-	jr z, .PriorityMoveUsed
-	cp BABYDOLLEYES
-	jr z, .PriorityMoveUsed
-	cp SUCKER_PUNCH
-	jr z, .PriorityMoveUsed
-    cp ICE_SHARD
-    jr z, .PriorityMoveUsed
-    cp BULLET_PUNCH
-    jr z, .PriorityMoveUsed
+	; cp EXTREMESPEED
+	; jr z, .PriorityMoveUsed
+	; cp BABYDOLLEYES
+	; jr z, .PriorityMoveUsed
+	; cp SUCKER_PUNCH
+	; jr z, .PriorityMoveUsed
+    ; cp ICE_SHARD
+    ; jr z, .PriorityMoveUsed
+    ; cp BULLET_PUNCH
+    ; jr z, .PriorityMoveUsed
 	cp QUICK_ATTACK
 	jr nz, .playerDidNotUsePriorityMove
 .PriorityMoveUsed
 	ld a, [wEnemySelectedMove]
-	cp EXTREMESPEED
-	jr z, .compareSpeed
-	cp BABYDOLLEYES
-	jr z, .compareSpeed
-	cp SUCKER_PUNCH
-	jr z, .compareSpeed
-    cp ICE_SHARD
-	jr z, .compareSpeed
-    cp BULLET_PUNCH
-	jr z, .compareSpeed
+	; cp EXTREMESPEED
+	; jr z, .compareSpeed
+	; cp BABYDOLLEYES
+	; jr z, .compareSpeed
+	; cp SUCKER_PUNCH
+	; jr z, .compareSpeed
+    ; cp ICE_SHARD
+	; jr z, .compareSpeed
+    ; cp BULLET_PUNCH
+	; jr z, .compareSpeed
 	cp QUICK_ATTACK
 	jr z, .compareSpeed  ; if both used Quick Attack
 	jp .playerMovesFirst ; if player used Quick Attack and enemy didn't
 .playerDidNotUsePriorityMove
 	ld a, [wEnemySelectedMove]
-	cp EXTREMESPEED
-	jr z, .enemyMovesFirst
-	cp BABYDOLLEYES
-	jr z, .enemyMovesFirst
-	cp SUCKER_PUNCH
-	jr z, .enemyMovesFirst
-    cp ICE_SHARD
-	jr z, .enemyMovesFirst
-    cp BULLET_PUNCH
-	jr z, .enemyMovesFirst
+	; cp EXTREMESPEED
+	; jr z, .enemyMovesFirst
+	; cp BABYDOLLEYES
+	; jr z, .enemyMovesFirst
+	; cp SUCKER_PUNCH
+	; jr z, .enemyMovesFirst
+    ; cp ICE_SHARD
+	; jr z, .enemyMovesFirst
+    ; cp BULLET_PUNCH
+	; jr z, .enemyMovesFirst
 	cp QUICK_ATTACK
 	jr z, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
 	ld a, [wPlayerSelectedMove]
@@ -3052,20 +3052,20 @@ PrintMenuItem:
 	and $3f
 	ld [wcd6d], a
 	ld a, [wPlayerSelectedMove]
-	call PhysicalSpecialSplit
-	cp a,$02
-	jp z, .OtherTextShow
-	cp a,$01
-	jp nz, .PhysicalTextShow
-	coord hl, 1, 9
-	ld de,SpecialText
-	call PlaceString
+	; call PhysicalSpecialSplit
+	; cp a,$02
+	; jp z, .OtherTextShow
+	; cp a,$01
+	; jp nz, .PhysicalTextShow
+	; coord hl, 1, 9
+	; ld de,SpecialText
+	; call PlaceString
 	jp .RestOfTheRoutineThing
-.PhysicalTextShow
-	coord hl, 1,9
-	ld de,PhysicalText
-	call PlaceString
-	jr .RestOfTheRoutineThing
+; .PhysicalTextShow
+; 	coord hl, 1,9
+; 	ld de,PhysicalText
+; 	call PlaceString
+; 	jr .RestOfTheRoutineThing
 .OtherTextShow
 	coord hl, 1,9
 	ld de,OtherText
@@ -3538,10 +3538,10 @@ CheckPlayerStatusConditions:
 	jr z,.HeldInPlaceCheck ; to 5898
 	; Adding checks for Flame Wheel and Flare Blitz to thaw you
 	ld a, [wPlayerSelectedMove]
-	cp FLAME_WHEEL
-	jr z, .defrostMon
-	cp FLARE_BLITZ
-	jr z, .defrostMon
+	; cp FLAME_WHEEL
+	; jr z, .defrostMon
+	; cp FLARE_BLITZ
+	; jr z, .defrostMon
 	; Adding chance to defrost naturally
 	call BattleRandom
 	cp $19
@@ -4280,16 +4280,16 @@ GetDamageVarsForPlayerAttack:
 	ld hl, wDamage ; damage to eventually inflict, initialise to zero
 	ldi [hl], a
 	ld [hl], a
-	call CheckForHex
-	call CheckForElectroBall
+	;call CheckForHex
+	;call CheckForElectroBall
 	ld hl, wPlayerMovePower
 	ld a, [hli]
 	and a
 	ld d, a         ;*D = attack base, used later
 	ret z           ;return if attack is zero
 	ld a,[wPlayerSelectedMove]
-	call PhysicalSpecialSplit
-	cp a, SPECIAL
+	; call PhysicalSpecialSplit
+	; cp a, SPECIAL
 	jr z, .specialAttack
 .physicalAttack
 	ld hl, wEnemyMonDefense
@@ -4434,16 +4434,16 @@ GetDamageVarsForEnemyAttack:
 	xor a
 	ld [hli], a
 	ld [hl], a
-	call CheckForHex
-	call CheckForElectroBall
+	;call CheckForHex
+	;call CheckForElectroBall
 	ld hl, wEnemyMovePower
 	ld a, [hli]
 	ld d, a ; d = move power
 	and a
 	ret z
 	ld a,[wEnemySelectedMove]
-	call PhysicalSpecialSplit
-	cp a, SPECIAL
+	; call PhysicalSpecialSplit
+	; cp a, SPECIAL
 	jr z, .specialAttack
 .physicalAttack
 	ld hl, wBattleMonDefense
@@ -4826,10 +4826,10 @@ CriticalHitTest:
 	ld b,a
 .checkAlwaysCrit
 ; first, check moves that always crit
-	cp STORM_THROW
-	jr z, .CritSuccess
-	cp MIND_BLAST
-	jr z, .CritSuccess
+	; cp STORM_THROW
+	; jr z, .CritSuccess
+	; cp MIND_BLAST
+	; jr z, .CritSuccess
 .loop
 ; if it wasn't one of those, loop over the list of high-crit moves
 	ld a, [hli]
@@ -4902,8 +4902,8 @@ HandleCounterMove:
 	ret z ; miss if the opponent's last selected move's Base Power is 0.
 ; check if the move the target last selected was Physical
 	ld a,[hl]
-	call PhysicalSpecialSplit
-	cp a, PHYSICAL
+	; call PhysicalSpecialSplit
+	; cp a, PHYSICAL
 	jr z,.counterableType
 ; if the move wasn't Normal or Fighting type, miss
 	xor a
@@ -5331,7 +5331,7 @@ MetronomePickMove:
 	jr z,.pickMoveLoop
 	cp a,METRONOME
 	jr z,.pickMoveLoop
-	cp a,DIVE ; Dive is the last move, and currently unused
+	cp a,STRUGGLE ; Dive is the last move, and currently unused
 	jr nc,.pickMoveLoop
 	ld [hl],a
 	jr ReloadMoveData
@@ -6059,10 +6059,10 @@ CheckEnemyStatusConditions:
 	jr z, .checkIfTrapped
 	; Add check for Flame Wheel and Flare Blitz
 	ld a, [wEnemySelectedMove]
-	cp FLAME_WHEEL
-	jr z, .defrostMon
-	cp FLARE_BLITZ
-	jr z, .defrostMon
+	; cp FLAME_WHEEL
+	; jr z, .defrostMon
+	; cp FLARE_BLITZ
+	; jr z, .defrostMon
 	; Add chance to defrost naturally
 	call BattleRandom
 	cp $19
@@ -7437,13 +7437,15 @@ MoveEffectPointerTable:
 	 dw VoltTackleEffect          ; VOLT_TACKLE_EFFECT
 	 dw PoisonEffect              ; POISON_FANG_EFFECT
 	 dw GrowthEffect              ; GROWTH_EFFECT
-	 dw HoneClawsEffect           ; HONE_CLAWS_EFFECT
 	 dw DynamicPunchEffect        ; DYNAMIC_PUNCH_EFFECT
 	 dw SilverWindEffect          ; SILVER_WIND_EFFECT
 	 dw AttackUpSideEffect        ; ATTACK_UP1_SIDE_EFFECT
 	 dw AttackUpSideEffect2       ; ATTACK_UP1_SIDE_EFFECT2
 	 dw DefenseUpSideEffect       ; DEFENSE_UP1_SIDE_EFFECT
 	 dw TriAttackEffect           ; TRI_ATTACK_EFFECT
+	 dw FreezeBurnParalyzeEffect  ; BURN_EFFECT
+	 dw DragonDanceEffect         ; DRAGON_DANCE_EFFECT
+	 dw ChargeEffect              ; BOUNCE_EFFECT
 
 SleepEffect:
 	ld de, wEnemyMonStatus
@@ -9064,7 +9066,7 @@ GrowthEffect:
 	ld [wPlayerMoveEffect], a
 	jp StatModifierUpEffect
 	
-HoneClawsEffect:
+DragonDanceEffect:
 	ld a, [H_WHOSETURN]
 	and a
 	jr z, .notEnemyTurn
@@ -9074,7 +9076,7 @@ HoneClawsEffect:
 	call StatModifierUpEffect
 	xor a
 	ld [wEnemyMoveNum], a
-	ld a, ACCURACY_UP1_EFFECT
+	ld a, SPEED_UP1_EFFECT
 	ld [wEnemyMoveEffect], a
 	jp StatModifierUpEffect
 .notEnemyTurn
@@ -9083,7 +9085,7 @@ HoneClawsEffect:
 	call StatModifierUpEffect
 	xor a
 	ld [wPlayerMoveNum], a
-	ld a, ACCURACY_UP1_EFFECT
+	ld a, SPEED_UP1_EFFECT
 	ld [wPlayerMoveEffect], a
 	jp StatModifierUpEffect
 
@@ -9141,94 +9143,6 @@ DefenseUpSideEffectSuccess:
 	ld a, DEFENSE_UP1_EFFECT
 	ld [wPlayerMoveEffect], a
 	jp StatModifierUpEffect
-
-CheckForHex:
-	ld a, [H_WHOSETURN]
-	and a
-	jr z, .notEnemyTurn
-	ld a,[wEnemySelectedMove]
-	cp HEX
-	ret nz
-	ld a,[wBattleMonStatus]
-	and a
-	ld hl,wEnemyMovePower
-	ld a,65
-	jp z, .skip1
-	ld a,130
-.skip1
-	ld [hl],a
-	ret
-.notEnemyTurn
-	ld a,[wPlayerSelectedMove]
-	cp HEX
-	ret nz
-	ld a,[wEnemyMonStatus]
-	and a
-	ld hl,wPlayerMovePower
-	ld a,65
-	jp z, .skip2
-	ld a,130
-.skip2
-	ld [hl],a
-	ret
-
-CheckForElectroBall:
-	ld a, [H_WHOSETURN]
-	and a
-	jr z, .notEnemyTurn
-; Enemy's Turn
-	ld a, [wEnemySelectedMove]
-	cp ELECTRO_BALL
-	ret nz
-	ld de, wBattleMonSpeed ; player speed value
-	ld hl, wEnemyMonSpeed ; enemy speed value
-	ld c, $2
-	call StringCmp ; compare speed values
-	ld hl,wEnemyMovePower
-	jr z, .speedEqual1
-	jr nc, .playerFaster1 ; if player is faster
-; Enemy Faster 1
-	ld a,120
-	jp .done
-.speedEqual1
-	ld a,80
-	jp .done
-.playerFaster1
-	ld a,60
-	jp .done
-.notEnemyTurn
-; Player's turn
-	ld a, [wPlayerSelectedMove]
-	cp ELECTRO_BALL
-	ret nz
-	ld de, wBattleMonSpeed ; player speed value
-	ld hl, wEnemyMonSpeed ; enemy speed value
-	ld c, $2
-	call StringCmp ; compare speed values
-	ld hl,wPlayerMovePower
-	jr z, .speedEqual2
-	jr nc, .playerFaster2 ; if player is faster
-; Enemy Faster 2
-	ld a,60
-	jp .done
-.speedEqual2
-	ld a,80
-	jp .done
-.playerFaster2
-	ld a,120
-; fall through
-.done
-	ld [hl],a
-	ret
-
-; Determine if a move is Physical, Special, or Status
-; INPUT: Move ID in register a
-; OUTPUT: Move Physical/Special/Status type in register a
-PhysicalSpecialSplit:
-	ld [wTempMoveID], a
-	callba _PhysicalSpecialSplit
-	ld a, [wTempMoveID]
-	ret
 
 PrintEnemyMonGender: ; called during battle
 	; get gender

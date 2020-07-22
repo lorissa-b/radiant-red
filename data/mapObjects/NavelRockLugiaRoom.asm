@@ -8,8 +8,8 @@ NavelRockLugiaRoomObject:
 	db $0 ; signs
 
 	db $2 ; people
-	db SPRITE_BIRD, 7 + 4, 13 + 4, $ff, $d0, TRAINER | $1, LUGIA, 40 | OW_POKEMON
-	db SPRITE_BIRD, 27 + 4, 13 + 4, $ff, $d0, TRAINER | $2, HO_OH, 40 | OW_POKEMON
+	;db SPRITE_BIRD, 7 + 4, 13 + 4, $ff, $d0, TRAINER | $1, LUGIA, 40 | OW_POKEMON
+	;db SPRITE_BIRD, 27 + 4, 13 + 4, $ff, $d0, TRAINER | $2, HO_OH, 40 | OW_POKEMON
 
 	; warp-to
 	EVENT_DISP NAVEL_ROCK_LUGIA_ROOM_WIDTH, 14, 16 ; NAVEL_ROCK_CAVE_2 ; Lugia Exit

@@ -385,7 +385,6 @@ HMMoveArray:
 	db FLY
 	db SURF
 	db STRENGTH
-	db DIVE
 	db -1
 
 DisplayDepositWithdrawMenu:

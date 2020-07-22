@@ -8,8 +8,6 @@ IF DEF(_HARD) ; Difficult rom
 	db 5,RATTATA
 	db 6,NIDORAN_M
 	db 6,NIDORAN_F
-	db 4,ZIGZAGOON
-	db 4,ZIGZAGOON
 	db 6,WEEDLE
 	db 6,CATERPIE
 
@@ -19,16 +17,21 @@ IF DEF(_HARD) ; Difficult rom
 ELSE ; Normal rom
 ; Grass Mons
 	db $19
+	db 2,CATERPIE
+	db 2,CATERPIE
+	db 2,PIKACHU
+	db 3,RATTATA
 	db 3,RATTATA
 	db 3,PIDGEY
-	db 4,PIDGEY
+	db 3,MEOWTH
+	db 4,ODDISH
+	db 4,ODDISH
+	db 4,PIKACHU
+	db 4,CATERPIE
 	db 4,RATTATA
-	db 5,NIDORAN_M
-	db 5,NIDORAN_F
-	db 3,ZIGZAGOON
-	db 3,ZIGZAGOON
-	db 5,WEEDLE
-	db 5,CATERPIE
+	db 5,ODDISH
+	db 5,MEOWTH
+	db 5,PIDGEY
 
 ; Water Mons
 	db $00

@@ -11,7 +11,7 @@ MtMoonSquareText1:
 	TX_ASM
 	ld a, 7
 	ld [wWhichTrade],a
-	callba BerryTreeScript
+	;callba BerryTreeScript
 	jp TextScriptEnd
 
 MtMoonSquareText2:

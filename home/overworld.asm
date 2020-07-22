@@ -319,14 +319,14 @@ OverworldLoopLessDelay::
 ; step counting
 	ld hl,wStepCounter
 	dec [hl]
-; berry steps
-	ld hl,wBerryStepCounter
-	inc [hl]
-	ld a,[hli]
-	and a
-	jp nz, .originalRoutine
-	inc [hl]
-	callba BerryReset
+; ; berry steps
+; 	ld hl,wBerryStepCounter
+; 	inc [hl]
+; 	ld a,[hli]
+; 	and a
+; 	jp nz, .originalRoutine
+; 	inc [hl]
+; 	callba BerryReset
 .originalRoutine
 	ld a,[wd72c]
 	bit 0,a
