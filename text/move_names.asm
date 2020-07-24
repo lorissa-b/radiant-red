@@ -212,7 +212,7 @@ MoveNames::
 	db "Magical Leaf@"
 	db "Giga Drain@"
 	db "Leaf Blade@"
-	db "Petal BlizzarD@"
+	db "Petal Blizzard@"
 	db "Mud Slap@"
 	db "Mud Shot@"
 	db "Icicle Spear@"

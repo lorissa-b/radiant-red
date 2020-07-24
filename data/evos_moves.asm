@@ -172,7 +172,7 @@ Mon001_EvosMoves:
 	db 40,POISON_JAB
 	db 43,TOXIC
 	db 48,GUNK_SHOT
-	db 52,SOLAR_BEAM
+	db 52,SOLARBEAM
 	db 0
 
 Mon002_EvosMoves:
@@ -196,7 +196,7 @@ Mon002_EvosMoves:
 	db 42,POISON_JAB
 	db 45,TOXIC
 	db 50,GUNK_SHOT
-	db 54,SOLAR_BEAM
+	db 54,SOLARBEAM
 	db 0
 
 Mon003_EvosMoves:
@@ -220,7 +220,7 @@ Mon003_EvosMoves:
 	db 45,POISON_JAB
 	db 49,TOXIC
 	db 56,GUNK_SHOT
-	db 62,SOLAR_BEAM
+	db 62,SOLARBEAM
 	db 0
 
 Mon004_EvosMoves:
@@ -826,7 +826,7 @@ Mon035_EvosMoves:
 	db 6,FAIRY_WIND
 	db 10,DEFENSE_CURL
 	db 14,METRONOME
-	db 19,DRAINING_KISS
+	db 19,DRAININGKISS
 	db 23,BARRIER
 	db 28,MOONLIGHT
 	db 31,DAZZLINGLEAM
@@ -891,7 +891,7 @@ Mon039_EvosMoves:
 	db 14,DISABLE
 	db 19,LOVELY_KISS
 	db 23,MINIMIZE
-	db 28,DRAINING_KISS
+	db 28,DRAININGKISS
 	db 31,MEGA_PUNCH
 	db 36,ZEN_HEADBUTT
 	db 40,DREAM_EATER
@@ -905,7 +905,7 @@ Mon040_EvosMoves:
 ;Learnset
 	db 1,SING
 	db 1,DISABLE
-	db 1,DRAINING_KISS
+	db 1,DRAININGKISS
 	db 1,MEGA_PUNCH
 	db 0
 
@@ -956,7 +956,7 @@ Mon043_EvosMoves:
 	db 5,SMOG
 	db 7,LEECH_SEED
 	db 10,STUN_SPORE
-	db 10,POISON_POWDER
+	db 10,POISONPOWDER
 	db 10,SLEEP_POWDER
 	db 14,MEGA_DRAIN
 	db 19,ACID
@@ -964,7 +964,7 @@ Mon043_EvosMoves:
 	db 29,MIMIC
 	db 32,GIGA_DRAIN
 	db 38,SPORE
-	db 41,PETAL_BLIZZARD
+	db 41,PETALBLIZARD
 	db 47,SLUDGE_BOMB
 	db 50,PETAL_DANCE
 	db 0
@@ -979,7 +979,7 @@ Mon044_EvosMoves:
 	db 5,SMOG
 	db 7,LEECH_SEED
 	db 10,STUN_SPORE
-	db 10,POISON_POWDER
+	db 10,POISONPOWDER
 	db 10,SLEEP_POWDER
 	db 14,MEGA_DRAIN
 	db 19,ACID
@@ -987,7 +987,7 @@ Mon044_EvosMoves:
 	db 32,MIMIC
 	db 35,GIGA_DRAIN
 	db 41,SPORE
-	db 44,PETAL_BLIZZARD
+	db 44,PETALBLIZARD
 	db 50,SLUDGE_BOMB
 	db 53,PETAL_DANCE
 	db 0
@@ -1050,7 +1050,7 @@ Mon048_EvosMoves:
 ;Learnset
 	db 1,TACKLE
 	db 1,LEECH_LIFE
-	db 5,POISON_POWDER
+	db 5,POISONPOWDER
 	db 10,DISABLE
 	db 13,ACID
 	db 19,STRUGGLE_BUG
@@ -1070,7 +1070,7 @@ Mon049_EvosMoves:
 ;Learnset
 	db 1,TACKLE
 	db 1,LEECH_LIFE
-	db 5,POISON_POWDER
+	db 5,POISONPOWDER
 	db 10,DISABLE
 	db 13,ACID
 	db 19,STRUGGLE_BUG
@@ -1098,7 +1098,7 @@ Mon050_EvosMoves:
 	db 24,SWORDS_DANCE
 	db 28,SLASH
 	db 32,MUD_SHOT
-	db 36,ANCIENT_POWER
+	db 36,ANCIENTPOWER
 	db 40,EARTHQUAKE
 	db 44,STONE_EDGE
 	db 48,FISSURE
@@ -1118,7 +1118,7 @@ Mon051_EvosMoves:
 	db 24,SWORDS_DANCE
 	db 31,SLASH
 	db 35,MUD_SHOT
-	db 39,ANCIENT_POWER
+	db 39,ANCIENTPOWER
 	db 43,EARTHQUAKE
 	db 47,STONE_EDGE
 	db 51,FISSURE
@@ -1131,19 +1131,19 @@ Mon052_EvosMoves:
 	db 0
 ;Learnset
 	db 1,SCRATCH
-	db 1,GROWL
-	db 6,BITE
-	db 9,EARTHQUAKE ; Fake Out → new move
-	db 14,FURY_SWIPES
-	db 17,SCREECH
-	db 22,BITE
-	db 25,HONE_CLAWS ; Taunt → TM move
-	db 30,PAY_DAY
-	db 33,SLASH
-	db 38,LICK ; Nasty Plot → new move
-	db 41,CONFUSION ; Assurance → tutor move
-	db 46,HEADBUTT ; Captivate → egg move
-	db 49,BITE
+	db 1,TAIL_WHIP
+	db 5,CHARM
+	db 8,FURY_SWIPES
+	db 12,BITE
+	db 15,PAY_DAY
+	db 20,SCREECH
+	db 24,FIRE_FANG
+	db 24,ICE_FANG
+	db 24,THUNDER_FANG
+	db 29,SLASH
+	db 34,CRUNCH
+	db 39,TAKE_DOWN
+	db 43,DOUBLE_EDGE
 	db 0
 
 Mon053_EvosMoves:
@@ -1151,21 +1151,21 @@ Mon053_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,SWIFT ; evolution move
 	db 1,SCRATCH
-	db 1,GROWL
-	db 6,BITE
-	db 9,EARTHQUAKE ; Fake Out → new move
-	db 14,FURY_SWIPES
-	db 17,SCREECH
-	db 22,BITE
-	db 25,HONE_CLAWS ; Taunt → TM move
-	db 32,ROCK_THROW
-	db 37,SLASH
-	db 44,LICK ; Nasty Plot → new move
-	db 49,CONFUSION ; Assurance → tutor move
-	db 56,HEADBUTT ; Captivate → egg move
-	db 61,BITE
+	db 1,TAIL_WHIP
+	db 1,FURY_SWIPES
+	db 5,CHARM
+	db 8,FURY_SWIPES
+	db 12,BITE
+	db 15,PAY_DAY
+	db 20,SCREECH
+	db 24,FIRE_FANG
+	db 24,ICE_FANG
+	db 24,THUNDER_FANG
+	db 31,SLASH
+	db 38,CRUNCH
+	db 42,TAKE_DOWN
+	db 47,DOUBLE_EDGE
 	db 0
 
 Mon054_EvosMoves:
@@ -1175,20 +1175,17 @@ Mon054_EvosMoves:
 	db 0
 ;Learnset
 	db 1,SCRATCH
-	db 4,TAIL_WHIP
-	db 7,WATER_GUN
-	db 10,CONFUSION
-	db 13,FURY_SWIPES
-	db 16,WATER_GUN
-	db 19,DISABLE
-	db 22,SCREECH
-	db 25,CONFUSION
-	db 28,WATER_GUN
-	db 31,SURF ; Soak → new move
-	db 34,PSYBEAM ; Psych Up → egg move
-	db 37,AMNESIA
-	db 40,HYDRO_PUMP
-	db 43,PSYCHIC_M ; Wonder Room → TM move
+	db 1,TAIL_WHIP
+	db 5,BUBBLE
+	db 8,DISABLE
+	db 12,FURY_SWIPES
+	db 15,WATER_GUN
+	db 20,CONFUSION
+	db 24,EXTRASENSORY
+	db 31,WATER_PULSE
+	db 38,ZEN_HEADBUTT
+	db 42,SURF
+	db 47,PSYCHIC_M
 	db 0
 
 Mon055_EvosMoves:
@@ -1197,21 +1194,17 @@ Mon055_EvosMoves:
 	db 0
 ;Learnset
 	db 1,SCRATCH
-	db 4,TAIL_WHIP
-	db 7,WATER_GUN
-	db 10,CONFUSION
-	db 13,FURY_SWIPES
-	db 16,WATER_GUN
-	db 19,DISABLE
-	db 22,SCREECH
-	db 25,CONFUSION
-	db 28,WATER_GUN
-	db 31,SURF ; Soak → new move
-	db 33,ROCK_THROW ; new move
-	db 36,PSYBEAM ; Psych Up → egg move
-	db 41,AMNESIA
-	db 46,HYDRO_PUMP
-	db 51,PSYCHIC_M ; Wonder Room → TM move
+	db 1,TAIL_WHIP
+	db 5,BUBBLE
+	db 8,DISABLE
+	db 12,FURY_SWIPES
+	db 15,WATER_GUN
+	db 20,CONFUSION
+	db 24,EXTRASENSORY
+	db 31,WATER_PULSE
+	db 40,ZEN_HEADBUTT
+	db 44,SURF
+	db 49,PSYCHIC_M
 	db 0
 
 Mon056_EvosMoves:
@@ -1221,22 +1214,17 @@ Mon056_EvosMoves:
 	db 0
 ;Learnset
 	db 1,SCRATCH
-	db 1,LOW_KICK
 	db 1,LEER
-	db 1,FOCUS_ENERGY
-	db 5,FURY_SWIPES
-	db 8,KARATE_CHOP
-	db 12,EARTHQUAKE ; Pursuit → tutor move
-	db 15,SEISMIC_TOSS
-	db 19,MEGA_PUNCH ; Swagger → RBY TM Move
-	db 22,SUBMISSION
-	db 26,MEGA_PUNCH ; Assurance → new move
-	db 29,BITE ; Punishment → new move
-	db 33,THRASH
-	db 36,FIRE_PUNCH ; Close Combat → TM Move
-	db 40,SCREECH
-	db 43,SLUDGE ; Stomping Tantrum → HGSS tutor move
-	db 47,DRAGON_RAGE
+	db 6,ARM_THRUST
+	db 10,FURY_SWIPES
+	db 14,RAGE
+	db 17,MACH_PUNCH
+	db 21,SEISMIC_TOSS
+	db 23,KARATE_CHOP
+	db 28,FOCUS_ENERGY
+	db 31,SKY_UPPERCUT
+	db 39,SUBMISSION
+	db 42,THRASH
 	db 0
 
 Mon057_EvosMoves:
@@ -1245,22 +1233,17 @@ Mon057_EvosMoves:
 	db 0
 ;Learnset
 	db 1,SCRATCH
-	db 1,LOW_KICK
 	db 1,LEER
-	db 1,FOCUS_ENERGY
-	db 5,FURY_SWIPES
-	db 8,KARATE_CHOP
-	db 12,EARTHQUAKE ; Pursuit → tutor move
-	db 15,SEISMIC_TOSS
-	db 19,MEGA_PUNCH ; Swagger → RBY TM Move
-	db 22,SUBMISSION
-	db 26,MEGA_PUNCH ; Assurance → new move
-	db 30,BITE ; Punishment → new move
-	db 35,THRASH
-	db 39,FIRE_PUNCH ; Close Combat → TM Move
-	db 44,SCREECH
-	db 48,SLUDGE ; Stomping Tantrum → HGSS tutor move
-	db 53,DRAGON_RAGE
+	db 6,ARM_THRUST
+	db 10,FURY_SWIPES
+	db 14,RAGE
+	db 17,MACH_PUNCH
+	db 21,SEISMIC_TOSS
+	db 23,KARATE_CHOP
+	db 30,FOCUS_ENERGY
+	db 32,SKY_UPPERCUT
+	db 41,SUBMISSION
+	db 44,THRASH
 	db 0
 
 Mon058_EvosMoves:
@@ -1269,25 +1252,19 @@ Mon058_EvosMoves:
 	db EV_ITEM,FIRE_STONE,1,ARCANINE
 	db 0
 ;Learnset
-	db 1,BITE
-	db 1,GROWL
-	db 1,ROAR
-	db 6,EMBER
-	db 8,LEER
-	db 10,HEADBUTT ; Odor Sleuth → TM move
-	db 12,DOUBLE_TEAM ; Helping Hand → TM move
-	db 17,EMBER
-	db 19,DOUBLE_KICK ; Reversal → egg move
-	db 21,EMBER
-	db 23,TAKE_DOWN
-	db 28,FIRE_SPIN ; Flame Burst → egg move
-	db 30,AGILITY
-	db 32,THRASH ; Retaliate → egg move
-	db 34,FLAMETHROWER
-	db 39,BITE
-	db 41,FIRE_BLAST ; Heat Wave → TM Move
-	db 43,DRAGON_RAGE
-	db 45,FLAMETHROWER
+	db 1,EMBER
+	db 1,TAIL_WHIP
+	db 7,QUICK_ATTACK
+	db 10,FURY_SWIPES
+	db 12,BITE
+	db 16,FLAME_CHARGE
+	db 21,SNARL
+	db 25,ROAR
+	db 30,FIRE_FANG
+	db 36,CRUNCH
+	db 40,FLAMETHROWER
+	db 43,PHANTOMFORCE
+	db 48,FIRE_BLAST
 	db 0
 
 Mon059_EvosMoves:
@@ -1295,27 +1272,10 @@ Mon059_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,BITE
 	db 1,EMBER
-	db 1,TAKE_DOWN
+	db 1,TAIL_WHIP
 	db 1,QUICK_ATTACK
-	db 6,EMBER
-	db 8,LEER
-	db 10,HEADBUTT ; Odor Sleuth → TM move
-	db 12,DOUBLE_TEAM ; Helping Hand → TM move
-	db 17,EMBER
-	db 19,DOUBLE_KICK ; Reversal → egg move
-	db 21,EMBER
-	db 23,TAKE_DOWN
-	db 28,FIRE_SPIN ; Flame Burst → egg move
-	db 30,AGILITY
-	db 32,THRASH ; Retaliate → egg move
-	db 34,FLAMETHROWER
-	db 39,BITE
-	db 40,QUICK_ATTACK ; evolution move
-	db 41,FIRE_BLAST ; Heat Wave → TM Move
-	db 43,DRAGON_RAGE
-	db 45,FLAMETHROWER
+	db 1,BITE
 	db 0
 
 Mon060_EvosMoves:
@@ -1324,19 +1284,16 @@ Mon060_EvosMoves:
 	db EV_LEVEL,25,POLIWHIRL
 	db 0
 ;Learnset
-	db 1,EARTHQUAKE ; Water Sport → TM move
-	db 5,WATER_GUN
-	db 8,HYPNOSIS
-	db 11,BUBBLE
-	db 15,DOUBLESLAP
-	db 18,MIST ; Rain Dance → new move
-	db 21,BODY_SLAM
-	db 25,BUBBLEBEAM
-	db 28,EARTHQUAKE ; Mud Shot → Mud Bomb
-	db 31,WATER_GUN ; Belly Drum → new move
-	db 35,GROWTH ; Wake-Up Slap → event move
-	db 38,HYDRO_PUMP
-	db 41,EARTHQUAKE ; Mud Bomb → similar move
+	db 1,BUBBLE
+	db 1,DEFENSE_CURL
+	db 6,WATER_GUN
+	db 10,HYPNOSIS
+	db 14,DISABLE
+	db 19,MIMIC
+	db 25,WATER_PULSE
+	db 29,HEADBUTT
+	db 32,TAKE_DOWN
+	db 37,MUDDY_WATER
 	db 0
 
 Mon061_EvosMoves:
@@ -1345,19 +1302,18 @@ Mon061_EvosMoves:
 	db EV_ITEM,WATER_STONE,1,POLIWRATH
 	db 0
 ;Learnset
-	db 1,EARTHQUAKE ; Water Sport → TM move
-	db 5,WATER_GUN
-	db 8,HYPNOSIS
-	db 11,BUBBLE
-	db 15,DOUBLESLAP
-	db 18,MIST ; Rain Dance → new move
-	db 21,BODY_SLAM
-	db 27,BUBBLEBEAM
-	db 32,EARTHQUAKE ; Mud Shot → Mud Bomb
-	db 37,WATER_GUN ; Belly Drum → new move
-	db 43,GROWTH ; Wake-Up Slap → event move
-	db 48,HYDRO_PUMP
-	db 53,EARTHQUAKE ; Mud Bomb → similar move
+	db 1,BUBBLE
+	db 1,DEFENSE_CURL
+	db 1,DOUBLESLAP
+	db 6,WATER_GUN
+	db 10,HYPNOSIS
+	db 14,DISABLE
+	db 19,MIMIC
+	db 25,DOUBLESLAP
+	db 31,HEADBUTT
+	db 34,MEGA_PUNCH
+	db 39,SCALD
+	db 42,HYDRO_PUMP
 	db 0
 
 Mon062_EvosMoves:
@@ -1365,20 +1321,20 @@ Mon062_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,EARTHQUAKE ; Water Sport → TM move
-	db 5,WATER_GUN
-	db 8,HYPNOSIS
-	db 11,BUBBLE
-	db 15,DOUBLESLAP
-	db 18,MIST ; Rain Dance → new move
-	db 21,BODY_SLAM
-	db 27,BUBBLEBEAM
-	db 32,EARTHQUAKE ; Mud Shot → Mud Bomb
-	db 37,WATER_GUN ; Belly Drum → new move
-	db 43,GROWTH ; Wake-Up Slap → event move
-	db 48,HYDRO_PUMP
-	db 53,EARTHQUAKE ; Mud Bomb → similar move
-	db 53,SUBMISSION ; Circle Throw → similar move
+	db 1,BUBBLE
+	db 1,DEFENSE_CURL
+	db 1,DOUBLESLAP
+	db 1,HYPNOSIS
+	db 6,WATER_GUN
+	db 10,HYPNOSIS
+	db 14,DISABLE
+	db 19,MIMIC
+	db 30,DOUBLESLAP
+	db 35,BULLET_PUNCH
+	db 40,MEGA_PUNCH
+	db 45,SKY_UPPERCUT
+	db 50,SCALD
+	db 55,HYDRO_PUMP
 	db 0
 
 Mon063_EvosMoves:
@@ -1388,31 +1344,33 @@ Mon063_EvosMoves:
 	db 0
 ;Learnset
 	db 1,TELEPORT
+	db 7,KINESIS
+	db 10,LIGHT_SCREEN
+	db 14,REFLECT
 	db 0
 	
 Mon064_EvosMoves:
 ;KADABRA
 ;Evolutions
-	db EV_TRADE,1,ALAKAZAM
-	db EV_ITEM,MOON_STONE,1,ALAKAZAM
+	db EV_LEVEL,30,ALAKAZAM
 	db 0
 ;Learnset
 	db 1,TELEPORT
-	db 1,KINESIS ; Foresight → evolution move
-	db 16,KINESIS ; evolution move
-	db 16,CONFUSION
-	db 18,DISABLE
-	db 21,PSYBEAM
-	db 23,CONFUSION ; Miracle Eye → tutor move
-	db 26,REFLECT
-	db 28,CONFUSION
-	db 31,RECOVER
-	db 33,BARRIER ; Telekinesis → egg move
-	db 36,LICK ; Ally Switch → TM move
-	db 38,PSYCHIC_M
-	db 41,FOCUS_ENERGY ; Calm Mind → new move
-	db 43,CONFUSE_RAY ; Role Play → new move
-	db 46,NIGHT_SHADE ; Future Sight → new move
+	db 1,KINESIS
+	db 1,CONFUSION
+	db 1,DISABLE
+	db 7,KINESIS
+	db 10,LIGHT_SCREEN
+	db 14,REFLECT
+	db 16,PSYWAVE
+	db 20,DISABLE
+	db 24,CONFUSION
+	db 28,DOUBLE_TEAM
+	db 32,PSYBEAM
+	db 34,RECOVER
+	db 38,SHADOW_BALL
+	db 42,EXTRASENSORY
+	db 46,PSYCHIC_M
 	db 0
 
 Mon065_EvosMoves:
@@ -1420,74 +1378,66 @@ Mon065_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,AMNESIA ; new move
-	db 1,TRI_ATTACK ; RBY TM Move
 	db 1,TELEPORT
-	db 1,KINESIS ; evolution move
+	db 1,KINESIS
 	db 1,CONFUSION
 	db 1,DISABLE
-	db 21,PSYBEAM
-	db 23,CONFUSION ; Miracle Eye → tutor move
-	db 26,REFLECT
-	db 28,CONFUSION
-	db 31,RECOVER
-	db 33,BARRIER ; Telekinesis → egg move
-	db 36,LICK ; Ally Switch → TM move
-	db 38,PSYCHIC_M
-	db 41,FOCUS_ENERGY ; Calm Mind → new move
-	db 43,CONFUSE_RAY ; Role Play → new move
-	db 46,NIGHT_SHADE ; Future Sight → new move
+	db 7,KINESIS
+	db 10,LIGHT_SCREEN
+	db 14,REFLECT
+	db 16,PSYWAVE
+	db 20,DISABLE
+	db 24,CONFUSION
+	db 28,DOUBLE_TEAM
+	db 35,PSYBEAM
+	db 37,RECOVER
+	db 41,SHADOW_BALL
+	db 45,EXTRASENSORY
+	db 49,PSYCHIC_M
 	db 0
 
 Mon066_EvosMoves:
 ;MACHOP
 ;Evolutions
-	db EV_LEVEL,28,MACHOKE
+	db EV_LEVEL,18,MACHOKE
 	db 0
 ;Learnset
-	db 1,LOW_KICK
+	db 1,POUND
 	db 1,LEER
-	db 3,FOCUS_ENERGY
-	db 7,KARATE_CHOP
-	db 9,MEDITATE ; Foresight → egg move
-	db 13,LOW_KICK
-	db 15,SEISMIC_TOSS
-	db 19,MEGA_PUNCH ; Revenge → RBY TM move
-	db 21,BIDE ; Knock Off → RBY TM move
-	db 25,MEGA_PUNCH ; Vital Throw → new move
-	db 27,COUNTER ; Wake-Up Slap → egg move
-	db 31,THRASH ; Dual Chop → event move
-	db 33,SUBMISSION
-	db 37,DOUBLE_TEAM ; Bulk Up → TM move
-	db 39,SUBMISSION
-	db 43,DOUBLE_EDGE ; Scary Face → tutor move
-	db 45,FIRE_PUNCH
+	db 7,ARM_THRUST
+	db 10,COMET_PUNCH
+	db 14,SEISMIC_TOSS
+	db 16,DOUBLE_KICK
+	db 18,MACH_PUNCH
+	db 22,LOW_KICK
+	db 26,SCREECH
+	db 30,FOCUS_ENERGY
+	db 32,DIZZY_PUNCH
+	db 36,DRAIN_PUNCH
+	db 40,MEGA_PUNCH
+	db 44,CROSS_CHOP
 	db 0
 
 Mon067_EvosMoves:
 ;MACHOKE
 ;Evolutions
-	db EV_TRADE,1,MACHAMP
-	db EV_LEVEL,40,MACHAMP
+	db EV_LEVEL,30,MACHAMP
 	db 0
 ;Learnset
-	db 1,LOW_KICK
+	db 1,POUND
 	db 1,LEER
-	db 3,FOCUS_ENERGY
-	db 7,KARATE_CHOP
-	db 9,MEDITATE ; Foresight → egg move
-	db 13,LOW_KICK
-	db 15,SEISMIC_TOSS
-	db 19,MEGA_PUNCH ; Revenge → RBY TM move
-	db 21,BIDE ; Knock Off → RBY TM move
-	db 25,MEGA_PUNCH ; Vital Throw → new move
-	db 27,COUNTER ; Wake-Up Slap → egg move
-	db 33,THRASH ; Dual Chop → event move
-	db 37,SUBMISSION
-	db 43,DOUBLE_TEAM ; Bulk Up → TM move
-	db 47,SUBMISSION
-	db 53,DOUBLE_EDGE ; Scary Face → tutor move
-	db 57,FIRE_PUNCH
+	db 7,ARM_THRUST
+	db 10,COMET_PUNCH
+	db 14,SEISMIC_TOSS
+	db 16,DOUBLE_KICK
+	db 20,MACH_PUNCH
+	db 24,LOW_KICK
+	db 28,SCREECH
+	db 32,FOCUS_ENERGY
+	db 34,DIZZY_PUNCH
+	db 38,DRAIN_PUNCH
+	db 42,MEGA_PUNCH
+	db 46,CROSS_CHOP
 	db 0
 
 Mon068_EvosMoves:
@@ -1495,23 +1445,20 @@ Mon068_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,LOW_KICK
+	db 1,POUND
 	db 1,LEER
-	db 3,FOCUS_ENERGY
-	db 7,KARATE_CHOP
-	db 9,MEDITATE ; Foresight → egg move
-	db 13,LOW_KICK
-	db 15,SEISMIC_TOSS
-	db 19,MEGA_PUNCH ; Revenge → RBY TM move
-	db 21,BIDE ; Knock Off → RBY TM move
-	db 25,MEGA_PUNCH ; Vital Throw → new move
-	db 27,COUNTER ; Wake-Up Slap → egg move
-	db 33,THRASH ; Dual Chop → event move
-	db 37,SUBMISSION
-	db 43,DOUBLE_TEAM ; Bulk Up → TM move
-	db 47,SUBMISSION
-	db 53,DOUBLE_EDGE ; Scary Face → tutor move
-	db 57,FIRE_PUNCH
+	db 7,ARM_THRUST
+	db 10,COMET_PUNCH
+	db 14,SEISMIC_TOSS
+	db 16,DOUBLE_KICK
+	db 20,MACH_PUNCH
+	db 24,LOW_KICK
+	db 28,SCREECH
+	db 35,FOCUS_ENERGY
+	db 37,DIZZY_PUNCH
+	db 41,DRAIN_PUNCH
+	db 45,MEGA_PUNCH
+	db 49,CROSS_CHOP
 	db 0
 
 Mon069_EvosMoves:
@@ -1520,20 +1467,20 @@ Mon069_EvosMoves:
 	db EV_LEVEL,21,WEEPINBELL
 	db 0
 ;Learnset
-	db 1,VINE_WHIP
-	db 7,GROWTH
-	db 11,WRAP
-	db 13,SLEEP_POWDER
-	db 15,POISONPOWDER
-	db 17,STUN_SPORE
-	db 23,ACID
-	db 27,SWORDS_DANCE ; Knock Off → egg move
-	db 29,TOXIC ; Sweet Scent → TM move
-	db 35,RECOVER ; Gastro Acid → new move
-	db 39,RAZOR_LEAF
-	db 41,SLUDGE
-	db 47,SLAM
-	db 50,RAZOR_LEAF ; Wring Out → Victreebel move
+	db 1,WRAP
+	db 1,GROWTH
+	db 5,SMOG
+	db 7,VINE_WHIP
+	db 10,CONSTRICT
+	db 14,POISON_GAS
+	db 19,ACID
+	db 24,RAZOR_LEAF
+	db 29,SLUDGE
+	db 32,MAGICAL_LEAF
+	db 38,BODY_SLAM
+	db 41,POISON_JAB
+	db 47,LEAF_BLADE
+	db 50,SLUDGE_BOMB
 	db 0
 
 Mon070_EvosMoves:
@@ -1542,20 +1489,20 @@ Mon070_EvosMoves:
 	db EV_ITEM,LEAF_STONE,1,VICTREEBEL
 	db 0
 ;Learnset
-	db 1,VINE_WHIP
-	db 7,GROWTH
-	db 11,WRAP
-	db 13,SLEEP_POWDER
-	db 15,POISONPOWDER
-	db 17,STUN_SPORE
-	db 24,ACID
-	db 29,SWORDS_DANCE ; Knock Off → egg move
-	db 32,TOXIC ; Sweet Scent → TM move
-	db 39,RECOVER ; Gastro Acid → new move
-	db 44,RAZOR_LEAF
-	db 47,SLUDGE
-	db 54,SLAM
-	db 58,RAZOR_LEAF ; Wring Out → Victreebel move
+	db 1,WRAP
+	db 1,GROWTH
+	db 5,SMOG
+	db 7,VINE_WHIP
+	db 10,CONSTRICT
+	db 14,POISON_GAS
+	db 19,ACID
+	db 27,RAZOR_LEAF
+	db 32,SLUDGE
+	db 35,MAGICAL_LEAF
+	db 41,BODY_SLAM
+	db 44,POISON_JAB
+	db 50,LEAF_BLADE
+	db 53,SLUDGE_BOMB
 	db 0
 
 Mon071_EvosMoves:
@@ -1564,19 +1511,9 @@ Mon071_EvosMoves:
 	db 0
 ;Learnset
 	db 1,VINE_WHIP
-	db 7,GROWTH
-	db 11,WRAP
-	db 13,SLEEP_POWDER
-	db 15,POISONPOWDER
-	db 17,STUN_SPORE
-	db 24,ACID
-	db 29,SWORDS_DANCE ; Knock Off → egg move
-	db 32,TOXIC ; Sweet Scent → TM move
-	db 39,RECOVER ; Gastro Acid → new move
-	db 44,RAZOR_LEAF
-	db 47,SLUDGE
-	db 54,SLAM
-	db 58,RAZOR_LEAF ; Wring Out → Victreebel move
+	db 1,POISON_GAS
+	db 1,ACID
+	db 1,RAZOR_LEAF
 	db 0
 
 Mon072_EvosMoves:
@@ -1586,22 +1523,20 @@ Mon072_EvosMoves:
 	db 0
 ;Learnset
 	db 1,POISON_STING
-	db 4,SUPERSONIC
-	db 7,CONSTRICT
-	db 10,ACID
-	db 13,TOXIC ; Toxic Spikes → TM move
-	db 16,WATER_GUN
-	db 19,WRAP
-	db 22,CONFUSE_RAY ; Acid Spray → event move
-	db 25,BUBBLEBEAM
-	db 28,BARRIER
-	db 31,SLUDGE
-	db 34,SURF ; Brine → TM Move
-	db 37,SCREECH
-	db 40,NIGHT_SHADE
-	db 43,SLUDGE
-	db 46,HYDRO_PUMP
-	db 49,SLUDGE ; new move
+	db 1,CONSTRICT
+	db 5,WRAP
+	db 9,WATER_GUN
+	db 13,ACID
+	db 16,BARRIER
+	db 20,WATER_PULSE
+	db 25,SLUDGE
+	db 28,BUBBLEBEAM
+	db 31,PSYBEAM
+	db 36,SLASH
+	db 40,SCALD
+	db 42,SLUDGE_BOMB
+	db 47,SURF
+	db 50,HYDRO_PUMP
 	db 0
 
 Mon073_EvosMoves:
@@ -1610,71 +1545,65 @@ Mon073_EvosMoves:
 	db 0
 ;Learnset
 	db 1,POISON_STING
-	db 4,SUPERSONIC
-	db 7,CONSTRICT
-	db 10,ACID
-	db 13,TOXIC ; Toxic Spikes → TM Move
-	db 16,WATER_GUN
-	db 19,WRAP
-	db 22,CONFUSE_RAY ; Acid Spray → event move
-	db 25,BUBBLEBEAM
-	db 28,BARRIER
-	db 32,SLUDGE
-	db 36,SURF ; Brine → TM Move
-	db 40,SCREECH
-	db 44,NIGHT_SHADE
-	db 48,SLUDGE
+	db 1,CONSTRICT
+	db 5,WRAP
+	db 9,WATER_GUN
+	db 13,ACID
+	db 16,BARRIER
+	db 20,WATER_PULSE
+	db 25,SLUDGE
+	db 28,BUBBLEBEAM
+	db 33,PSYBEAM
+	db 38,SLASH
+	db 42,SCALD
+	db 44,SLUDGE_BOMB
+	db 49,SURF
 	db 52,HYDRO_PUMP
-	db 56,SLUDGE ; new move
 	db 0
 	
 Mon074_EvosMoves:
 ;GEODUDE
 ;Evolutions
-	db EV_LEVEL,25,GRAVELER
+	db EV_LEVEL,17,GRAVELER
 	db 0
 ;Learnset
-	db 1,TACKLE
+	db 1,POUND
 	db 1,DEFENSE_CURL
-	db 4,EARTHQUAKE ; Mud Sport → TM Move
-	db 6,AGILITY
-	db 10,MEGA_PUNCH ; Rollout → RBY TM Move
-	db 12,COUNTER ; Magnitude → TM move
-	db 16,ROCK_THROW
-	db 18,ROCK_THROW ; Smack Down → HGSS Tutor Move
-	db 22,MEGA_PUNCH ; Bull Doze → new move
-	db 24,SELFDESTRUCT
-	db 28,HARDEN ; Stealth Rock → tutor move
-	db 30,ROCK_THROW
-	db 34,EARTHQUAKE
-	db 36,EXPLOSION
-	db 40,DOUBLE_EDGE
-	db 42,ROCK_SLIDE ; Stone Edge → RBY TM move
+	db 7,MUD_SLAP
+	db 10,ROCK_BLAST
+	db 14,IRON_DEFENSE
+	db 16,SHARPEN
+	db 18,ROCK_THROW
+	db 22,SELFDESTRUCT
+	db 26,ANCIENTPOWER
+	db 30,IRON_HEAD
+	db 32,ROCK_SLIDE
+	db 36,EARTHQUAKE
+	db 40,STONE_EDGE
+	db 44,EXPLOSION
 	db 0
 
 Mon075_EvosMoves:
 ;GRAVELER
 ;Evolutions
-	db EV_TRADE,1,GOLEM
-	db EV_LEVEL,40,GOLEM
+	db EV_LEVEL,30,GOLEM
 	db 0
 ;Learnset
-	db 1,TACKLE
+	db 1,POUND
 	db 1,DEFENSE_CURL
-	db 4,EARTHQUAKE ; Mud Sport → TM Move
-	db 6,AGILITY
-	db 10,MEGA_PUNCH ; Rollout → RBY TM Move
-	db 12,COUNTER ; Magnitude → TM move
-	db 16,ROCK_THROW
-	db 18,ROCK_THROW ; Smack Down → HGSS Tutor Move
-	db 22,MEGA_PUNCH ; Bull Doze → new move
+	db 1,MUD_SLAP
+	db 7,MUD_SLAP
+	db 10,ROCK_BLAST
+	db 14,IRON_DEFENSE
+	db 16,SHARPEN
+	db 20,ROCK_THROW
 	db 24,SELFDESTRUCT
-	db 30,HARDEN ; Stealth Rock → tutor move
-	db 34,ROCK_THROW
-	db 40,EARTHQUAKE
-	db 44,EXPLOSION
-	db 50,DOUBLE_EDGE
-	db 54,ROCK_SLIDE ; Stone Edge → RBY TM move
+	db 28,ANCIENTPOWER
+	db 32,IRON_HEAD
+	db 34,ROCK_SLIDE
+	db 38,EARTHQUAKE
+	db 42,STONE_EDGE
+	db 46,EXPLOSION
 	db 0
 
 Mon076_EvosMoves:
@@ -1682,23 +1611,21 @@ Mon076_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,TACKLE
+	db 1,POUND
 	db 1,DEFENSE_CURL
-	db 4,EARTHQUAKE ; Mud Sport → TM Move
-	db 6,AGILITY
-	db 10,MEGA_PUNCH ; Rollout → RBY TM Move
-	db 12,COUNTER ; Magnitude → TM move
-	db 16,ROCK_THROW
-	db 18,ROCK_THROW ; Smack Down → HGSS Tutor Move
-	db 22,MEGA_PUNCH ; Bull Doze → new move
+	db 1,MUD_SLAP
+	db 7,MUD_SLAP
+	db 10,ROCK_BLAST
+	db 14,IRON_DEFENSE
+	db 16,SHARPEN
+	db 20,ROCK_THROW
 	db 24,SELFDESTRUCT
-	db 30,HARDEN ; Stealth Rock → tutor move
-	db 34,ROCK_THROW
-	db 40,EARTHQUAKE
-	db 44,EXPLOSION
-	db 50,DOUBLE_EDGE
-	db 54,ROCK_SLIDE ; Stone Edge → RBY TM move
-	db 60,TAKE_DOWN ; Heavy Slam → TM move
+	db 28,ANCIENTPOWER
+	db 35,IRON_HEAD
+	db 37,ROCK_SLIDE
+	db 41,EARTHQUAKE
+	db 45,STONE_EDGE
+	db 49,EXPLOSION
 	db 0
 
 Mon077_EvosMoves:
@@ -1707,20 +1634,21 @@ Mon077_EvosMoves:
 	db EV_LEVEL,40,RAPIDASH
 	db 0
 ;Learnset
-	db 1,TACKLE
-	db 1,GROWL
-	db 4,TAIL_WHIP
-	db 9,EMBER
-	db 13,EMBER
-	db 17,STOMP
-	db 21,LOW_KICK ; Flame Charge → event move
-	db 25,FIRE_SPIN
-	db 29,TAKE_DOWN
-	db 33,DOUBLE_KICK ; Inferno → egg move
-	db 37,AGILITY
-	db 41,FIRE_BLAST
-	db 45,QUICK_ATTACK ; Bounce → new move
-	db 49,FLAMETHROWER
+	db 1,EMBER
+	db 1,TAIL_WHIP
+	db 5,QUICK_ATTACK
+	db 9,LEER
+	db 13,FOCUS_ENERGY
+	db 16,FLAME_CHARGE
+	db 20,STOMP
+	db 25,AGILITY
+	db 28,FIRE_SPIN
+	db 31,GLARE
+	db 36,ZEN_HEADBUTT
+	db 40,SCREECH
+	db 42,FLAMETHROWER
+	db 47,TAKE_DOWN
+	db 50,FIRE_BLAST
 	db 0
 
 Mon078_EvosMoves:
@@ -1728,25 +1656,21 @@ Mon078_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,FURY_ATTACK
-	db 1,SLUDGE
-	db 1,TWINEEDLE
-	db 1,QUICK_ATTACK
-	db 1,GROWL
-	db 1,TAIL_WHIP
 	db 1,EMBER
-	db 13,EMBER
-	db 17,STOMP
-	db 21,LOW_KICK ; Flame Charge → event move
-	db 25,FIRE_SPIN
-	db 29,TAKE_DOWN
-	db 33,DOUBLE_KICK ; Inferno → egg move
-	db 37,AGILITY
-	db 40,FURY_ATTACK ; evolution move
-	db 41,FIRE_BLAST
-	db 45,QUICK_ATTACK ; Bounce → new move
-	db 49,FLAMETHROWER
-	db 54,TWINEEDLE
+	db 1,TAIL_WHIP
+	db 5,QUICK_ATTACK
+	db 9,LEER
+	db 13,FOCUS_ENERGY
+	db 16,FLAME_CHARGE
+	db 20,STOMP
+	db 25,AGILITY
+	db 28,FIRE_SPIN
+	db 31,GLARE
+	db 36,ZEN_HEADBUTT
+	db 43,SCREECH
+	db 45,FLAMETHROWER
+	db 50,TAKE_DOWN
+	db 53,FIRE_BLAST
 	db 0
 
 Mon079_EvosMoves:
@@ -2796,7 +2720,7 @@ Mon123_EvosMoves:
 	db 1,LEER
 	db 5,FOCUS_ENERGY
 	db 9,SWIFT ; Pursuit → TM move
-	db 13,HONE_CLAWS ; False Swipe → TM move
+	db 13,SHARPEN ; False Swipe → TM move
 	db 17,AGILITY
 	db 21,WING_ATTACK
 	db 25,SLASH ; Fury Cutter → TM move
