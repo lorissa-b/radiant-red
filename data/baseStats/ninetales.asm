@@ -5,7 +5,7 @@ db 75 ; base defense
 db 100 ; base speed
 db 100 ; base special
 db FIRE ; species type 1
-db FIRE ; species type 2
+db PSYCHIC ; species type 2
 db 75 ; catch rate
 db 178 ; base exp yield
 INCBIN "pic/bmon/ninetales.pic",0,1 ; 77, sprite dimensions
