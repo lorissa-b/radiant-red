@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lorissa-b.github.io/radiant-red/precache-manifest.5045a9dcc66fc1eaf5c63864cab94c99.js"
+  "/lorissa-b.github.io/radiant-red/precache-manifest.0b15673a6b4c2aa35f1b41d3fb547c74.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/lorissa-b.github.io/radiant-red/static/css/main.5f361e03.chunk.css",
-    "main.js": "/lorissa-b.github.io/radiant-red/static/js/main.3db4f68f.chunk.js",
-    "main.js.map": "/lorissa-b.github.io/radiant-red/static/js/main.3db4f68f.chunk.js.map",
+    "main.js": "/lorissa-b.github.io/radiant-red/static/js/main.0b89a463.chunk.js",
+    "main.js.map": "/lorissa-b.github.io/radiant-red/static/js/main.0b89a463.chunk.js.map",
     "runtime-main.js": "/lorissa-b.github.io/radiant-red/static/js/runtime-main.487a403f.js",
     "runtime-main.js.map": "/lorissa-b.github.io/radiant-red/static/js/runtime-main.487a403f.js.map",
-    "static/js/2.97aee082.chunk.js": "/lorissa-b.github.io/radiant-red/static/js/2.97aee082.chunk.js",
-    "static/js/2.97aee082.chunk.js.map": "/lorissa-b.github.io/radiant-red/static/js/2.97aee082.chunk.js.map",
+    "static/js/2.a7f1c7a0.chunk.js": "/lorissa-b.github.io/radiant-red/static/js/2.a7f1c7a0.chunk.js",
+    "static/js/2.a7f1c7a0.chunk.js.map": "/lorissa-b.github.io/radiant-red/static/js/2.a7f1c7a0.chunk.js.map",
     "index.html": "/lorissa-b.github.io/radiant-red/index.html",
-    "precache-manifest.5045a9dcc66fc1eaf5c63864cab94c99.js": "/lorissa-b.github.io/radiant-red/precache-manifest.5045a9dcc66fc1eaf5c63864cab94c99.js",
+    "precache-manifest.0b15673a6b4c2aa35f1b41d3fb547c74.js": "/lorissa-b.github.io/radiant-red/precache-manifest.0b15673a6b4c2aa35f1b41d3fb547c74.js",
     "service-worker.js": "/lorissa-b.github.io/radiant-red/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/lorissa-b.github.io/radiant-red/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.97aee082.chunk.js.LICENSE.txt": "/lorissa-b.github.io/radiant-red/static/js/2.97aee082.chunk.js.LICENSE.txt",
+    "static/js/2.a7f1c7a0.chunk.js.LICENSE.txt": "/lorissa-b.github.io/radiant-red/static/js/2.a7f1c7a0.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/lorissa-b.github.io/radiant-red/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.487a403f.js",
-    "static/js/2.97aee082.chunk.js",
+    "static/js/2.a7f1c7a0.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.3db4f68f.chunk.js"
+    "static/js/main.0b89a463.chunk.js"
   ]
 }
