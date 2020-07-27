@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/lorissa-b.github.io/radiant-red/static/css/main.5f361e03.chunk.css",
-    "main.js": "/lorissa-b.github.io/radiant-red/static/js/main.0b89a463.chunk.js",
-    "main.js.map": "/lorissa-b.github.io/radiant-red/static/js/main.0b89a463.chunk.js.map",
-    "runtime-main.js": "/lorissa-b.github.io/radiant-red/static/js/runtime-main.487a403f.js",
-    "runtime-main.js.map": "/lorissa-b.github.io/radiant-red/static/js/runtime-main.487a403f.js.map",
-    "static/js/2.a7f1c7a0.chunk.js": "/lorissa-b.github.io/radiant-red/static/js/2.a7f1c7a0.chunk.js",
-    "static/js/2.a7f1c7a0.chunk.js.map": "/lorissa-b.github.io/radiant-red/static/js/2.a7f1c7a0.chunk.js.map",
-    "index.html": "/lorissa-b.github.io/radiant-red/index.html",
-    "precache-manifest.0b15673a6b4c2aa35f1b41d3fb547c74.js": "/lorissa-b.github.io/radiant-red/precache-manifest.0b15673a6b4c2aa35f1b41d3fb547c74.js",
-    "service-worker.js": "/lorissa-b.github.io/radiant-red/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/lorissa-b.github.io/radiant-red/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.a7f1c7a0.chunk.js.LICENSE.txt": "/lorissa-b.github.io/radiant-red/static/js/2.a7f1c7a0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/lorissa-b.github.io/radiant-red/static/media/logo.5d5d9eef.svg"
+    "main.css": "/radiant-red/static/css/main.5f361e03.chunk.css",
+    "main.js": "/radiant-red/static/js/main.58d09a7c.chunk.js",
+    "main.js.map": "/radiant-red/static/js/main.58d09a7c.chunk.js.map",
+    "runtime-main.js": "/radiant-red/static/js/runtime-main.f4d68672.js",
+    "runtime-main.js.map": "/radiant-red/static/js/runtime-main.f4d68672.js.map",
+    "static/js/2.a7f1c7a0.chunk.js": "/radiant-red/static/js/2.a7f1c7a0.chunk.js",
+    "static/js/2.a7f1c7a0.chunk.js.map": "/radiant-red/static/js/2.a7f1c7a0.chunk.js.map",
+    "index.html": "/radiant-red/index.html",
+    "precache-manifest.f8cd034c3905ecb8015abace53be273d.js": "/radiant-red/precache-manifest.f8cd034c3905ecb8015abace53be273d.js",
+    "service-worker.js": "/radiant-red/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/radiant-red/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a7f1c7a0.chunk.js.LICENSE.txt": "/radiant-red/static/js/2.a7f1c7a0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/radiant-red/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.487a403f.js",
+    "static/js/runtime-main.f4d68672.js",
     "static/js/2.a7f1c7a0.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0b89a463.chunk.js"
+    "static/js/main.58d09a7c.chunk.js"
   ]
 }
