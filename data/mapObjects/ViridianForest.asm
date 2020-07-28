@@ -26,7 +26,7 @@ ViridianForestObject:
 	object SPRITE_BALL, $c, $1d, STAY, NONE, $6, POTION
 	object SPRITE_BALL, $1, $1f, STAY, NONE, $7, POKE_BALL
 	object SPRITE_BUG_CATCHER, $1b, $28, STAY, NONE, $8 ; person
-	;object SPRITE_BERRY_TREE, $1e, $4, STAY, NONE, $9
+	object SPRITE_BERRY_TREE, $1e, $4, STAY, NONE, $9
 
 	; warp-to
 	EVENT_DISP VIRIDIAN_FOREST_WIDTH, $0, $1 ; VIRIDIAN_FOREST_EXIT

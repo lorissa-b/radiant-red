@@ -16,8 +16,8 @@ Route4TextPointers:
 	dw Route4Text1
 	dw Route4Text2
 	dw PickUpItemText
-	; dw Route4Tree1
-	; dw Route4Tree2
+	dw Route4Tree1
+	dw Route4Tree2
 	dw PokeCenterSignText
 	dw Route4Text5
 	dw Route4Text6
@@ -63,16 +63,16 @@ Route4Text6:
 	TX_FAR _Route4Text6
 	db "@"
 
-; Route4Tree1:
-; 	TX_ASM
-; 	ld a, 8
-; 	ld [wWhichTrade], a
-; 	callba BerryTreeScript
-; 	jp TextScriptEnd
+Route4Tree1:
+	TX_ASM
+	ld a, 8
+	ld [wWhichTrade], a
+	callba BerryTreeScript
+	jp TextScriptEnd
 	
-; Route4Tree2:
-; 	TX_ASM
-; 	ld a, 9
-; 	ld [wWhichTrade], a
-; 	callba BerryTreeScript
-; 	jp TextScriptEnd
+Route4Tree2:
+	TX_ASM
+	ld a, 9
+	ld [wWhichTrade], a
+	callba BerryTreeScript
+	jp TextScriptEnd

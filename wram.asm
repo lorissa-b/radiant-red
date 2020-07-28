@@ -3389,10 +3389,10 @@ wSafariZoneGameOver:: ; da46
 wNumSafariBalls:: ; da47
 	ds 1
 
-; wBerryTreeFlags::
-; 	ds 2
-; wBerryStepCounter:: ; deee
-; 	ds 2
+wBerryTreeFlags::
+	ds 2
+wBerryStepCounter:: ; deee
+	ds 2
 
 wDayCareInUse:: ; da48
 ; bit 0 - Mon with Day Care Lady

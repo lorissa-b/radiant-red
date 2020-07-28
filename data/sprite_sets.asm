@@ -70,7 +70,7 @@ SpriteSets:
 	db SPRITE_SWIMMER
 	db SPRITE_SWIMMER_F
 	db SPRITE_BALL
-;	db SPRITE_BERRY_TREE
+	db SPRITE_BERRY_TREE
 
 ; sprite set $02
 	db SPRITE_BUG_CATCHER
@@ -83,7 +83,7 @@ SpriteSets:
 	db SPRITE_LASS
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_BALL
-;	db SPRITE_BERRY_TREE
+	db SPRITE_BERRY_TREE
 
 ; sprite set $03
 	db SPRITE_LITTLE_GIRL
@@ -96,7 +96,7 @@ SpriteSets:
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_GUARD
 	db SPRITE_BALL
-;	db SPRITE_BERRY_TREE
+	db SPRITE_BERRY_TREE
 
 ; sprite set $04
 	db SPRITE_FOULARD_WOMAN
@@ -109,7 +109,7 @@ SpriteSets:
 	db SPRITE_LASS
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_BALL
-;	db SPRITE_BERRY_TREE
+	db SPRITE_BERRY_TREE
 
 ; sprite set $05
 	db SPRITE_LITTLE_GIRL
@@ -121,7 +121,7 @@ SpriteSets:
 	db SPRITE_SLOWBRO
 	db SPRITE_GUARD
 	db SPRITE_ROCKET
-;	db SPRITE_BERRY_TREE
+	db SPRITE_BERRY_TREE
 	db SPRITE_SNORLAX
 
 ; sprite set $06
@@ -135,7 +135,7 @@ SpriteSets:
 	db SPRITE_GUARD
 	db SPRITE_GAMBLER
 	db SPRITE_BALL
-;	db SPRITE_BERRY_TREE
+	db SPRITE_BERRY_TREE
 
 ; sprite set $07
 	db SPRITE_ROCKET
@@ -148,7 +148,7 @@ SpriteSets:
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_SLOWBRO
 	db SPRITE_BALL
-;	db SPRITE_BERRY_TREE
+	db SPRITE_BERRY_TREE
 
 ; sprite set $08
 	db SPRITE_BIKER
@@ -652,9 +652,9 @@ SpriteSheetPointerTable:
 	db BANK(PokedexSprite)
 
 	; SPRITE_BERRY_TREE
-	; dw BerryTreeSprite
-	; db $40 ; byte count
-	; db BANK(BerryTreeSprite)
+	dw BerryTreeSprite
+	db $40 ; byte count
+	db BANK(BerryTreeSprite)
 
 	; SPRITE_LYING_OLD_MAN
 	dw LyingOldManSprite

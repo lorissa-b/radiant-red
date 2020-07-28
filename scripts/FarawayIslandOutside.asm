@@ -3,19 +3,19 @@ FarawayIslandOutsideScript:
 
 FarawayIslandOutsideTextPointers:
 	dw FarawayIslandCaptainText
-	;dw FarawayIslandBerryTreeText
+	dw FarawayIslandBerryTreeText
 	dw FarawayIslandSignText
 
 FarawayIslandCaptainText:
 	TX_FAR _FerrySailorText
 	db "@"
 
-; FarawayIslandBerryTreeText:
-; 	TX_ASM
-; 	ld a, 15
-; 	ld [wWhichTrade],a
-; 	callba BerryTreeScript
-; 	jp TextScriptEnd
+FarawayIslandBerryTreeText:
+	TX_ASM
+	ld a, 15
+	ld [wWhichTrade],a
+	callba BerryTreeScript
+	jp TextScriptEnd
 	
 FarawayIslandSignText:
 	text "The writing is"

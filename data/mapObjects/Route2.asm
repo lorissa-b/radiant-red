@@ -16,8 +16,8 @@ Route2Object:
 	db $4 ; objects
 	object SPRITE_BALL, $d, $36, STAY, NONE, $1, MOON_STONE
 	object SPRITE_BALL, $d, $2d, STAY, NONE, $2, HP_UP
-	;object SPRITE_BERRY_TREE, $10, $10, STAY, NONE, $3 ; person
-	;object SPRITE_BERRY_TREE, $8, $29, STAY, NONE, $4 ; person
+	object SPRITE_BERRY_TREE, $10, $10, STAY, NONE, $3 ; person
+	object SPRITE_BERRY_TREE, $8, $29, STAY, NONE, $4 ; person
 
 	; warp-to
 	EVENT_DISP ROUTE_2_WIDTH, $9, $c ; DIGLETTS_CAVE_EXIT

@@ -732,15 +732,15 @@ IF DEF(_HARD) ; Hard Version
 	dbw 3,FullHealAI ; bug catcher
 	dbw 3,PotionAI ; lass
 	dbw 3,SwitchOutAI ; sailor
-	; dbw 3,BerryUserAI ; camper
-	; dbw 3,BerryUserAI ; picnicker
+	dbw 3,PotionAI ; camper
+	dbw 3,PotionAI ; picnicker
 	dbw 3,SwitchOrSuperPotionAI ; pokemaniac
 	dbw 3,SwitchOutAI ; super nerd
-	;dbw 3,BerryUserAI ; hiker
+	dbw 3,PotionAI ; hiker
 	dbw 3,XDefendAI ; biker
 	dbw 3,SwitchOutAI ; burglar
 	dbw 3,GuardSpecAI ; engineer
-	;dbw 3,BerryUserAI ; couple
+	dbw 3,PotionAI ; couple
 	dbw 3,PotionAI ; fisherman
 	dbw 3,GenericAI ; swimmer m
 	dbw 3,XAttack1AI ; cue ball
@@ -965,23 +965,23 @@ PotionAI:
 	ret nc
 	jp AIUsePotion
 
-; BerryUserAI: ; used mainly by hikers, campers, and picnickers
-; 	cp $30
-; 	ret nc
-; 	ld a, [wAILayer2Encouragement] ; wAILayer2Encouragement (How many turns has it been out?)
-; 	cp 2
-; 	ccf
-; 	ret nc ; They can't heal too early
-; 	ld a,[wEnemyMonStatus]
-; 	and a
-; 	jp nz, AIUseLumBerry
-; 	ld a,5
-; 	call AICheckIfHPBelowFraction
-; 	jp c, AIUseSitrusBerry
-; 	ld a,$A
-; 	call AICheckIfHPBelowFraction
-; 	jp c, AIUseOranBerry
-; 	ret
+BerryUserAI: ; used mainly by hikers, campers, and picnickers
+	cp $30
+	ret nc
+	ld a, [wAILayer2Encouragement] ; wAILayer2Encouragement (How many turns has it been out?)
+	cp 2
+	ccf
+	ret nc ; They can't heal too early
+	ld a,[wEnemyMonStatus]
+	and a
+	jp nz, AIUseLumBerry
+	ld a,5
+	call AICheckIfHPBelowFraction
+	jp c, AIUseSitrusBerry
+	ld a,$A
+	call AICheckIfHPBelowFraction
+	jp c, AIUseOranBerry
+	ret
 
 FullRestoreAI:
 	cp $20
@@ -1061,11 +1061,11 @@ AIUseFullRestore:
 	ld [wEnemyMonHP],a
 	jr AIPrintItemUseAndUpdateHPBar
 
-; AIUseOranBerry:
-; ; enemy trainer heals monster with Oran Berry
-; 	ld a,ORAN_BERRY
-; 	ld b,10
-; 	jr AIRecoverHP
+AIUseOranBerry:
+; enemy trainer heals monster with Oran Berry
+	ld a,ORAN_BERRY
+	ld b,10
+	jr AIRecoverHP
 
 AIUsePotion:
 ; enemy trainer heals his monster with a potion
@@ -1073,11 +1073,11 @@ AIUsePotion:
 	ld b,20
 	jr AIRecoverHP
 
-; AIUseSitrusBerry:
-; ; enemy trainer heals monster with Sitrus Berry
-; 	ld a,SITRUS_BERRY
-; 	ld b,30
-; 	jr AIRecoverHP
+AIUseSitrusBerry:
+; enemy trainer heals monster with Sitrus Berry
+	ld a,SITRUS_BERRY
+	ld b,30
+	jr AIRecoverHP
 
 AIUseSuperPotion:
 ; enemy trainer heals his monster with a super potion
@@ -1211,11 +1211,11 @@ AIUseFullHeal:
 	ld a,FULL_HEAL
 	jp AIPrintItemUse
 	
-; AIUseLumBerry:
-; 	call AIPlayRestoringSFX
-; 	call AICureStatus
-; 	ld a,LUM_BERRY
-; 	jp AIPrintItemUse
+AIUseLumBerry:
+	call AIPlayRestoringSFX
+	call AICureStatus
+	ld a,LUM_BERRY
+	jp AIPrintItemUse
 
 AICureStatus:
 ; cures the status of enemy's active pokemon

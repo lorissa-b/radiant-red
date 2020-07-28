@@ -19,8 +19,8 @@ PewterCityTextPointers:
 	dw PewterCityText3
 	dw PewterCityText4
 	dw PewterCityText5
-	; dw PewterCityTree1
-	; dw PewterCityTree2
+	dw PewterCityTree1
+	dw PewterCityTree2
 	dw PewterCityText6
 	dw PewterCityText7
 	dw MartSignText
@@ -323,16 +323,16 @@ PewterCityText12:
 	TX_FAR _PewterCityText12
 	db "@"
 
-; PewterCityTree1:
-; 	TX_ASM
-; 	ld a, 3 ; tree number
-; 	ld [wWhichTrade],a
-; 	callba BerryTreeScript
-; 	jp TextScriptEnd
+PewterCityTree1:
+	TX_ASM
+	ld a, 3 ; tree number
+	ld [wWhichTrade],a
+	callba BerryTreeScript
+	jp TextScriptEnd
 	
-; PewterCityTree2:
-; 	TX_ASM
-; 	ld a, 4 ; tree number
-; 	ld [wWhichTrade],a
-; 	callba BerryTreeScript
-; 	jp TextScriptEnd
+PewterCityTree2:
+	TX_ASM
+	ld a, 4 ; tree number
+	ld [wWhichTrade],a
+	callba BerryTreeScript
+	jp TextScriptEnd

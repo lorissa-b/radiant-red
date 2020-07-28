@@ -509,16 +509,16 @@ UsableItems_PartyMenu:
 	db MAX_ETHER
 	db ELIXER
 	db MAX_ELIXER
-	; db ORAN_BERRY
-	; db SITRUS_BERRY
-	; db LEPPA_BERRY
-	; db PECHA_BERRY
-	; db RAWST_BERRY
-	; db ASPEAR_BERRY
-	; db CHESTO_BERRY
-	; db CHERI_BERRY
-	; db LUM_BERRY
-	; db ACAI_BERRY
+	db ORAN_BERRY
+	db SITRUS_BERRY
+	db LEPPA_BERRY
+	db PECHA_BERRY
+	db RAWST_BERRY
+	db ASPEAR_BERRY
+	db CHESTO_BERRY
+	db CHERI_BERRY
+	db LUM_BERRY
+	db ACAI_BERRY
 	db $ff
 
 ; items which close the item menu when used

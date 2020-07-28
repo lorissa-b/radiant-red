@@ -113,16 +113,16 @@ ItemUsePtrTable:
 	dw UnusableItem      ; 10F
 	dw UnusableItem      ; 11F
 	dw UnusableItem      ; B4F
-	; dw ItemUseMedicine   ; ORAN_BERRY
-	; dw ItemUseMedicine   ; SITRUS_BERRY
-	; dw ItemUsePPRestore  ; LEPPA_BERRY
-	; dw ItemUseMedicine   ; PECHA_BERRY
-	; dw ItemUseMedicine   ; RAWST_BERRY
-	; dw ItemUseMedicine   ; ASPEAR_BERRY
-	; dw ItemUseMedicine   ; CHESTO_BERRY
-	; dw ItemUseMedicine   ; CHERI_BERRY
-	; dw ItemUseMedicine   ; LUM_BERRY
-	; dw ItemUseVitamin    ; ACAI_BERRY
+	dw ItemUseMedicine   ; ORAN_BERRY
+	dw ItemUseMedicine   ; SITRUS_BERRY
+	dw ItemUsePPRestore  ; LEPPA_BERRY
+	dw ItemUseMedicine   ; PECHA_BERRY
+	dw ItemUseMedicine   ; RAWST_BERRY
+	dw ItemUseMedicine   ; ASPEAR_BERRY
+	dw ItemUseMedicine   ; CHESTO_BERRY
+	dw ItemUseMedicine   ; CHERI_BERRY
+	dw ItemUseMedicine   ; LUM_BERRY
+	dw ItemUseVitamin    ; ACAI_BERRY
 
 ItemThiefBall:
 	ld a,[wIsInBattle]
@@ -918,12 +918,12 @@ ItemUseMedicine:
 	jr z,ItemUseMedicine ; if so, force another choice
 .checkItemType
 	ld a,[wcf91]
-	; cp a,ACAI_BERRY
-	; jp z,.useVitamin
-	; cp a,PECHA_BERRY
-	; jp nc,.cureStatusAilment
-	; cp a,ORAN_BERRY
-	; jp nc,.healHP
+	cp a,ACAI_BERRY
+	jp z,.useVitamin
+	cp a,PECHA_BERRY
+	jp nc,.cureStatusAilment
+	cp a,ORAN_BERRY
+	jp nc,.healHP
 	cp a,REVIVE
 	jp nc,.healHP ; if it's a Revive or Max Revive
 	cp a,FULL_HEAL
@@ -940,28 +940,28 @@ ItemUseMedicine:
 	lb bc, ANTIDOTE_MSG, 1 << PSN
 	cp a,ANTIDOTE
 	jr z,.checkMonStatus
-	; cp a,PECHA_BERRY
-	; jr z,.checkMonStatus
+	cp a,PECHA_BERRY
+	jr z,.checkMonStatus
 	lb bc, BURN_HEAL_MSG, 1 << BRN
 	cp a,BURN_HEAL
 	jr z,.checkMonStatus
-	; cp a,RAWST_BERRY
-	; jr z,.checkMonStatus
+	cp a,RAWST_BERRY
+	jr z,.checkMonStatus
 	lb bc, ICE_HEAL_MSG, 1 << FRZ
 	cp a,ICE_HEAL
 	jr z,.checkMonStatus
-	; cp a,ASPEAR_BERRY
-	; jr z,.checkMonStatus
+	cp a,ASPEAR_BERRY
+	jr z,.checkMonStatus
 	lb bc, AWAKENING_MSG, SLP
 	cp a,AWAKENING
 	jr z,.checkMonStatus
-	; cp a,CHESTO_BERRY
-	; jr z,.checkMonStatus
+	cp a,CHESTO_BERRY
+	jr z,.checkMonStatus
 	lb bc, PARALYZ_HEAL_MSG, 1 << PAR
 	cp a,PARLYZ_HEAL
 	jr z,.checkMonStatus
-	; cp a,CHERI_BERRY
-	; jr z,.checkMonStatus
+	cp a,CHERI_BERRY
+	jr z,.checkMonStatus
 	lb bc, FULL_HEAL_MSG, $ff ; Full Heal or Lum Berry
 .checkMonStatus
 	ld a,[hl] ; pokemon's status
@@ -1152,11 +1152,11 @@ ItemUseMedicine:
 	jr .addHealAmount
 .notUsingSoftboiled2
 	ld a,[wcf91]
-	; cp a,SITRUS_BERRY
-	; ld b,30
-	; jr z,.addHealAmount
-	; cp a,ORAN_BERRY
-	; ld b,10
+	cp a,SITRUS_BERRY
+	ld b,30
+	jr z,.addHealAmount
+	cp a,ORAN_BERRY
+	ld b,10
 	jr z,.addHealAmount
 	cp a,SODA_POP
 	ld b,60 ; Soda Pop heal amount
