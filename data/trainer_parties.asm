@@ -77,11 +77,11 @@ BrockData:
 	db "Brock@"
 	db SPECIAL_TRAINER
 	
-	db 12,GEODUDE
-	moveset TACKLE, DEFENSE_CURL, 0, 0
+	db 14,OMANYTE
+	moveset SPIKE_CANNON, ROCK_BLAST, WITHDRAW, POWDER_SNOW
 	
-	db 14,ONIX
-	moveset TACKLE, BIND, HARDEN, ROCK_THROW
+	db 16,ONIX
+	moveset TACKLE, LEER, ROCK_THROW, HARDEN
 	db $FF
 	
 MistyData:
