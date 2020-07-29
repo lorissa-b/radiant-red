@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/radiant-red/static/css/main.5f361e03.chunk.css",
-    "main.js": "/radiant-red/static/js/main.32c53f47.chunk.js",
-    "main.js.map": "/radiant-red/static/js/main.32c53f47.chunk.js.map",
+    "main.js": "/radiant-red/static/js/main.779b4234.chunk.js",
+    "main.js.map": "/radiant-red/static/js/main.779b4234.chunk.js.map",
     "runtime-main.js": "/radiant-red/static/js/runtime-main.f4d68672.js",
     "runtime-main.js.map": "/radiant-red/static/js/runtime-main.f4d68672.js.map",
-    "static/js/2.4ea58370.chunk.js": "/radiant-red/static/js/2.4ea58370.chunk.js",
-    "static/js/2.4ea58370.chunk.js.map": "/radiant-red/static/js/2.4ea58370.chunk.js.map",
+    "static/js/2.3e88bcda.chunk.js": "/radiant-red/static/js/2.3e88bcda.chunk.js",
+    "static/js/2.3e88bcda.chunk.js.map": "/radiant-red/static/js/2.3e88bcda.chunk.js.map",
     "index.html": "/radiant-red/index.html",
-    "precache-manifest.5e597ef753e7837f2ad5824938ecd7e2.js": "/radiant-red/precache-manifest.5e597ef753e7837f2ad5824938ecd7e2.js",
+    "precache-manifest.af91a56d4a4423087e7a9c34a908510c.js": "/radiant-red/precache-manifest.af91a56d4a4423087e7a9c34a908510c.js",
     "service-worker.js": "/radiant-red/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/radiant-red/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4ea58370.chunk.js.LICENSE.txt": "/radiant-red/static/js/2.4ea58370.chunk.js.LICENSE.txt"
+    "static/js/2.3e88bcda.chunk.js.LICENSE.txt": "/radiant-red/static/js/2.3e88bcda.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f4d68672.js",
-    "static/js/2.4ea58370.chunk.js",
+    "static/js/2.3e88bcda.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.32c53f47.chunk.js"
+    "static/js/main.779b4234.chunk.js"
   ]
 }
