@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4bfdac08cda96fad10772a08bec9ae0",
+    "revision": "3375ae5ccaf97aecf1bf7671833114c2",
     "url": "/radiant-red/index.html"
   },
   {
-    "revision": "e2f4d20dca539facbf2a",
+    "revision": "bccafa15a1934cf2b6f8",
     "url": "/radiant-red/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "ca0b7dcbae0ace816598",
-    "url": "/radiant-red/static/js/2.ac6aaf6e.chunk.js"
+    "revision": "9645cdb2b635410b8f5e",
+    "url": "/radiant-red/static/js/2.72c59748.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/radiant-red/static/js/2.ac6aaf6e.chunk.js.LICENSE.txt"
+    "url": "/radiant-red/static/js/2.72c59748.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2f4d20dca539facbf2a",
-    "url": "/radiant-red/static/js/main.46e7c9e2.chunk.js"
+    "revision": "bccafa15a1934cf2b6f8",
+    "url": "/radiant-red/static/js/main.1be06512.chunk.js"
   },
   {
     "revision": "a6536b2503b4f5e04448",
