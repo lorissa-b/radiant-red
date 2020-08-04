@@ -251,7 +251,7 @@ _PhysicalSpecialSplit:: ;Determines if a move is Physical or Special
 	db SPECIAL ;Power Gem
 	db PHYSICAL;Rock Blast
 	db OTHER_M ;Rock Polish
-	db PHYSICAL;Rock Tomb
+	db PHYSICAL;Rock Blast
 	db PHYSICAL;Dynamicpunch
 	db PHYSICAL;Circle Throw
 	db PHYSICAL;Cross Chop

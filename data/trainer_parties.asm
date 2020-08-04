@@ -692,9 +692,9 @@ YoungsterData:
 	db "Nash@",17,SPEAROW,RATTATA,RATTATA,SPEAROW,$FF
 	
 BugCatcherData:
-	db "Luke@",6,WEEDLE,CATERPIE,$FF
-	db "Finn@",7,WEEDLE,KAKUNA,WEEDLE,$FF
-	db "Jake@",9,WEEDLE,$FF
+	db "Luke@",6,PARAS,CATERPIE,$FF ; Viridian Forest #1
+	db "Finn@",7,WEEDLE,KAKUNA,WEEDLE,$FF ; Viridian Forest #2
+	db "Jake@",9,CATERPIE,$FF ; Viridian Forest #3
 	db "David@",10,CATERPIE,WEEDLE,CATERPIE,$FF
 	db "Lou@",9,WEEDLE,KAKUNA,CATERPIE,METAPOD,$FF
 	db "Larry@",11,CATERPIE,METAPOD,$FF
@@ -738,7 +738,7 @@ SailorData:
 	db "Hans@",21,PIKACHU,PIKACHU,$FF
 	
 CamperData:
-	db "Daniel@",9,DIGLETT,SANDSHREW,$FF
+	db "Daniel@",10,GEODUDE,SANDSHREW,RHYHORN,$FF
 	db "Craig@",14,POLIWAG,GOLDEEN,$FF
 	db "Harry@",18,MANKEY,$FF
 	db "Ronald@",20,SQUIRTLE,$FF

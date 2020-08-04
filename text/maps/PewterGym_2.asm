@@ -39,7 +39,7 @@ _TM34ExplanationText::
 	line "again and again!"
 
 	para "TM36 contains"
-	line "Rock Tomb."
+	line "Rock Blast."
 
 	para "It reduces your"
 	line "opponent's speed,"

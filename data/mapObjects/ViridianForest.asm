@@ -17,14 +17,15 @@ ViridianForestObject:
 	db $2d, $12, $e ; ViridianForestText13
 	db $1, $2, $f ; ViridianForestText14
 
-	db $9 ; objects
+	db $a ; objects
 	object SPRITE_BUG_CATCHER, $10, $2b, STAY, NONE, $1 ; person
 	object SPRITE_BUG_CATCHER, $1e, $21, STAY, LEFT, $2, OPP_BUG_CATCHER, $1
 	object SPRITE_BUG_CATCHER, $1e, $13, STAY, LEFT, $3, OPP_BUG_CATCHER, $2
-	object SPRITE_BUG_CATCHER, $2, $12, STAY, LEFT, $4, OPP_BUG_CATCHER, $3
+	object SPRITE_BUG_CATCHER, $3, $12, STAY, LEFT, $4, OPP_BUG_CATCHER, $3
 	object SPRITE_BALL, $19, $b, STAY, NONE, $5, ANTIDOTE
 	object SPRITE_BALL, $c, $1d, STAY, NONE, $6, POTION
 	object SPRITE_BALL, $1, $1f, STAY, NONE, $7, POKE_BALL
+	object SPRITE_BALL, $14, $1a, STAY, NONE, $a, NUGGET
 	object SPRITE_BUG_CATCHER, $1b, $28, STAY, NONE, $8 ; person
 	object SPRITE_BERRY_TREE, $1e, $4, STAY, NONE, $9
 

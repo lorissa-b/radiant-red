@@ -150,6 +150,7 @@ StatusAilmentMoveEffects:
 	db SLEEP_EFFECT
 	db POISON_EFFECT
 	db PARALYZE_EFFECT
+	db BURN_EFFECT
 	db $FF
 
 SmartAI: ; originally by Dabomstew
@@ -366,6 +367,7 @@ LightBuffStatusMoves:
 	db POISON_GAS
 	db FLASH
 	db SAND_ATTACK
+	db CHARM
 	db $FF
 	
 HeavyBuffStatusMoves:
@@ -381,12 +383,16 @@ HeavyBuffStatusMoves:
 	db GLARE
 	db CONFUSE_RAY
 	db SUPERSONIC
+	db IRON_DEFENSE
+	db DRAGON_DANCE
 	db $FF
 	
 HealingMoves:
 	db REST
 	db RECOVER
 	db SOFTBOILED
+	db MOONLIGHT
+	db SYNTHESIS
 	db $FF
 	
 StatusOnlyMoves:
@@ -403,6 +409,7 @@ StatusOnlyMoves:
 	db LOVELY_KISS
 	db SPORE
 	db SING
+	db WILL_O_WISP
 	db $FF
 	
 AlterMovePriority:
@@ -811,7 +818,7 @@ ELSE
 	dbw 2,XAttack2AI ; ace trainerm
 	dbw 1,SwitchOrHyperPotionAI ; ace trainerf
 	dbw 2,XDefendAI ; bruno
-	dbw 5,FullHealAI ; brock
+	dbw 2,FullHealOrPotionAI ; brock
 	dbw 1,XDefendAI ; misty
 	dbw 1,XSpeedAI ; surge
 	dbw 1,SuperPotion1AI ; erika

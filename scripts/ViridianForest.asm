@@ -20,6 +20,7 @@ ViridianForestTextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
+	dw PickUpItemText
 	dw ViridianForestText8
    	dw ViridianForestTree1
 	dw ViridianForestText9

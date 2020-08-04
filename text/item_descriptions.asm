@@ -832,7 +832,7 @@ _TM35Description::
 	prompt
 
 _TM36Description::
-	text "TM36 - Rock Tomb"
+	text "TM36 - Rock Blast"
 	prompt
 
 _TM37Description::
@@ -1590,7 +1590,7 @@ _TM35Description_Mart::
 	done
 
 _TM36Description_Mart::
-	text "TM36 - Rock Tomb"
+	text "TM36 - Rock Blast"
 	done
 
 _TM37Description_Mart::

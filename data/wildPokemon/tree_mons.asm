@@ -53,14 +53,14 @@ IF DEF(_HARD) ; Hard Version
 ELSE ; Normal Version
 	db 10, CATERPIE
 	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
-	db 10, KAKUNA
 	db 10, METAPOD
-	db 10, PARAS
-	db 10, SPEAROW
-	db 10, BEEDRILL
+	db 10, METAPOD
 	db 10, BUTTERFREE
+	db 10, BUTTERFREE
+	db 10, SPEAROW
+	db 10, SPEAROW
+	db 10, BELLSPROUT
+	db 10, BELLSPROUT
 ENDC
 
 TreeMons2:
@@ -76,16 +76,16 @@ IF DEF(_HARD) ; Hard Version
 	db 15, ODDISH
 	db 15, ODDISH
 ELSE ; Normal Version
+	db 10, WEEDLE
+	db 10, WEEDLE
+	db 10, KAKUNA
+	db 10, KAKUNA
+	db 10, BEEDRILL
+	db 10, BEEDRILL
 	db 10, PIDGEY
 	db 10, PIDGEY
-	db 10, SPEAROW
-	db 10, SPEAROW
-	db 10, VENONAT
-	db 10, VENONAT
-	db 10, EKANS
-	db 10, EKANS
-	db 10, ODDISH
-	db 10, ODDISH
+	db 10, TANGELA
+	db 10, TANGELA
 ENDC
 
 TreeMons3:
