@@ -18,11 +18,11 @@ dw ZubatPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,4,6,8
-	tmlearn 9,10
-	tmlearn 21
-	tmlearn 30,31,32
-	tmlearn 33,34,39
-	tmlearn 41,42,43,44
-	tmlearn 52
+	tmlearn 4,6
+	tmlearn 10,16
+	tmlearn 18,23
+	tmlearn 0
+	tmlearn 34,39
+	tmlearn 44,46
+	tmlearn 0
 db BANK(ZubatPicFront)

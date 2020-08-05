@@ -18,11 +18,11 @@ dw CharmeleonPicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,2,3,5,6,8
-	tmlearn 9,10,16
-	tmlearn 17,18,19,20,22,23
-	tmlearn 26,27,28,31,32
-	tmlearn 33,34,37,38,39,40
-	tmlearn 41,44
-	tmlearn 51,54
+	tmlearn 1,3,6
+	tmlearn 9,15,16
+	tmlearn 19
+	tmlearn 30
+	tmlearn 37,38,40
+	tmlearn 44
+	tmlearn 0
 db BANK(CharmeleonPicFront)

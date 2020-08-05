@@ -18,11 +18,11 @@ dw BeedrillPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,4,6
-	tmlearn 9,10,15
+	tmlearn 4,6,7
+	tmlearn 10,14
 	tmlearn 0
-	tmlearn 32
-	tmlearn 33,39
-	tmlearn 41,44
-	tmlearn 50,51
+	tmlearn 31
+	tmlearn 34
+	tmlearn 44
+	tmlearn 0
 db BANK(BeedrillPicFront)

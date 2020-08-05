@@ -18,7 +18,7 @@ dw WeedlePicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 0
+	tmlearn 6,7
 	tmlearn 0
 	tmlearn 0
 	tmlearn 0

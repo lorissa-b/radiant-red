@@ -18,11 +18,11 @@ dw WartortlePicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,11,12,13,14,16
-	tmlearn 17,18,19
-	tmlearn 26,27,28,31,32
-	tmlearn 33,34,36,40
-	tmlearn 44,48
-	tmlearn 53,54,55
+	tmlearn 1,6
+	tmlearn 11,12,13,16
+	tmlearn 22
+	tmlearn 26,32
+	tmlearn 35
+	tmlearn 41,44,47
+	tmlearn 0
 db BANK(WartortlePicFront)

@@ -18,11 +18,11 @@ dw ButterfreePicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6
-	tmlearn 9,10,15
-	tmlearn 21,22
-	tmlearn 29,39,31,32
-	tmlearn 33,34,39
-	tmlearn 41,42,43,44,46
-	tmlearn 50
+	tmlearn 2,6,7
+	tmlearn 10
+	tmlearn 21
+	tmlearn 29,30
+	tmlearn 34,39
+	tmlearn 42,46
+	tmlearn 0
 db BANK(ButterfreePicFront)

@@ -19,10 +19,10 @@ dw PidgeyPicBack
 db 3 ; growth rate
 ; learnset
 	tmlearn 4,6
-	tmlearn 9,10
+	tmlearn 16
+	tmlearn 19
 	tmlearn 0
-	tmlearn 31,32
-	tmlearn 33,34,39
-	tmlearn 41,43,44
-	tmlearn 52
+	tmlearn 34,39,40
+	tmlearn 44
+	tmlearn 0
 db BANK(PidgeyPicFront)

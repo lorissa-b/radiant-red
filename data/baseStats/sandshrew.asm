@@ -18,11 +18,11 @@ dw SandshrewPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,3,6,8
-	tmlearn 9,10,16
-	tmlearn 17,18,19,20
-	tmlearn 26,27,28,31,32
-	tmlearn 34,36,39,40
-	tmlearn 44,48
-	tmlearn 51,54
+	tmlearn 6
+	tmlearn 16
+	tmlearn 18,20,22
+	tmlearn 26,27,28,31
+	tmlearn 36,40
+	tmlearn 45
+	tmlearn 0
 db BANK(SandshrewPicFront)

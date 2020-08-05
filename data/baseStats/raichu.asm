@@ -18,11 +18,11 @@ dw RaichuPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15,16
-	tmlearn 17,18,19,24
-	tmlearn 25,31,32
-	tmlearn 33,34,39,40
-	tmlearn 44,45
-	tmlearn 50,54
+	tmlearn 1,5,6
+	tmlearn 16
+	tmlearn 23,24
+	tmlearn 25
+	tmlearn 33
+	tmlearn 44
+	tmlearn 0
 db BANK(RaichuPicFront)

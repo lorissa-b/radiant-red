@@ -19,10 +19,10 @@ dw FearowPicBack
 db 0 ; growth rate
 ; learnset
 	tmlearn 4,6
-	tmlearn 9,10,15
+	tmlearn 10,16
+	tmlearn 19
 	tmlearn 0
-	tmlearn 31,32
-	tmlearn 34,39
-	tmlearn 41,44
-	tmlearn 52
+	tmlearn 34,40
+	tmlearn 44
+	tmlearn 0
 db BANK(FearowPicFront)

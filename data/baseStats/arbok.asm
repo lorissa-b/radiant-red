@@ -18,11 +18,11 @@ dw ArbokPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,15,16
-	tmlearn 21
-	tmlearn 26,27,28,31,32
-	tmlearn 34,40
-	tmlearn 43,44,48
-	tmlearn 54
+	tmlearn 6
+	tmlearn 15,16
+	tmlearn 19
+	tmlearn 26,28
+	tmlearn 39
+	tmlearn 44
+	tmlearn 0
 db BANK(ArbokPicFront)
