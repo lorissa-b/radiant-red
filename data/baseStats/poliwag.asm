@@ -18,11 +18,11 @@ dw PoliwagPicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,11,12,13,14
-	tmlearn 17,18,19
-	tmlearn 26,27,28,29,30,31,32
-	tmlearn 34,40
-	tmlearn 44,46
-	tmlearn 53,54,55
+	tmlearn 1,2,6
+	tmlearn 11,12,13,14,16
+	tmlearn 17,22
+	tmlearn 30,32
+	tmlearn 35
+	tmlearn 41,44
+	tmlearn 0
 db BANK(PoliwagPicFront)

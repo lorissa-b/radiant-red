@@ -18,11 +18,11 @@ dw ShellderPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 6,7
-	tmlearn 9,10,11,12,13,14
+	tmlearn 6
+	tmlearn 11,12,13
+	tmlearn 22,23
+	tmlearn 31
+	tmlearn 35,39
+	tmlearn 41,47
 	tmlearn 0
-	tmlearn 30,31,32
-	tmlearn 33,39
-	tmlearn 44,47
-	tmlearn 53,55
 db BANK(ShellderPicFront)

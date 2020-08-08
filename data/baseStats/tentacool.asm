@@ -18,11 +18,11 @@ dw TentacoolPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 3,6
-	tmlearn 9,10,11,12,13,14
-	tmlearn 21
-	tmlearn 30,31,32
-	tmlearn 33,34,40
-	tmlearn 44,45,46
-	tmlearn 49,50,51,53,55
+	tmlearn 6
+	tmlearn 11,13,15,16
+	tmlearn 22,23
+	tmlearn 29,31
+	tmlearn 35,41
+	tmlearn 47
+	tmlearn 0
 db BANK(TentacoolPicFront)

@@ -18,11 +18,11 @@ dw PsyduckPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,3,5,6,8
-	tmlearn 9,10,11,12,13,14,16
-	tmlearn 17,18,19,20
-	tmlearn 28,29,31,32
-	tmlearn 34,39,40
-	tmlearn 41,44,46
-	tmlearn 50,53,54,55
+	tmlearn 1,6
+	tmlearn 11,12,13
+	tmlearn 22
+	tmlearn 29,32
+	tmlearn 35,39
+	tmlearn 41,46,47
+	tmlearn 0
 db BANK(PsyduckPicFront)

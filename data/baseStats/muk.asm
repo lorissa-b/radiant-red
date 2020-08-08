@@ -18,11 +18,11 @@ dw MukPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,6,8
-	tmlearn 9,10,12,15
-	tmlearn 21,24
-	tmlearn 25,28,31,32
-	tmlearn 34,36,37,38
-	tmlearn 44,47,48
-	tmlearn 54
+	tmlearn 1,6
+	tmlearn 9,15,16
+	tmlearn 18,20,24
+	tmlearn 26
+	tmlearn 38
+	tmlearn 44,46
+	tmlearn 0
 db BANK(MukPicFront)

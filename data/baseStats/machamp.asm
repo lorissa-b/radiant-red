@@ -18,11 +18,11 @@ dw MachampPicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15
-	tmlearn 17,18,19
-	tmlearn 26,27,28,31,32
-	tmlearn 34,36,37,38,40
-	tmlearn 44,48
-	tmlearn 54
+	tmlearn 1,5,6
+	tmlearn 9,14,16
+	tmlearn 17,20
+	tmlearn 30,32
+	tmlearn 33
+	tmlearn 44
+	tmlearn 0
 db BANK(MachampPicFront)

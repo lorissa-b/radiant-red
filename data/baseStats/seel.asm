@@ -18,11 +18,11 @@ dw SeelPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,7,8
-	tmlearn 9,10,11,12,13,14,16
+	tmlearn 6
+	tmlearn 11,12,13,16
+	tmlearn 22,24
+	tmlearn 29
+	tmlearn 35
+	tmlearn 44,47
 	tmlearn 0
-	tmlearn 31,32
-	tmlearn 33,34,40
-	tmlearn 44
-	tmlearn 53,55
 db BANK(SeelPicFront)

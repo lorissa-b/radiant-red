@@ -18,11 +18,11 @@ dw PersianPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,11,12,15,16
-	tmlearn 20,24
-	tmlearn 25,28,30,31,32
-	tmlearn 34,39,40
-	tmlearn 41,42,43,44
-	tmlearn 50,51,54
+	tmlearn 5,6
+	tmlearn 9,11,13,16
+	tmlearn 24
+	tmlearn 28,30,32
+	tmlearn 33,39,40
+	tmlearn 44
+	tmlearn 49
 db BANK(PersianPicFront)

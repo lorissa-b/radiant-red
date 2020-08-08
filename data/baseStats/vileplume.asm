@@ -18,11 +18,11 @@ dw VileplumePicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 3,6,8
-	tmlearn 9,10,15
-	tmlearn 21,22
-	tmlearn 31,32
-	tmlearn 33,34
-	tmlearn 43,44
-	tmlearn 49,50,51
+	tmlearn 2,6,8
+	tmlearn 10,16
+	tmlearn 21
+	tmlearn 26
+	tmlearn 39
+	tmlearn 43
+	tmlearn 0
 db BANK(VileplumePicFront)

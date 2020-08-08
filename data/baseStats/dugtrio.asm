@@ -18,11 +18,11 @@ dw DugtrioPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,15
-	tmlearn 20
-	tmlearn 26,27,28,31,32
+	tmlearn 6
+	tmlearn 16
+	tmlearn 18,20,22,23
+	tmlearn 26,27,28,31
 	tmlearn 34,36
-	tmlearn 41,44,48
-	tmlearn 51
+	tmlearn 0
+	tmlearn 49
 db BANK(DugtrioPicFront)

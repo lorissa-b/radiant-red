@@ -18,11 +18,11 @@ dw GeodudePicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,6,8
-	tmlearn 9,10
-	tmlearn 17,18,19
-	tmlearn 26,27,28,31,32
-	tmlearn 34,36,37,38
-	tmlearn 44,47,48
-	tmlearn 54
+	tmlearn 1,6
+	tmlearn 9,14,16
+	tmlearn 18,20,23
+	tmlearn 26,27,28,31
+	tmlearn 36
+	tmlearn 44,45,58
+	tmlearn 0
 db BANK(GeodudePicFront)

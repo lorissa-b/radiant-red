@@ -18,11 +18,11 @@ dw BellsproutPicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 3,6
-	tmlearn 9,10
-	tmlearn 21,22
-	tmlearn 31,32
-	tmlearn 33
-	tmlearn 44
-	tmlearn 50,51
+	tmlearn 6,7,8
+	tmlearn 10,16
+	tmlearn 19,21,24
+	tmlearn 0
+	tmlearn 34
+	tmlearn 43
+	tmlearn 49
 db BANK(BellsproutPicFront)

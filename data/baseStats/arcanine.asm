@@ -18,11 +18,11 @@ dw ArcaninePicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,15,16
-	tmlearn 18,22,23
-	tmlearn 28,32
-	tmlearn 33,34,37,38,39,40
-	tmlearn 41,44
-	tmlearn 54
+	tmlearn 6
+	tmlearn 15,16
+	tmlearn 18,19,24
+	tmlearn 28
+	tmlearn 37,38,40
+	tmlearn 44
+	tmlearn 0
 db BANK(ArcaninePicFront)

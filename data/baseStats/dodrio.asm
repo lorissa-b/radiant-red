@@ -18,11 +18,11 @@ dw DodrioPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,4,5,6,8
-	tmlearn 9,10,15
+	tmlearn 4,5,6
+	tmlearn 16
 	tmlearn 0
-	tmlearn 31,32
-	tmlearn 33,34,40
-	tmlearn 41,44
-	tmlearn 52
+	tmlearn 26
+	tmlearn 34,39,40
+	tmlearn 44
+	tmlearn 49
 db BANK(DodrioPicFront)

@@ -18,11 +18,11 @@ dw HaunterPicBack
 	m_tutor 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10
-	tmlearn 17,18,19,21,24
-	tmlearn 25,29,30,31,32
-	tmlearn 40
-	tmlearn 42,43,44,46,47
-	tmlearn 49,54
+	tmlearn 1,6
+	tmlearn 9,16
+	tmlearn 24
+	tmlearn 26,29,30,32
+	tmlearn 33,38,39,40
+	tmlearn 42,46
+	tmlearn 49
 db BANK(HaunterPicFront)

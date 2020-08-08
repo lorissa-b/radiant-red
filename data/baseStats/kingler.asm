@@ -18,11 +18,11 @@ dw KinglerPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,6,8
-	tmlearn 9,10,11,12,13,14,15
-	tmlearn 20
-	tmlearn 26,27,28,31,32
-	tmlearn 34,36
-	tmlearn 44
-	tmlearn 51,53,54,55
+	tmlearn 6,7
+	tmlearn 11,14,16
+	tmlearn 20,22
+	tmlearn 0
+	tmlearn 34,35,40
+	tmlearn 41,44
+	tmlearn 0
 db BANK(KinglerPicFront)
