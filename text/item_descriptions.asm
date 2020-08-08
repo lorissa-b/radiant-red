@@ -682,16 +682,16 @@ _HM05Description::
 
 _TM01Description::
 	text "TM01 -"
-	line "DynamicPunch"
+	line "Mega Punch"
 	prompt
 
 _TM02Description::
-	text "TM02 - Dragon Claw"
+	text "TM02 - Moonblast"
 	prompt
 
 _TM03Description::
 	text "TM03 -"
-	line "Swords Dance"
+	line "DragonBreath"
 	prompt
 
 _TM04Description::
@@ -707,20 +707,22 @@ _TM06Description::
 	prompt
 
 _TM07Description::
-	text "TM07 - Horn Drill"
+	text "TM07 -"
+	line "X-Scissor"
 	prompt
 
 _TM08Description::
-	text "TM08 - Body Slam"
+	text "TM08 -"
+	line "Magical Leaf"
 	prompt
 
 _TM09Description::
-	text "TM09 - Take Down"
+	text "TM09 - Fire Punch"
 	prompt
 
 _TM10Description::
 	text "TM10 - "
-	line "Double Edge"
+	line "Silver Wind"
 	prompt
 
 _TM11Description::
@@ -730,7 +732,7 @@ _TM11Description::
 
 _TM12Description::
 	text "TM12 -"
-	line "Muddy Water"
+	line "Powder Snow"
 	prompt
 
 _TM13Description::
@@ -738,7 +740,8 @@ _TM13Description::
 	prompt
 
 _TM14Description::
-	text "TM14 - Blizzard"
+	text "TM14 -"
+	line "Sky Uppercut"
 	prompt
 
 _TM15Description::
@@ -746,7 +749,7 @@ _TM15Description::
 	prompt
 
 _TM16Description::
-	text "TM16 - Iron Tail"
+	text "TM16 - Body Slam"
 	prompt
 
 _TM17Description::
@@ -754,16 +757,17 @@ _TM17Description::
 	prompt
 
 _TM18Description::
-	text "TM18 - Counter"
+	text "TM18 -"
+	line "AncientPower"
 	prompt
 
 _TM19Description::
 	text "TM19 -"
-	line "Seismic Toss"
+	line "Dragon Dance"
 	prompt
 
 _TM20Description::
-	text "TM20 - Metal Claw"
+	text "TM20 - Mud Shot"
 	prompt
 
 _TM21Description::
@@ -771,12 +775,12 @@ _TM21Description::
 	prompt
 
 _TM22Description::
-	text "TM22 - Solar Beam"
+	text "TM22 - Muddy Water"
 	prompt
 
 _TM23Description::
 	text "TM23 -"
-	line "DragonBreath"
+	line "Flash Cannon"
 	prompt
 
 _TM24Description::
@@ -806,29 +810,31 @@ _TM29Description::
 
 _TM30Description::
 	text "TM30 -"
-	line "Shadow Ball"
+	line "Shadow Punch"
 	prompt
 
 _TM31Description::
-	text "TM31 - Mimic"
+	text "TM31 -"
+	line "Power Gem"
 	prompt
 
 _TM32Description::
-	text "TM32 -"
-	line "Double Team"
+	text "TM32 - Ice Punch"
 	prompt
 
 _TM33Description::
-	text "TM33 - Reflect"
+	text "TM33 -"
+	line "ThunderPunch"
 	prompt
 
 _TM34Description::
-	text "TM34 - Headbutt"
+	text "TM34 -"
+	line "Aerial Ace"
 	prompt
 
 _TM35Description::
 	text "TM35 -"
-	line "AncientPower"
+	line "Hydro Pump"
 	prompt
 
 _TM36Description::
@@ -836,12 +842,12 @@ _TM36Description::
 	prompt
 
 _TM37Description::
-	text "TM37 -"
-	line "Flamethrower"
+	text "TM37 - Fire Blast"
 	prompt
 
 _TM38Description::
-	text "TM38 - Fire Blast"
+	text "TM38 -"
+	line "Flamethrower"
 	prompt
 
 _TM39Description::
@@ -849,12 +855,11 @@ _TM39Description::
 	prompt
 
 _TM40Description::
-	text "TM40 - Skull Bash"
+	text "TM40 - Dragon Claw"
 	prompt
 
 _TM41Description::
-	text "TM41 -"
-	line "Aerial Ace"
+	text "TM41 - Scald"
 	prompt
 
 _TM42Description::
@@ -863,24 +868,26 @@ _TM42Description::
 	prompt
 
 _TM43Description::
-	text "TM43 - Dark Pulse"
+	text "TM43 -"
+	line "Solar Beam"
 	prompt
 
 _TM44Description::
-	text "TM44 - Rest"
+	text "TM44 - Iron head"
 	prompt
 
 _TM45Description::
 	text "TM45 -"
-	line "Thunder Wave"
+	line "Rock Throw"
 	prompt
 
 _TM46Description::
-	text "TM46 - Psywave"
+	text "TM46 -"
+	line "Extrasensory"
 	prompt
 
 _TM47Description::
-	text "TM47 - Explosion"
+	text "TM47 - Blizzard"
 	prompt
 
 _TM48Description::
@@ -889,7 +896,7 @@ _TM48Description::
 
 _TM49Description::
 	text "TM49 -"
-	line "DazzlinGleam"
+	line "Tri Attack"
 	prompt
 
 _TM50Description::
@@ -1444,12 +1451,12 @@ _TM01Description_Mart::
 	done
 
 _TM02Description_Mart::
-	text "TM02 - Dragon Claw"
+	text "TM02 - Moonblast"
 	done
 
 _TM03Description_Mart::
 	text "TM03 -"
-	line "Swords Dance"
+	line "DragonBreath"
 	done
 
 _TM04Description_Mart::
@@ -1465,20 +1472,22 @@ _TM06Description_Mart::
 	done
 
 _TM07Description_Mart::
-	text "TM07 - Horn Drill"
+	text "TM07 -"
+	line "X-Scissor"
 	done
 
 _TM08Description_Mart::
-	text "TM08 - Body Slam"
+	text "TM08 -"
+	line "Magical Leaf"
 	done
 
 _TM09Description_Mart::
-	text "TM09 - Take Down"
+	text "TM09 - Fire Punch"
 	done
 
 _TM10Description_Mart::
 	text "TM10 - "
-	line "Double Edge"
+	line "Silver Wind"
 	done
 
 _TM11Description_Mart::
@@ -1488,7 +1497,7 @@ _TM11Description_Mart::
 
 _TM12Description_Mart::
 	text "TM12 -"
-	line "Muddy Water"
+	line "Powder Snow"
 	done
 
 _TM13Description_Mart::
@@ -1496,7 +1505,8 @@ _TM13Description_Mart::
 	done
 
 _TM14Description_Mart::
-	text "TM14 - Blizzard"
+	text "TM14 -"
+	line "Sky Uppercut"
 	done
 
 _TM15Description_Mart::
@@ -1504,7 +1514,7 @@ _TM15Description_Mart::
 	done
 
 _TM16Description_Mart::
-	text "TM16 - Iron Tail"
+	text "TM16 - Body Slam"
 	done
 
 _TM17Description_Mart::
@@ -1512,16 +1522,17 @@ _TM17Description_Mart::
 	done
 
 _TM18Description_Mart::
-	text "TM18 - Counter"
+	text "TM18 -"
+	line "Ancient Power"
 	done
 
 _TM19Description_Mart::
 	text "TM19 -"
-	line "Seismic Toss"
+	line "Dragon Dance"
 	done
 
 _TM20Description_Mart::
-	text "TM20 - Metal Claw"
+	text "TM20 - Mud Shot"
 	done
 
 _TM21Description_Mart::
@@ -1529,12 +1540,13 @@ _TM21Description_Mart::
 	done
 
 _TM22Description_Mart::
-	text "TM22 - Solar Beam"
+	text "TM22 -"
+	line "Muddy Water"
 	done
 
 _TM23Description_Mart::
 	text "TM23 -"
-	line "DragonBreath"
+	line "Flash Cannon"
 	done
 
 _TM24Description_Mart::
@@ -1564,29 +1576,30 @@ _TM29Description_Mart::
 
 _TM30Description_Mart::
 	text "TM30 -"
-	line "Shadow Ball"
+	line "Shadow Punch"
 	done
 
 _TM31Description_Mart::
-	text "TM31 - Mimic"
+	text "TM31 -"
+	line "Power Gem"
 	done
 
 _TM32Description_Mart::
-	text "TM32 -"
-	line "Double Team"
+	text "TM32 - Ice Punch"
 	done
 
 _TM33Description_Mart::
-	text "TM33 - Reflect"
+	text "TM33 -"
+	line "Thunder Punch"
 	done
 
 _TM34Description_Mart::
-	text "TM34 - Headbutt"
+	text "TM34 -"
+	line "Aerial Ace"
 	done
 
 _TM35Description_Mart::
-	text "TM35 -"
-	line "AncientPower"
+	text "TM35 - Hydro Pump"
 	done
 
 _TM36Description_Mart::
@@ -1594,12 +1607,12 @@ _TM36Description_Mart::
 	done
 
 _TM37Description_Mart::
-	text "TM37 -"
-	line "Flamethrower"
+	text "TM37 - Fire Blast"
 	done
 
 _TM38Description_Mart::
-	text "TM38 - Fire Blast"
+	text "TM38 -"
+	line "Flamethrower"
 	done
 
 _TM39Description_Mart::
@@ -1612,7 +1625,7 @@ _TM40Description_Mart::
 
 _TM41Description_Mart::
 	text "TM41 -"
-	line "Aerial Ace"
+	line "Dragon Claw"
 	done
 
 _TM42Description_Mart::
@@ -1621,24 +1634,25 @@ _TM42Description_Mart::
 	done
 
 _TM43Description_Mart::
-	text "TM43 - Dark Pulse"
+	text "TM43 - Solar Beam"
 	done
 
 _TM44Description_Mart::
-	text "TM44 - Rest"
+	text "TM44 - Iron Head"
 	done
 
 _TM45Description_Mart::
 	text "TM45 -"
-	line "Thunder Wave"
+	line "Rock Throw"
 	done
 
 _TM46Description_Mart::
-	text "TM46 - Psywave"
+	text "TM46 -"
+	line "Extrasensory"
 	done
 
 _TM47Description_Mart::
-	text "TM47 - Explosion"
+	text "TM47 - Blizzard"
 	done
 
 _TM48Description_Mart::
@@ -1647,7 +1661,7 @@ _TM48Description_Mart::
 
 _TM49Description_Mart::
 	text "TM49 -"
-	line "DazzlinGleam"
+	line "Tri Attack"
 	done
 
 _TM50Description_Mart::
