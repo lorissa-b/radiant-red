@@ -18,11 +18,11 @@ dw VaporeonPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 5,6,8
-	tmlearn 9,10,11,12,13,14,15,16
-	tmlearn 0
-	tmlearn 28,30,31,32
-	tmlearn 33,34,39,40
-	tmlearn 44
-	tmlearn 53,54,55
+	tmlearn 5,6
+	tmlearn 11,12,13,16
+	tmlearn 19,22
+	tmlearn 31
+	tmlearn 35
+	tmlearn 41,44,47
+	tmlearn 49
 db BANK(VaporeonPicFront)

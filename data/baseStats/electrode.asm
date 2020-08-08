@@ -19,10 +19,10 @@ dw ElectrodePicBack
 db 0 ; growth rate
 ; learnset
 	tmlearn 6
-	tmlearn 9,15
-	tmlearn 24
-	tmlearn 25,31,32
-	tmlearn 33,34,39,40
-	tmlearn 44,45,47
-	tmlearn 50
+	tmlearn 16
+	tmlearn 23,24
+	tmlearn 25,31
+	tmlearn 39
+	tmlearn 44
+	tmlearn 49
 db BANK(ElectrodePicFront)

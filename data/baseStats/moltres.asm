@@ -18,11 +18,11 @@ dw MoltresPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 4,6
-	tmlearn 9,10,15
-	tmlearn 22,23
-	tmlearn 31,32
-	tmlearn 33,34,37,38,39
-	tmlearn 41,44
-	tmlearn 50,52
+	tmlearn 2,4,6
+	tmlearn 15,16
+	tmlearn 19,23
+	tmlearn 29,31
+	tmlearn 34,37,38,39,40
+	tmlearn 44
+	tmlearn 0
 db BANK(MoltresPicFront)

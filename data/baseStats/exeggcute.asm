@@ -18,11 +18,11 @@ dw ExeggcutePicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 3,6
-	tmlearn 9,10
-	tmlearn 21,22
-	tmlearn 29,31,32
-	tmlearn 33,34
-	tmlearn 42,44,46,47
-	tmlearn 50,54
+	tmlearn 2,6,8
+	tmlearn 10,16
+	tmlearn 21,24
+	tmlearn 29
+	tmlearn 39
+	tmlearn 42,43,46
+	tmlearn 0
 db BANK(ExeggcutePicFront)

@@ -18,11 +18,11 @@ dw JolteonPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 5,6,8
-	tmlearn 9,10,15,16
-	tmlearn 24
-	tmlearn 25,28,30,31,32
-	tmlearn 33,34,39,40
-	tmlearn 44,45
-	tmlearn 50,54
+	tmlearn 5,6
+	tmlearn 16
+	tmlearn 20,23,24
+	tmlearn 25,31
+	tmlearn 39
+	tmlearn 44
+	tmlearn 49
 db BANK(JolteonPicFront)

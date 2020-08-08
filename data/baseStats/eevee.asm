@@ -18,11 +18,11 @@ dw EeveePicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 5,6,8
-	tmlearn 9,10,16
-	tmlearn 0
-	tmlearn 28,31,32
-	tmlearn 33,34,39,40
+	tmlearn 5,6
+	tmlearn 16
+	tmlearn 18,20,23
+	tmlearn 28
+	tmlearn 39
 	tmlearn 44
-	tmlearn 0
+	tmlearn 49
 db BANK(EeveePicFront)

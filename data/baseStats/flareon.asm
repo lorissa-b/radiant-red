@@ -18,11 +18,11 @@ dw FlareonPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 5,6,8
-	tmlearn 9,10,15,16
-	tmlearn 0
-	tmlearn 28,30,31,32
-	tmlearn 33,34,37,38,39,40
-	tmlearn 44
-	tmlearn 54
+	tmlearn 5,6
+	tmlearn 16
+	tmlearn 18,19,20
+	tmlearn 28
+	tmlearn 37,38,39
+	tmlearn 41,44
+	tmlearn 49
 db BANK(FlareonPicFront)

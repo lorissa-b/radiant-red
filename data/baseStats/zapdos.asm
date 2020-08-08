@@ -18,11 +18,11 @@ dw ZapdosPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 4,6
-	tmlearn 9,10,15
-	tmlearn 24
-	tmlearn 25,31,32
-	tmlearn 33,34,39
-	tmlearn 41,44,45
-	tmlearn 49,50,52
+	tmlearn 2,4,6
+	tmlearn 15,16
+	tmlearn 18,19,23,24
+	tmlearn 25
+	tmlearn 34,39,40
+	tmlearn 44
+	tmlearn 0
 db BANK(ZapdosPicFront)

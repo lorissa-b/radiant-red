@@ -18,11 +18,11 @@ dw CubonePicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,3,5,6,8
-	tmlearn 9,10,13,14,16
-	tmlearn 17,18,19
-	tmlearn 26,27,28,31,32
-	tmlearn 34,36,37,38,40
-	tmlearn 41,44,48
-	tmlearn 54
+	tmlearn 1,5,6
+	tmlearn 9,16
+	tmlearn 18,20,24
+	tmlearn 26,30,31
+	tmlearn 36
+	tmlearn 44
+	tmlearn 0
 db BANK(CubonePicFront)

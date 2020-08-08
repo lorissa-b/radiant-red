@@ -18,11 +18,11 @@ dw PorygonPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6
-	tmlearn 9,10,13,14,15,16
-	tmlearn 22,24
-	tmlearn 25,29,30,31,32
-	tmlearn 33,34,39,40
-	tmlearn 41,43,44,45,46
-	tmlearn 49,50
+	tmlearn 2,6
+	tmlearn 10,12,15,16
+	tmlearn 18,23,24
+	tmlearn 29,31
+	tmlearn 38,39
+	tmlearn 44,46
+	tmlearn 49
 db BANK(PorygonPicFront)

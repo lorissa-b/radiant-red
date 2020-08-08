@@ -18,11 +18,11 @@ dw DragonitePicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,4,6,7,8
-	tmlearn 9,10,11,12,13,14,15,16
-	tmlearn 20,23,24
-	tmlearn 25,26,31,32
-	tmlearn 33,34,37,38,39,40
-	tmlearn 41,44,45,46
-	tmlearn 52,53,54,55
+	tmlearn 3,6
+	tmlearn 10,11,15,16
+	tmlearn 18,19,22,24
+	tmlearn 31
+	tmlearn 35,38
+	tmlearn 41,44
+	tmlearn 0
 db BANK(DragonitePicFront)

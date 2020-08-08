@@ -18,11 +18,11 @@ dw PinsirPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 1,3,5,6,8
-	tmlearn 9,10,15
-	tmlearn 17,18,19
-	tmlearn 26,27,28,31,32
-	tmlearn 34,36
-	tmlearn 41,44,48
-	tmlearn 51,54
+	tmlearn 1,5,6,7
+	tmlearn 10,13,16
+	tmlearn 17,21
+	tmlearn 27
+	tmlearn 34
+	tmlearn 44
+	tmlearn 0
 db BANK(PinsirPicFront)

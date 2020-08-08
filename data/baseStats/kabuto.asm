@@ -18,11 +18,11 @@ dw KabutoPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,6,8
-	tmlearn 9,10,11,12,13,14
-	tmlearn 20,21
-	tmlearn 26,27,28,31,32
-	tmlearn 33,34,35,36
-	tmlearn 44,48
-	tmlearn 53,55
+	tmlearn 6,7
+	tmlearn 11,16
+	tmlearn 18,19,20,21,22
+	tmlearn 26,31
+	tmlearn 34,35,36,40
+	tmlearn 41,44,45,48
+	tmlearn 0
 db BANK(KabutoPicFront)

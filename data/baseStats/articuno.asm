@@ -18,11 +18,11 @@ dw ArticunoPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 4,6
-	tmlearn 9,10,11,13,14,15
+	tmlearn 2,4,6
+	tmlearn 12,13,15,16
+	tmlearn 19,23
+	tmlearn 31
+	tmlearn 34,40
+	tmlearn 44,47
 	tmlearn 0
-	tmlearn 31,32,33,34
-	tmlearn 39
-	tmlearn 41,44,46
-	tmlearn 52
 db BANK(ArticunoPicFront)

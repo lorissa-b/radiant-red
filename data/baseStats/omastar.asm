@@ -18,11 +18,11 @@ dw OmastarPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,7,8
-	tmlearn 9,10,11,12,13,14,15
-	tmlearn 17,19
-	tmlearn 26,27,31,32
-	tmlearn 33,34,35,36
-	tmlearn 44,48
-	tmlearn 53,54,55
+	tmlearn 6
+	tmlearn 11,12,13,16
+	tmlearn 18,20,22,23
+	tmlearn 26,31
+	tmlearn 35,36
+	tmlearn 41,44,45,48
+	tmlearn 0
 db BANK(OmastarPicFront)

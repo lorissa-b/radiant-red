@@ -18,7 +18,7 @@ dw MagikarpPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 0
+	tmlearn 6
 	tmlearn 0
 	tmlearn 0
 	tmlearn 0

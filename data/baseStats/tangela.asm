@@ -18,11 +18,11 @@ dw TangelaPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,6,8
-	tmlearn 9,10,15
-	tmlearn 21,22
-	tmlearn 31,32
-	tmlearn 34,35,40
-	tmlearn 44
-	tmlearn 50,51
+	tmlearn 2,5,6,7,8
+	tmlearn 14,16
+	tmlearn 18,21
+	tmlearn 30,32
+	tmlearn 34
+	tmlearn 43
+	tmlearn 0
 db BANK(TangelaPicFront)

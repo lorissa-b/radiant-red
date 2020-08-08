@@ -19,10 +19,10 @@ dw WeezingPicBack
 db 0 ; growth rate
 ; learnset
 	tmlearn 6
-	tmlearn 9,10,15
-	tmlearn 24
-	tmlearn 25,30,31,32
-	tmlearn 34,37,38
-	tmlearn 43,44,47
-	tmlearn 50,54
+	tmlearn 10,11,16
+	tmlearn 18,20,23,24
+	tmlearn 29
+	tmlearn 38,39
+	tmlearn 0
+	tmlearn 49
 db BANK(WeezingPicFront)

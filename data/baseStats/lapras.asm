@@ -18,11 +18,11 @@ dw LaprasPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 6,7,8
-	tmlearn 9,10,11,12,13,14,15,16
-	tmlearn 22,23,24
-	tmlearn 25,29,31,32
-	tmlearn 33,34,35,40
-	tmlearn 44,46
-	tmlearn 53,54,55
+	tmlearn 2,3,6
+	tmlearn 11,12,13,15,16
+	tmlearn 19
+	tmlearn 29
+	tmlearn 35,39
+	tmlearn 44,47
+	tmlearn 0
 db BANK(LaprasPicFront)

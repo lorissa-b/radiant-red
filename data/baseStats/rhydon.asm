@@ -18,11 +18,11 @@ dw RhydonPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 1,3,5,6,7,8
-	tmlearn 9,10,11,12,13,14,15,16
-	tmlearn 17,18,19,20,23,24
-	tmlearn 25,26,27,28,31,32
-	tmlearn 34,35,36,37,38,40
-	tmlearn 44,48
-	tmlearn 51,53,54
+	tmlearn 3,6
+	tmlearn 9,13,15,16
+	tmlearn 18,20,22,23,24
+	tmlearn 26,27
+	tmlearn 36,40
+	tmlearn 44
+	tmlearn 0
 db BANK(RhydonPicFront)

@@ -18,11 +18,11 @@ dw ScytherPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,4,6
-	tmlearn 9,10,15
-	tmlearn 17,18,19,20
-	tmlearn 31,32
+	tmlearn 1,4,6,7
+	tmlearn 10,14,16
+	tmlearn 19
+	tmlearn 30
 	tmlearn 34,39,40
-	tmlearn 41,44
-	tmlearn 51,54
+	tmlearn 0
+	tmlearn 0
 db BANK(ScytherPicFront)

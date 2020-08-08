@@ -18,11 +18,11 @@ dw HorseaPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
-	tmlearn 9,10,11,12,13,14,16
-	tmlearn 23
-	tmlearn 31,32
-	tmlearn 34,39,40
-	tmlearn 44
-	tmlearn 53,55
+	tmlearn 2,3,6
+	tmlearn 11,12,13,15
+	tmlearn 19,22
+	tmlearn 31
+	tmlearn 34
+	tmlearn 41,44,47
+	tmlearn 0
 db BANK(HorseaPicFront)

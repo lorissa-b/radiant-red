@@ -18,11 +18,11 @@ dw MagmarPicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15,16
-	tmlearn 17,18,19
-	tmlearn 29,30,31,32
-	tmlearn 34,36,37,38,40
-	tmlearn 44,46
-	tmlearn 54
+	tmlearn 1,5,6
+	tmlearn 9,16
+	tmlearn 18,19
+	tmlearn 26,30
+	tmlearn 37,38
+	tmlearn 41,44,45
+	tmlearn 0
 db BANK(MagmarPicFront)

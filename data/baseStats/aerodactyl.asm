@@ -18,11 +18,11 @@ dw AerodactylPicBack
 	m_tutor 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,3,4,6
-	tmlearn 9,10,15,16
-	tmlearn 19,23
-	tmlearn 26,27,32
-	tmlearn 34,35,36,37,38,39,40
-	tmlearn 41,44,48
-	tmlearn 52,54
+	tmlearn 4,6
+	tmlearn 15,16
+	tmlearn 18,19,20,23
+	tmlearn 29,31
+	tmlearn 34,36
+	tmlearn 44,45,48
+	tmlearn 0
 db BANK(AerodactylPicFront)

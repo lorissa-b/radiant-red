@@ -18,11 +18,11 @@ dw HitmonleePicBack
 	m_tutor 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10
-	tmlearn 17,18,19
-	tmlearn 26,27,31,32
-	tmlearn 34,36,39,40
-	tmlearn 44,48
-	tmlearn 54
+	tmlearn 5,6
+	tmlearn 16
+	tmlearn 17,19
+	tmlearn 0
+	tmlearn 34,39
+	tmlearn 0
+	tmlearn 49
 db BANK(HitmonleePicFront)
