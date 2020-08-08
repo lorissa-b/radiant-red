@@ -24,5 +24,5 @@ db 3 ; growth rate
 	tmlearn 30,32
 	tmlearn 35
 	tmlearn 41,44
-	tmlearn 0
+	tmlearn 53,54
 db BANK(PoliwhirlPicFront)

@@ -24,5 +24,5 @@ db 3 ; growth rate
 	tmlearn 0
 	tmlearn 34
 	tmlearn 43
-	tmlearn 49
+	tmlearn 49,50,51
 db BANK(BellsproutPicFront)

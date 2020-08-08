@@ -24,5 +24,5 @@ db 3 ; growth rate
 	tmlearn 26,27,28,31
 	tmlearn 36
 	tmlearn 44,45,58
-	tmlearn 0
+	tmlearn 54
 db BANK(GolemPicFront)

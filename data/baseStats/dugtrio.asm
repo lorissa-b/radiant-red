@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26,27,28,31
 	tmlearn 34,36
 	tmlearn 0
-	tmlearn 49
+	tmlearn 49,51
 db BANK(DugtrioPicFront)

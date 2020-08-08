@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 26,27
 	tmlearn 36,40
 	tmlearn 44
-	tmlearn 0
+	tmlearn 53,54
 db BANK(RhydonPicFront)

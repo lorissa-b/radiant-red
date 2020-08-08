@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 31
 	tmlearn 34
 	tmlearn 41,44,47
-	tmlearn 0
+	tmlearn 53
 db BANK(SeakingPicFront)

@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 29,32
 	tmlearn 35,39
 	tmlearn 41,46,47
-	tmlearn 0
+	tmlearn 50,53
 db BANK(GolduckPicFront)

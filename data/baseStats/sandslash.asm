@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26,27,28,31
 	tmlearn 36,40
 	tmlearn 45
-	tmlearn 0
+	tmlearn 51
 db BANK(SandslashPicFront)

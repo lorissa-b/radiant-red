@@ -24,5 +24,5 @@ db 3 ; growth rate
 	tmlearn 26,27,30
 	tmlearn 38
 	tmlearn 44,48
-	tmlearn 0
+	tmlearn 51,53,54
 db BANK(NidokingPicFront)

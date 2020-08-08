@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 25,31
 	tmlearn 39
 	tmlearn 0
-	tmlearn 49
+	tmlearn 49,50
 db BANK(MagnetonPicFront)

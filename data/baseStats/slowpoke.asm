@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 25,29,30
 	tmlearn 35
 	tmlearn 41,42,44,47
-	tmlearn 0
+	tmlearn 53
 db BANK(SlowpokePicFront)

@@ -24,5 +24,5 @@ db 3 ; growth rate
 	tmlearn 30
 	tmlearn 37,38,40
 	tmlearn 44
-	tmlearn 0
+	tmlearn 50,51,52,54
 db BANK(CharizardPicFront)

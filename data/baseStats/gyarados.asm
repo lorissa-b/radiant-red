@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 25
 	tmlearn 35,39
 	tmlearn 41,44,47
-	tmlearn 0
+	tmlearn 50,53
 db BANK(GyaradosPicFront)

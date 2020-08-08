@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 28,30,32
 	tmlearn 33
 	tmlearn 44
-	tmlearn 0
+	tmlearn 50,51
 db BANK(RaticatePicFront)

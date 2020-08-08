@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 31
 	tmlearn 34,40
 	tmlearn 44,47
-	tmlearn 0
+	tmlearn 50,52
 db BANK(ArticunoPicFront)

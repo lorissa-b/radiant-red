@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 29,30,32
 	tmlearn 0
 	tmlearn 44,46,47
-	tmlearn 0
+	tmlearn 50,54
 db BANK(JynxPicFront)

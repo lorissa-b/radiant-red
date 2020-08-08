@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 29,31
 	tmlearn 34,37,38,39,40
 	tmlearn 44
-	tmlearn 0
+	tmlearn 50,52
 db BANK(MoltresPicFront)

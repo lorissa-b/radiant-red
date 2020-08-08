@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 31
 	tmlearn 35,38
 	tmlearn 41,44
-	tmlearn 0
+	tmlearn 50,51,53
 db BANK(DragonairPicFront)

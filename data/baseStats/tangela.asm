@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 30,32
 	tmlearn 34
 	tmlearn 43
-	tmlearn 0
+	tmlearn 51
 db BANK(TangelaPicFront)

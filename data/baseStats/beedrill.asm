@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 31
 	tmlearn 34
 	tmlearn 44
-	tmlearn 0
+	tmlearn 51
 db BANK(BeedrillPicFront)

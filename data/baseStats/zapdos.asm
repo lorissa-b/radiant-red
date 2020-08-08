@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 25
 	tmlearn 34,39,40
 	tmlearn 44
-	tmlearn 0
+	tmlearn 50,52
 db BANK(ZapdosPicFront)

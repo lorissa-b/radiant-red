@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 0
 	tmlearn 34,39
 	tmlearn 44,46
-	tmlearn 0
+	tmlearn 50,52
 db BANK(GolbatPicFront)

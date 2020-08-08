@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26,31
 	tmlearn 34,35,36,40
 	tmlearn 41,44,45,48
-	tmlearn 0
+	tmlearn 51,53
 db BANK(KabutopsPicFront)

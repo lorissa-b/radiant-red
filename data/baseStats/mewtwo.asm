@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 29,30,32
 	tmlearn 33,39
 	tmlearn 42,46
-	tmlearn 49
+	tmlearn 49,50,51,54
 db BANK(MewtwoPicFront)

@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 29
 	tmlearn 34,39
 	tmlearn 42
-	tmlearn 0
+	tmlearn 50,51,52
 db BANK(VenomothPicFront)

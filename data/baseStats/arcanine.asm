@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 28
 	tmlearn 37,38,40
 	tmlearn 44
-	tmlearn 0
+	tmlearn 50,54
 db BANK(ArcaninePicFront)

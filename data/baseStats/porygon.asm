@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 29,31
 	tmlearn 38,39
 	tmlearn 44,46
-	tmlearn 49
+	tmlearn 49,50,51,54
 db BANK(PorygonPicFront)

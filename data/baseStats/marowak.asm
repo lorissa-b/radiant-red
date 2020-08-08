@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26,30,31
 	tmlearn 36
 	tmlearn 44
-	tmlearn 0
+	tmlearn 54
 db BANK(MarowakPicFront)

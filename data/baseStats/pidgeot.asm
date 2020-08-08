@@ -24,5 +24,5 @@ db 3 ; growth rate
 	tmlearn 0
 	tmlearn 34,39,40
 	tmlearn 44
-	tmlearn 0
+	tmlearn 52
 db BANK(PidgeotPicFront)

@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 28
 	tmlearn 39
 	tmlearn 44
-	tmlearn 49
+	tmlearn 49,50,51
 db BANK(EeveePicFront)

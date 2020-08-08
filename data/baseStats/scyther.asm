@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 30
 	tmlearn 34,39,40
 	tmlearn 0
-	tmlearn 0
+	tmlearn 51,52
 db BANK(ScytherPicFront)

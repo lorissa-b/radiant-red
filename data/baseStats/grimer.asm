@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26
 	tmlearn 38
 	tmlearn 44,46
-	tmlearn 0
+	tmlearn 51,54
 db BANK(GrimerPicFront)

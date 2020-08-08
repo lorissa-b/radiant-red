@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 26
 	tmlearn 36,39
 	tmlearn 44,45
-	tmlearn 49
+	tmlearn 49,53,54
 db BANK(TaurosPicFront)

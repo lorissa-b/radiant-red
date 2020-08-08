@@ -106,3 +106,4 @@ ItemPrices:
 	money 10    ; CHERI_BERRY
 	money 10    ; LUM_BERRY
 	money 10    ; ACAI_BERRY
+	money 1		; HM_01

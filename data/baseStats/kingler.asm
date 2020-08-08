@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 0
 	tmlearn 34,35,40
 	tmlearn 41,44
-	tmlearn 0
+	tmlearn 53,54
 db BANK(KinglerPicFront)

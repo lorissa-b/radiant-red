@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26,30
 	tmlearn 37,38
 	tmlearn 41,44,45
-	tmlearn 0
+	tmlearn 54
 db BANK(MagmarPicFront)

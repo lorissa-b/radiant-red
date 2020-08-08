@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 29,30
 	tmlearn 34,39
 	tmlearn 42,46
-	tmlearn 0
+	tmlearn 50
 db BANK(ButterfreePicFront)

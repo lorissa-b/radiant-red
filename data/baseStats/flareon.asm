@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 28
 	tmlearn 37,38,39
 	tmlearn 41,44
-	tmlearn 49
+	tmlearn 49,50,54
 db BANK(FlareonPicFront)

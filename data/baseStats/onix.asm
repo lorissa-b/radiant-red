@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26,27,28,31
 	tmlearn 36
 	tmlearn 44,45,48
-	tmlearn 0
+	tmlearn 51,54
 db BANK(OnixPicFront)

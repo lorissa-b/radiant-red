@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 25
 	tmlearn 33,39
 	tmlearn 44
-	tmlearn 0
+	tmlearn 50,54
 db BANK(ElectabuzzPicFront)

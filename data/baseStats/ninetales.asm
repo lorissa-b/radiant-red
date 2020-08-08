@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 28,29
 	tmlearn 37,38,39
 	tmlearn 42,43,46
-	tmlearn 0
+	tmlearn 50
 db BANK(NinetalesPicFront)

@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 31
 	tmlearn 35
 	tmlearn 41,44,47
-	tmlearn 49
+	tmlearn 49,53,54
 db BANK(VaporeonPicFront)

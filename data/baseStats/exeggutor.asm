@@ -24,5 +24,5 @@ db 5 ; growth rate
 	tmlearn 29
 	tmlearn 39
 	tmlearn 42,43,46
-	tmlearn 0
+	tmlearn 50,51,54
 db BANK(ExeggutorPicFront)

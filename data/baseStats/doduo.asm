@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 26
 	tmlearn 34,39,40
 	tmlearn 44
-	tmlearn 49
+	tmlearn 49,52
 db BANK(DoduoPicFront)

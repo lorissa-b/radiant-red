@@ -24,5 +24,5 @@ db 4 ; growth rate
 	tmlearn 25,29
 	tmlearn 38,39
 	tmlearn 41
-	tmlearn 0
+	tmlearn 54
 db BANK(WigglytuffPicFront)

@@ -24,5 +24,5 @@ db 3 ; growth rate
 	tmlearn 26
 	tmlearn 39
 	tmlearn 43
-	tmlearn 0
+	tmlearn 51
 db BANK(OddishPicFront)
