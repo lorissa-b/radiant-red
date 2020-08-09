@@ -495,9 +495,11 @@ RockTunnelPokecenterHiddenObjects:
 	dw OpenPokemonCenterPC
 	db $FF
 ViridianForestHiddenObjects:
-	db $12,$01,POTION
+	db $11,$03,POTION
 	dbw BANK(HiddenItems),HiddenItems
-	db $2a,$10,ANTIDOTE
+	db $29,$10,ANTIDOTE
+	dbw BANK(HiddenItems),HiddenItems
+	db $1a,$14,NUGGET
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
 MtMoon3HiddenObjects:

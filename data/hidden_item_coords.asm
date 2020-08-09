@@ -1,7 +1,8 @@
 HiddenItemCoords:
 ; map ID, then coords
-	db VIRIDIAN_FOREST,$12,$01
-	db VIRIDIAN_FOREST,$2a,$10
+	db VIRIDIAN_FOREST,$11,$03
+	db VIRIDIAN_FOREST,$29,$10
+	db VIRIDIAN_FOREST,$1a,$14
 	db MT_MOON_3,$0c,$12
 	db ROUTE_25,$03,$26
 	db ROUTE_9,$07,$0e

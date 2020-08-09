@@ -17,7 +17,7 @@ ViridianForestTextPointers:
 	dw ViridianForestText2
 	dw ViridianForestText3
 	dw ViridianForestText4
-	dw PickUpItemText
+	dw MewText
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
@@ -28,7 +28,6 @@ ViridianForestTextPointers:
 	dw ViridianForestText11
 	dw ViridianForestText12
 	dw ViridianForestText13
-	dw ViridianForestText14
 
 ViridianForestTrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_0
@@ -59,6 +58,17 @@ ViridianForestTrainerHeader2:
 
 	db $ff
 
+MewTrainerHeader:
+	dbEventFlagBit EVENT_BEAT_MEW_VIRIDIAN
+	db ($0 << 4) ; trainer's view range
+	dwEventFlagAddress EVENT_BEAT_MEW_VIRIDIAN
+	dw MewBattleText ; TextBeforeBattle
+	dw MewBattleText ; TextAfterBattle
+	dw MewBattleText ; TextEndBattle
+	dw MewBattleText ; TextEndBattle
+
+	db $ff
+
 ViridianForestText1:
 	TX_FAR _ViridianForestText1
 	db "@"
@@ -78,6 +88,12 @@ ViridianForestText3:
 ViridianForestText4:
 	TX_ASM
 	ld hl, ViridianForestTrainerHeader2
+	call TalkToTrainer
+	jp TextScriptEnd
+
+MewText:
+	TX_ASM
+	ld hl, MewTrainerHeader
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -117,6 +133,14 @@ ViridianForestAfterBattleText3:
 	TX_FAR _ViridianFrstAfterBattleText3
 	db "@"
 
+MewBattleText:
+	TX_FAR _ViridianForestMewText
+	TX_ASM
+	ld a, MEW
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+
 ViridianForestText8:
 	TX_FAR _ViridianForestText8
 	db "@"
@@ -139,10 +163,6 @@ ViridianForestText12:
 
 ViridianForestText13:
 	TX_FAR _ViridianForestText13
-	db "@"
-
-ViridianForestText14:
-	TX_FAR _ViridianForestText14
 	db "@"
 
 ViridianForestTree1:

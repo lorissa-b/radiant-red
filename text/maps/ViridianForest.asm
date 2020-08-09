@@ -89,15 +89,6 @@ _ViridianForestText10::
 _ViridianForestText11::
 	text "Trainer Tips"
 
-	para "Contact Prof. Oak"
-	line "via PC to get"
-	cont "your #dex"
-	cont "evaluated!"
-	done
-
-_ViridianForestText12::
-	text "Trainer Tips"
-
 	para "No stealing of"
 	line "#mon from"
 	cont "other trainers!"
@@ -105,7 +96,7 @@ _ViridianForestText12::
 	cont "#mon!"
 	done
 
-_ViridianForestText13::
+_ViridianForestText12::
 	text "Trainer Tips"
 
 	para "Weaken #mon"
@@ -116,7 +107,7 @@ _ViridianForestText13::
 	line "they may escape!"
 	done
 
-_ViridianForestText14::
+_ViridianForestText13::
 	text "Viridian Forest"
 	line "Pewter City -"
 	cont "Viridian City"
