@@ -677,8 +677,8 @@ Green3Data:
 	db $FF
 	
 YoungsterData:
-	db "Ben@",11,RATTATA,$FF
-	db "Arnold@",14,SPEAROW,$FF
+	db "Ben@",15,RATTATA,$FF ; Route 3 #3
+	db "Arnold@",14,MANKEY,EKANS,$FF ; Route 3 #5
 	db "Anthony@",10,RATTATA,RATTATA,ZUBAT,$FF
 	db "Samuel@",14,RATTATA,EKANS,ZUBAT,$FF
 	db "Adam@",15,RATTATA,SPEAROW,$FF
@@ -694,10 +694,10 @@ YoungsterData:
 BugCatcherData:
 	db "Luke@",6,PARAS,CATERPIE,$FF ; Viridian Forest #1
 	db "Finn@",7,WEEDLE,KAKUNA,WEEDLE,$FF ; Viridian Forest #2
-	db "Jake@",9,CATERPIE,$FF ; Viridian Forest #3
-	db "David@",10,CATERPIE,WEEDLE,CATERPIE,$FF
-	db "Lou@",9,WEEDLE,KAKUNA,CATERPIE,METAPOD,$FF
-	db "Larry@",11,CATERPIE,METAPOD,$FF
+	db "Jake@",9,CATERPIE,PARAS,$FF ; Viridian Forest #3
+	db "Brian@",13,VENONAT,PARAS,BUTTERFREE,$FF ; Route 3 #2
+	db "Lou@",13,BEEDRILL,PARAS,BUTTERFREE,VENONAT,$FF ; Route 3 #4
+	db "Larry@",12,BUTTERFREE,BEEDRILL,$FF ; Route 3 #6
 	db "Chuck@",11,WEEDLE,KAKUNA,$FF
 	db "Zach@",10,CATERPIE,METAPOD,CATERPIE,$FF
 	db "Chris@",14,CATERPIE,WEEDLE,$FF
@@ -708,9 +708,9 @@ BugCatcherData:
 	db "Ed@",20,CATERPIE,WEEDLE,VENONAT,$FF
 	
 LassData:
-	db "Nicole@",9,PIDGEY,PIDGEY,$FF
-	db "Jennifer@",10,NIDORAN_M,$FF
-	db "Hillary@",14,JIGGLYPUFF,$FF
+	db "Nicole@",12,SPEAROW,NIDORAN_F,$FF ; Route 3 #1
+	db "Jennifer@",13,NIDORAN_M,JIGGLYPUFF,$FF ; Route 3 #5
+	db "Hillary@",17,JIGGLYPUFF,MEOWTH,$FF ; Route 3 #7
 	db "Rachel@",31,PARAS,PARAS,PARASECT,$FF
 	db "Christy@",11,ODDISH,BELLSPROUT,$FF
 	db "Jessica@",14,CLEFAIRY,$FF

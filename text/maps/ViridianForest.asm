@@ -19,8 +19,9 @@ _ViridianForestEndBattleText1::
 	prompt
 
 _ViridianFrstAfterBattleText1::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "I heard there's a"
+	line "rare #mon"
+	line "in the forest!"
 	done
 
 _ViridianForestBattleText2::

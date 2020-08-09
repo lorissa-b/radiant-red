@@ -43,6 +43,7 @@ FishingGroup1:
 	db 25,GYARADOS
 	db 25,KINGLER
 	db 25,CLOYSTER
+	db 25,POLIWHIRL
 
 FishingGroup2:
 	db 3

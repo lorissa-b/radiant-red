@@ -10,7 +10,11 @@ Route1Mons:
 	db 4,RATTATA
 	db 5,RATTATA
 	db 2,MEOWTH
+	db 2,MEOWTH
 	db 4,MEOWTH
+	db 4,MEOWTH
+	db 2,PIKACHU
+	db 2,PIKACHU
 	db 2,PIKACHU
 	db 3,ODDISH
 	db 5,ODDISH

@@ -27,11 +27,11 @@ _Route3AfterBattleText1::
 
 _Route3BattleText2::
 	text "Hey! Check out my"
-	line "Zigzagoon!"
+	line "Rattata!"
 
 	para "He's in the top"
 	line "percentage of"
-	cont "Zigzagoon!"
+	cont "Rattata!"
 	done
 
 _Route3EndBattleText2::
@@ -41,9 +41,9 @@ _Route3EndBattleText2::
 
 _Route3AfterBattleText2::
 	text "Until recently, I"
-	line "never ran into"
-	cont "Zigzagoons around"
-	cont "Kanto..."
+	line "never realized"
+	cont "the true power"
+	cont "of Rattata!"
 	done
 
 _Route3BattleText3::
