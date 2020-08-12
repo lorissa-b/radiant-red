@@ -84,7 +84,7 @@ HiddenObjectMaps:
 	db VERMILION_CITY
 	db CERULEAN_CITY
 	db ROUTE_4
-	db $FF
+	db MT_MOON_1
 
 HiddenObjectPointers:
 ; each of these pointers is for the corresponding map in HiddenObjectMaps
@@ -173,6 +173,7 @@ HiddenObjectPointers:
 	dw VermilionCityHiddenObjects
 	dw CeruleanCityHiddenObjects
 	dw Route4HiddenObjects
+	dw MtMoon1HiddenObjects
 
 ; format: y-coord, x-coord, text id/item id, object routine
 TradeCenterHiddenObjects:
@@ -808,5 +809,9 @@ CeruleanCityHiddenObjects:
 	db $FF
 Route4HiddenObjects:
 	db $03,$28,GREAT_BALL
+	dbw BANK(HiddenItems),HiddenItems
+	db $FF
+MtMoon1HiddenObjects:
+	db $0b,$02,WATER_STONE
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF

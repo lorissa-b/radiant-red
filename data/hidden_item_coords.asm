@@ -57,4 +57,4 @@ HiddenItemCoords:
 	db VERMILION_CITY,$0b,$0e
 	db CERULEAN_CITY,$08,$0f
 	db ROUTE_4,$03,$28
-	db $ff
+	db MT_MOON_1,$0b,$02

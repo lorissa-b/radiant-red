@@ -88,11 +88,14 @@ MistyData:
 	db "Misty@"
 	db SPECIAL_TRAINER
 	
-	db 18,STARYU
-	moveset TACKLE, HARDEN, RECOVER, WATER_GUN
+	db 21,TENTACOOL
+	moveset WATER_PULSE, BARRIER, ACID, WRAP
 	
-	db 21,STARMIE
-	moveset TACKLE, SWIFT, RECOVER, WATER_GUN
+	db 23,PSYDUCK
+	moveset CONFUSION, WATER_GUN, POWDER_SNOW, DISABLE
+
+	db 25,STARMIE
+	moveset WATER_PULSE, SWIFT, POWER_GEM, LIGHT_SCREEN
 	db $FF
 	
 LtSurgeData:
@@ -284,62 +287,62 @@ Green1Data:
 	
 	
 	; Beside Viridian
-	db "[RIVAL]@",SPECIAL_LEVELS,9,PIDGEY,8,SQUIRTLE,$FF
-	db "[RIVAL]@",SPECIAL_LEVELS,9,PIDGEY,8,BULBASAUR,$FF
-	db "[RIVAL]@",SPECIAL_LEVELS,9,PIDGEY,8,CHARMANDER,$FF
+	db "[RIVAL]@",SPECIAL_LEVELS,6,MEOWTH,8,PIDGEY,9,SQUIRTLE,$FF
+	db "[RIVAL]@",SPECIAL_LEVELS,6,MEOWTH,8,PIDGEY,9,BULBASAUR,$FF
+	db "[RIVAL]@",SPECIAL_LEVELS,6,MEOWTH,8,PIDGEY,9,CHARMANDER,$FF
 	
 	
 	; Cerulean
 	db "[RIVAL]@"
 	db SPECIAL_TRAINER
+
+	db 15,MEOWTH
+	moveset PAY_DAY, BITE, FURY_SWIPES, CHARM
+
+	db 17,KADABRA
+	moveset PSYWAVE, REFLECT, LIGHT_SCREEN, KINESIS
 	
 	db 18,PIDGEOTTO
-	moveset TACKLE, GUST, SAND_ATTACK, QUICK_ATTACK
+	moveset QUICK_ATTACK, SCREECH, SAND_ATTACK, GUST
 	
-	db 15,ABRA
-	moveset TELEPORT, 0, 0, 0
-	
-	db 15,RATTATA
-	moveset TACKLE, TAIL_WHIP, QUICK_ATTACK, 0
-	
-	db 17,SQUIRTLE
-	moveset TACKLE, TAIL_WHIP, BUBBLE, WATER_GUN
+	db 20,WARTORTLE
+	moveset WATER_PULSE, BITE, WITHDRAW, TAIL_WHIP
 	db $FF
 	
 	
 	
 	db "[RIVAL]@"
 	db SPECIAL_TRAINER
+
+	db 15,MEOWTH
+	moveset PAY_DAY, BITE, FURY_SWIPES, CHARM
+
+	db 17,KADABRA
+	moveset PSYWAVE, REFLECT, LIGHT_SCREEN, KINESIS
 	
 	db 18,PIDGEOTTO
-	moveset TACKLE, GUST, SAND_ATTACK, QUICK_ATTACK
+	moveset QUICK_ATTACK, SCREECH, SAND_ATTACK, GUST
 	
-	db 15,ABRA
-	moveset TELEPORT, 0, 0, 0
-	
-	db 15,RATTATA
-	moveset TACKLE, TAIL_WHIP, QUICK_ATTACK, 0
-	
-	db 17,BULBASAUR
-	moveset SLEEP_POWDER, POISONPOWDER, LEECH_SEED, VINE_WHIP
+	db 20,IVYSAUR
+	moveset RAZOR_LEAF, ACID, LEECH_SEED, GROWL
 	db $FF
 	
 	
 	
 	db "[RIVAL]@"
 	db SPECIAL_TRAINER
+
+	db 15,MEOWTH
+	moveset PAY_DAY, BITE, FURY_SWIPES, CHARM
+
+	db 17,KADABRA
+	moveset PSYWAVE, REFLECT, LIGHT_SCREEN, KINESIS
 	
 	db 18,PIDGEOTTO
-	moveset TACKLE, GUST, SAND_ATTACK, QUICK_ATTACK
+	moveset QUICK_ATTACK, SCREECH, SAND_ATTACK, GUST
 	
-	db 15,ABRA
-	moveset TELEPORT, 0, 0, 0
-	
-	db 15,RATTATA
-	moveset TACKLE, TAIL_WHIP, QUICK_ATTACK, 0
-	
-	db 17,CHARMANDER
-	moveset SCRATCH, GROWL, EMBER, SLASH
+	db 20,CHARMELEON
+	moveset METAL_CLAW, FIRE_FANG, RAGE, LEER
 	db $FF
 	
 	
@@ -679,11 +682,11 @@ Green3Data:
 YoungsterData:
 	db "Ben@",15,RATTATA,$FF ; Route 3 #3
 	db "Arnold@",14,MANKEY,EKANS,$FF ; Route 3 #5
-	db "Anthony@",10,RATTATA,RATTATA,ZUBAT,$FF
-	db "Samuel@",14,RATTATA,EKANS,ZUBAT,$FF
-	db "Adam@",15,RATTATA,SPEAROW,$FF
-	db "Ben@",17,SLOWPOKE,$FF
-	db "Calvin@",14,EKANS,SANDSHREW,$FF
+	db "Anthony@",15,RATTATA,RATTATA,ZUBAT,$FF ; Mt. Moon #6
+	db "Samuel@",14,RATTATA,EKANS,ZUBAT,$FF ; Nugget Bridge #4
+	db "Adam@",18,RATTATA,PIDGEOTTO,$FF ; Route 25 #2
+	db "Ben@",17,SLOWPOKE,RATTATA,$FF ; Route 25 #3u
+	db "Calvin@",15,EKANS,SANDSHREW,$FF ; Route 25 #7
 	db "Chad@",21,NIDORAN_M,$FF
 	db "Dan@",21,EKANS,$FF
 	db "Dave@",19,SANDSHREW,ZUBAT,$FF
@@ -698,9 +701,9 @@ BugCatcherData:
 	db "Brian@",13,VENONAT,PARAS,BUTTERFREE,$FF ; Route 3 #2
 	db "Lou@",13,BEEDRILL,PARAS,BUTTERFREE,VENONAT,$FF ; Route 3 #4
 	db "Larry@",12,BUTTERFREE,BEEDRILL,$FF ; Route 3 #6
-	db "Chuck@",11,WEEDLE,KAKUNA,$FF
-	db "Zach@",10,CATERPIE,METAPOD,CATERPIE,$FF
-	db "Chris@",14,CATERPIE,WEEDLE,$FF
+	db "Chuck@",15,BEEDRILL,VENONAT,$FF ; Mt. Moon #2
+	db "Zach@",15,BUTTERFREE,PARAS,CATERPIE,$FF ; Mt. Moon #4
+	db "Chris@",14,PARAS,VENONAT,$FF ; Nugget Bridge #1
 	db "Rick@",16,WEEDLE,CATERPIE,WEEDLE,$FF
 	db "Bob@",20,BUTTERFREE,$FF
 	db "Gray@",18,METAPOD,CATERPIE,VENONAT,$FF
@@ -710,14 +713,14 @@ BugCatcherData:
 LassData:
 	db "Nicole@",12,SPEAROW,NIDORAN_F,$FF ; Route 3 #1
 	db "Jennifer@",13,NIDORAN_M,JIGGLYPUFF,$FF ; Route 3 #5
-	db "Hillary@",17,JIGGLYPUFF,MEOWTH,$FF ; Route 3 #7
-	db "Rachel@",31,PARAS,PARAS,PARASECT,$FF
-	db "Christy@",11,ODDISH,BELLSPROUT,$FF
-	db "Jessica@",14,CLEFAIRY,$FF
-	db "Trish@",16,PIDGEY,NIDORAN_F,$FF
-	db "Monica@",14,PIDGEY,NIDORAN_F,$FF
-	db "Lulu@",15,NIDORAN_M,NIDORAN_F,$FF
-	db "Brooke@",13,ODDISH,PIDGEY,ODDISH,$FF
+	db "Hillary@",15,JIGGLYPUFF,MEOWTH,$FF ; Route 3 #7
+	db "Rachel@",31,PARAS,PARAS,PARASECT,$FF ; Beside Cerulean Cave
+	db "Penny@",16,ODDISH,BELLSPROUT,$FF ; Mt. Moon #5
+	db "Jessica@",17,CLEFAIRY,JIGGLYPUFF,$FF ; Mt. Moon #1
+	db "Trish@",15,PIDGEY,NIDORAN_F,EEVEE,$FF ; Nugget Bridge #2
+	db "Monica@",14,JIGGLYPUFF,CLEFAIRY,$FF ; Nugget Bridge #4
+	db "Lulu@",17,NIDORAN_M,NIDORAN_F,$FF ; Route 25 #4
+	db "Brooke@",14,EXEGGCUTE,TANGELA,ODDISH,$FF ; Route 25 #8
 	db "Rose@",18,RATTATA,$FF
 	db "Martha@",18,RATTATA,PIKACHU,$FF
 	db "Amanda@",23,NIDORAN_F,NIDORINA,$FF
@@ -738,19 +741,19 @@ SailorData:
 	db "Hans@",21,PIKACHU,PIKACHU,$FF
 	
 CamperData:
-	db "Daniel@",10,GEODUDE,SANDSHREW,RHYHORN,$FF
-	db "Craig@",14,POLIWAG,GOLDEEN,$FF
-	db "Harry@",18,MANKEY,$FF
+	db "Daniel@",13,GEODUDE,RHYHORN,$FF ; Pewter Gym
+	db "Craig@",16,POLIWAG,GOLDEEN,$FF ; Route 25
+	db "Harry@",18,MANKEY,DODUO,$FF ; Nugget Bridge #5
 	db "Ronald@",20,SQUIRTLE,$FF
 	db "Mark@",16,SPEAROW,RATICATE,$FF
 	db "Mike@",18,DIGLETT,DIGLETT,SANDSHREW,$FF
 	db "Nick@",21,GROWLITHE,$FF
 	db "Robert@",19,RATTATA,DIGLETT,EKANS,SANDSHREW,$FF
 	db "Ian@",29,NIDORAN_M,NIDORINO,$FF
-	db "Flint@",14,EKANS,$FF
+	db "Flint@",18,NIDORINO,CHARMELEON,$FF ; Route 24
 	
 PicnickerData:
-	db "Cindy@",19,GOLDEEN,$FF
+	db "Cindy@",19,GOLDEEN,$FF ; Cerulean Gym #2
 	db "Debra@",16,RATTATA,PIKACHU,$FF
 	db "Heidi@",16,PIDGEY,PIDGEY,PIDGEY,$FF
 	db "Brooke@",22,BULBASAUR,$FF
@@ -785,8 +788,8 @@ PokemaniacData:
 	db "Bruce@",23,CUBONE,SLOWPOKE,$FF
 	
 SuperNerdData:
-	db "Teru@",11,VOLTORB,VOLTORB,$FF
-	db "Eric@",16,PIKACHU,$FF
+	db "Teru@",15,VOLTORB,KOFFING,$FF ; Mt. Moon RDL
+	db "Eric@",18,PIKACHU,$FF ; Mt. Moon Endboss
 	db "Markus@",20,VOLTORB,KOFFING,VOLTORB,MAGNEMITE,$FF
 	db "Alan@",22,GRIMER,MUK,GRIMER,$FF
 	db "Derek@",26,KOFFING,$FF
@@ -799,10 +802,10 @@ SuperNerdData:
 	db "Avery@",37,GROWLITHE,VULPIX,$FF
 	
 HikerData:
-	db "Jeff@",10,GEODUDE,MACHOP,ONIX,$FF
-	db "Dillon@",15,MACHOP,GEODUDE,$FF
-	db "Russel@",13,GEODUDE,MANKEY,MACHOP,$FF
-	db "Michael@",17,DIGLETT,ONIX,$FF
+	db "Jeff@",16,GEODUDE,MACHOP,ONIX,$FF ; Mt. Moon
+	db "Dillon@",16,RHYHORN,GEODUDE,$FF ; Route 25 #1
+	db "Russel@",15,GEODUDE,MANKEY,MACHOP,$FF ; Route 25 #5
+	db "Michael@",17,DIGLETT,ONIX,$FF ; Route 25 #2d
 	db "Trent@",21,GEODUDE,ONIX,$FF
 	db "Clark@",20,GEODUDE,MACHOP,GEODUDE,$FF
 	db "Lenny@",21,MACHOP,ONIX,$FF
@@ -864,7 +867,7 @@ FisherData:
 	db "Wilton@",24,MAGIKARP,MAGIKARP,$FF
 	
 SwimmerData:
-	db "George@",16,HORSEA,SHELLDER,$FF
+	db "George@",17,HORSEA,SHELLDER,$FF ; Cerulean Gym #1
 	db "Bruno@",30,TENTACOOL,SHELLDER,$FF
 	db "Charlie@",29,GOLDEEN,HORSEA,STARYU,$FF
 	db "Robert@",30,POLIWAG,POLIWHIRL,$FF
@@ -917,7 +920,7 @@ BeautyData:
 	db "Mandy@",30,GOLDEEN,SEAKING,$FF
 	db "Anna@",29,STARYU,STARYU,STARYU,$FF
 	db "Caitlyn@",30,SEADRA,HORSEA,SEADRA,$FF
-	db "Colby@",19,GOLDEEN,$FF ; Misty's Gym, Trainer # 0x10
+	db "Cindy@",19,GOLDEEN,$FF ; Cerulean Gym, Trainer # 0x10
 	db "Callie@",30,TENTACOOL,HORSEA,SEEL,$FF ; Route 20, Trainer # 0x11
 	db "Marie@",31,GOLDEEN,SEAKING,$FF ; Route 20, Trainer # 0x12
 	
@@ -1036,11 +1039,11 @@ RocketData:
 	moveset BITE, QUICK_ATTACK, FOCUS_ENERGY, CUT
 	db $FF
 
-	db "James@",CUSTOM_PIC,JAMES,13,KOFFING,$FF
-	db "Jessie@",CUSTOM_PIC,JESSIE,13,EKANS,$FF
-	db "Grunt@",14,RATICATE,$FF
-	db "Grunt@",17,MACHOP,DROWZEE,$FF
-	db "Grunt@",CUSTOM_PIC,PI_TRAINER,15,EKANS,ZUBAT,$FF ; Nugget Bridge "Boss"
+	db "James@",CUSTOM_PIC,JAMES,17,KOFFING,MEOWTH,$FF ; Mt. Moon
+	db "Jessie@",CUSTOM_PIC,JESSIE,17,EKANS,MEOWTH,$FF ; Mt. Moon
+	db "Grunt@",16,DROWZEE,GROWLITHE,$FF ; Mt. Moon
+	db "Grunt@",17,MACHOP,DROWZEE,$FF ; Cerulean Back of House
+	db "Grunt@",CUSTOM_PIC,PI_TRAINER,20,ZUBAT,RATICATE,KOFFING,$FF ; Nugget Bridge "Boss"
 	db "Grunt@",20,RATICATE,ZUBAT,$FF
 	db "Grunt@",21,DROWZEE,MACHOP,$FF
 	db "Grunt@",21,RATICATE,RATICATE,$FF
