@@ -1,5 +1,6 @@
 _FarawayIslandInsideMewText:: ; reused for Mew
 _ViridianForestMewText::
+_RockTunnelMewText::
 _MewtwoBattleText::
 	text "Mew!@@"
 

@@ -72,8 +72,10 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a Machop"
-	line "in this tunnel!"
+	text "I heard there's"
+	line "an ultra rare"
+	cont "#mon in"
+	cont "this tunnel!"
 	done
 
 _RockTunnel1BattleText6::

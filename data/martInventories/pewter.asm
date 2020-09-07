@@ -1,11 +1,12 @@
 PewterCashierText::
 	db MART_LIST
-	db 7
+	db 8
 	db POKE_BALL
 	db POTION
-	db ESCAPE_ROPE
-	db REPEL
 	db ANTIDOTE
+	db BURN_HEAL
 	db AWAKENING
 	db PARLYZ_HEAL
+	db ESCAPE_ROPE
+	db REPEL
 	db $FF

@@ -31,7 +31,7 @@ Route16Script0:
 	call DisplayTextID
 	ld a, SNORLAX
 	ld [wCurOpponent], a
-	ld a, 30
+	ld a, 35
 	ld [wCurEnemyLVL], a
 	xor a
 	ld [wIsTrainerBattle], a ; wild battle

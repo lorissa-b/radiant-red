@@ -1,10 +1,15 @@
 FuchsiaCashierText::
 	db MART_LIST
-	db 6
-	db ULTRA_BALL
+	db 11
+	db POKE_BALL
 	db GREAT_BALL
+	db ULTRA_BALL
+	db POTION
 	db SUPER_POTION
+	db HYPER_POTION
 	db REVIVE
 	db FULL_HEAL
+	db REPEL
 	db SUPER_REPEL
+	db MAX_REPEL
 	db $FF

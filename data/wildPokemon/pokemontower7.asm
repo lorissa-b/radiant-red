@@ -17,14 +17,23 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0F
-	db 21,GASTLY
-	db 22,GASTLY
-	db 23,GASTLY
-	db 24,GASTLY
-	db 22,CUBONE
-	db 24,CUBONE
 	db 28,HAUNTER
+	db 29,HAUNTER
 	db 30,HAUNTER
+	db 31,HAUNTER
+	db 32,HAUNTER
+	db 28,HYPNO
+	db 29,HYPNO
+	db 30,HYPNO
+	db 31,HYPNO
+	db 32,HYPNO
+	db 28,GASTLY
+	db 30,GASTLY
+	db 28,DROWZEE
+	db 30,DROWZEE
+	db 28,CUBONE
+	db 30,CUBONE
+	db 32,CUBONE
 
 ; Water Mons
 	db $00

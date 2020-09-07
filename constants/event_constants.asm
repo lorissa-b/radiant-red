@@ -1526,7 +1526,7 @@ const_value = 0
 	const EVENT_BEAT_SS_ANNE_8_TRAINER_2             ; 5F3, (D805, bit 3)
 	const EVENT_BEAT_SS_ANNE_8_TRAINER_3             ; 5F4, (D805, bit 4)
 	const EVENT_BEAT_MEW_VIRIDIAN                    ; 5F5, (D805, bit 5)
-	const EVENT_5F6                                  ; 5F6, (D805, bit 6)
+	const EVENT_BEAT_MEW_ROCK_TUNNEL                 ; 5F6, (D805, bit 6)
 	const EVENT_5F7                                  ; 5F7, (D805, bit 7)
 	;const EVENT_5F8                                  ; 5F8, (D806, bit 0)
 	;const EVENT_5F9                                  ; 5F9, (D806, bit 1)

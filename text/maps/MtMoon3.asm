@@ -88,9 +88,9 @@ _MtMoon3AfterBattleText4::
 	done
 
 _MtMoon3BattleText5::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "We're looking for"
+	line "Mew! So scram,"
+	cont "kid!"
 	done
 
 _MtMoon3EndBattleText5::

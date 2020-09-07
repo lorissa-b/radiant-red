@@ -46,7 +46,7 @@ TrainerDataPointers: ; Originally created 28/06/2015 by Neodymium / Free to use 
 	dw ChannelerData
 	dw AgathaData
 	dw LanceData
-	dw GROWLManiacData
+	dw HexManiacData
 	dw PkmnTrainerData
 
 ; first is the name, followed by the first byte of the data
@@ -848,7 +848,7 @@ HikerData: ; COMPLETED
 	db "Trent@",33,GRAVELER,ONIX,$FF ; Route 9 3rb
 	db "Clark@",34,GRAVELER,MACHOKE,$FF ; Route 9 4ru
 	db "Lenny@",36,MACHOKE,$FF ; route 9 2
-	db "Jay@",36,,GOLEM,$FF ; ROCKTUNNEL OUTSIDE
+	db "Jay@",36,ONIX,GOLEM,$FF ; ROCKTUNNEL OUTSIDE
 	db "Bryan@",35,ONIX,$FF ; Rocktunnel 6
 	db "Lucas@",35,PIDGEOT,$FF ; rocktunnel 5l
 	db "George@",33,AERODACTYL,$FF ; rpcltunnel 5u
@@ -1144,7 +1144,7 @@ AceTrainerFData: ; COMPLETED
 	db "Lisa@",45,NIDORINA,NIDOQUEEN,$FF ;                                  UNKNOWN
 	db "Anna@",43,PERSIAN,NINETALES,RAICHU,$FF ;                            UNKNOWN
 	
-GROWLManiacData:
+HexManiacData:
 	db "Alice@",51,GENGAR,$FF ; SAFFRON GYM
 	db "Luna@",52,GENGAR,$FF ; SAFFRON GYM
 	db "Carrie@",53,GENGAR,$FF ; SAFFRON GYM

@@ -41,10 +41,9 @@ _TM34ExplanationText::
 	para "TM36 contains"
 	line "Rock Blast."
 
-	para "It reduces your"
-	line "opponent's speed,"
-	cont "helping you get"
-	cont "the first hit in!"
+	para "It can hit up to"
+	line "five times in a"
+	cont "row!"
 	done
 
 _TM34NoRoomText::

@@ -151,7 +151,7 @@ MoveEnd:
 	move DREAM_EATER,  DREAM_EATER_EFFECT,         100, PSYCHIC,  100, 15
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,    90, 40
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,    85, 20
-	move LEECH_LIFE,   DRAIN_HP_EFFECT,             80, BUG,      100, 10
+	move LEECH_LIFE,   DRAIN_HP_EFFECT,             40, BUG,      100, 10
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,    75, 10
 	move SKY_ATTACK,   CHARGE_EFFECT,              200, FLYING,    90,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,   100, 10
@@ -218,14 +218,14 @@ MoveEnd:
 	move POUND,        FLINCH_SIDE_EFFECT1,         30, GHOST,    100, 15 ; Astonish
 	move DREAM_EATER,  NO_ADDITIONAL_EFFECT,        40, GHOST,    100, 30 ; Shadow Sneak
 	move MEGA_PUNCH,   SWIFT_EFFECT,                60, GHOST,    100, 20 ; Shadow Punch
-	move EGG_BOMB,     SPECIAL_DOWN_SIDE_EFFECT,   80, GHOST,    100, 15 ; Shadow Ball
+	move EGG_BOMB,     SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,    100, 15 ; Shadow Ball
 	move FLY,          FLY_EFFECT,                  90, GHOST,    100, 10 ; Phantom Force
 	move RECOVER,      HEAL_EFFECT,                  0, GRASS,    100,  5 ; Synthesis
 	move RAZOR_LEAF,   SWIFT_EFFECT,                60, GRASS,    100, 20 ; Magical Leaf
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             75, GRASS,    100, 10 ; Giga Drain
 	move SLASH,        NO_ADDITIONAL_EFFECT,        90, GRASS,    100, 15 ; Leaf Blade
 	move PETAL_DANCE,  NO_ADDITIONAL_EFFECT,        90, GRASS,    100, 15 ; Petal Blizzard
-	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,       20, GROUND,   100, 10 ; Mud Slap
+	move SAND_ATTACK,  ACCURACY_DOWN_SIDE_EFFECT,   20, GROUND,   100, 10 ; Mud Slap
 	move SAND_ATTACK,  SPEED_DOWN_SIDE_EFFECT,      55, GROUND,    95, 15 ; Mud Shot
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,      100, 30 ; Icicle Spear
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        40, ICE,      100, 30 ; Ice Shard
@@ -236,7 +236,7 @@ MoveEnd:
 	move DIZZY_PUNCH,  POISON_SIDE_EFFECT1,         80, POISON,   100, 20 ; Poison Jab
 	move SLUDGE,       POISON_SIDE_EFFECT1,         90, POISON,   100, 10 ; Sludge Bomb
 	move SLUDGE,       POISON_SIDE_EFFECT2,        120, POISON,    80,  5 ; Gunk Shot
-;	move CONFUSION,    FLINCH_SIDE_EFFECT1,         80, PSYSHIC   100, 20 ; Extrasensory
+	move CONFUSION,    FLINCH_SIDE_EFFECT1,         80, PSYCHIC,  100, 20 ; Extrasensory
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         80, PSYCHIC,   90, 15 ; Zen Headbutt
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, ROCK,      90, 10 ; Rock Blast
 	move STRENGTH,     SILVER_WIND_EFFECT,          60, ROCK,     100,  5 ; Ancient Power

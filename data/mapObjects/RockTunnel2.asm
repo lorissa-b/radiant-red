@@ -9,7 +9,7 @@ RockTunnel2Object:
 
 	db $0 ; signs
 
-	db $8 ; objects
+	db $9 ; objects
 	object SPRITE_LASS, $b, $d, STAY, DOWN, $1, OPP_JR_TRAINER_F, $9
 	object SPRITE_HIKER, $6, $a, STAY, DOWN, $2, OPP_HIKER, $9
 	object SPRITE_BLACK_HAIR_BOY_2, $3, $5, STAY, DOWN, $3, OPP_POKEMANIAC, $3
@@ -18,6 +18,7 @@ RockTunnel2Object:
 	object SPRITE_LASS, $e, $1c, STAY, RIGHT, $6, OPP_JR_TRAINER_F, $a
 	object SPRITE_HIKER, $21, $5, STAY, RIGHT, $7, OPP_HIKER, $b
 	object SPRITE_BLACK_HAIR_BOY_2, $1a, $1e, STAY, DOWN, $8, OPP_POKEMANIAC, $5
+	object SPRITE_SLOWBRO, $4, $19, STAY, RIGHT, $9, MEW, 35 | OW_POKEMON 
 
 	; warp-to
 	EVENT_DISP ROCK_TUNNEL_2_WIDTH, $19, $21 ; ROCK_TUNNEL_1

@@ -1,13 +1,17 @@
 LavenderCashierText::
 	db MART_LIST
-	db 9
+	db 13
+	db POKE_BALL
 	db GREAT_BALL
+	db POTION
 	db SUPER_POTION
+	db ICE_HEAL
+	db AWAKENING
+	db PARLYZ_HEAL
+	db BURN_HEAL
+	db ANTIDOTE
 	db REVIVE
 	db ESCAPE_ROPE
+	db REPEL
 	db SUPER_REPEL
-	db ANTIDOTE
-	db BURN_HEAL
-	db ICE_HEAL
-	db PARLYZ_HEAL
 	db $FF

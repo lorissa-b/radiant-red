@@ -10,11 +10,10 @@ _ViridianPokeCenterText1::
 	done
 
 _ViridianPokeCenterText3::
-	text "The big computer"
-	line "in the middle"
-	cont "accesses the"
-	cont "Wonder Trade"
-	cont "system."
+	text "The computer in"
+	line "the corner is how"
+	cont "you access the"
+	cont "Pokemon box."
 	
 	para "You should try it"
 	line "out if you're a"

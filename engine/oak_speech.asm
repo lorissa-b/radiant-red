@@ -57,9 +57,9 @@ OakSpeech:
 	call SpecialWarpIn
 	xor a
 	ld [hTilesetType],a
-	;ld a, PAL_PROF_OAK
-	;call GotIntroTrainerPalID ; HAX
-	;ld a,[wd732]
+	ld a, PAL_PROF_OAK
+	call GotIntroTrainerPalID ; HAX
+	ld a,[wd732]
 	;bit 1,a ; possibly a debug mode bit
 	;jp nz,.skipChoosingNames
 	
@@ -96,9 +96,9 @@ OakSpeech:
 	ld hl,OakSpeechText1
 	call PrintText
 	call GBFadeOutToWhite
-	;call ClearScreen
-	;call GetSylveonPalID ; HAX
-	;ld a,SYLVEON
+	call ClearScreen
+	call GetBeedrillPalID ; HAX
+	ld a,BEEDRILL
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader

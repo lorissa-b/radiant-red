@@ -4,9 +4,9 @@ GetOakPalID:
 	ld a, PAL_PROF_OAK
 	jr GotIntroTrainerPalID
 
-GetSylveonPalID:
+GetBeedrillPalID:
 	call ClearScreen
-	ld a, PAL_SYLVEON
+	ld a, PAL_BEEDRILL
 	jr GotIntroMonPalID
 
 GetRedPalID:

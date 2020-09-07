@@ -21,7 +21,7 @@ _ViridianForestEndBattleText1::
 _ViridianFrstAfterBattleText1::
 	text "I heard there's a"
 	line "rare #mon"
-	line "in the forest!"
+	cont "in the forest!"
 	done
 
 _ViridianForestBattleText2::

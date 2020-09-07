@@ -21,6 +21,7 @@ RockTunnel2TextPointers:
 	dw RockTunnel2Text6
 	dw RockTunnel2Text7
 	dw RockTunnel2Text8
+	dw RockTunnelMewText
 
 RockTunnel2TrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_0
@@ -96,6 +97,17 @@ RockTunnel2TrainerHeader7:
 
 	db $ff
 
+RockTunnelMewTrainerHeader:
+	dbEventFlagBit EVENT_BEAT_MEW_ROCK_TUNNEL
+	db ($0 << 4) ; trainer's view range
+	dwEventFlagAddress EVENT_BEAT_MEW_ROCK_TUNNEL
+	dw MewBattleText ; TextBeforeBattle
+	dw MewBattleText ; TextAfterBattle
+	dw MewBattleText ; TextEndBattle
+	dw MewBattleText ; TextEndBattle
+
+	db $ff
+
 RockTunnel2Text1:
 	TX_ASM
 	ld hl, RockTunnel2TrainerHeader0
@@ -141,6 +153,12 @@ RockTunnel2Text7:
 RockTunnel2Text8:
 	TX_ASM
 	ld hl, RockTunnel2TrainerHeader7
+	call TalkToTrainer
+	jp TextScriptEnd
+
+RockTunnelMewText:
+	TX_ASM
+	ld hl, RockTunnelMewTrainerHeader
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -239,3 +257,11 @@ RockTunnel2EndBattleText9:
 RockTunnel2AfterBattleText9:
 	TX_FAR _RockTunnel2AfterBattleText9
 	db "@"
+
+RockTunnelMewBattleText:
+	TX_FAR _RockTunnelMewText
+	TX_ASM
+	ld a, MEW
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd

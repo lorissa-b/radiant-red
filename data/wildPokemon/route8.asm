@@ -18,15 +18,31 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0F
-	db 18,ABRA
-	db 18,KADABRA
-	db 17,PIDGEOTTO
-	db 16,MANKEY
-	db 20,MEOWTH
-	db 20,MEOWTH
-	db 17,GROWLITHE
-	db 17,VULPIX
-	db 18,LICKITUNG
+	db 26,VULPIX
+	db 27,VULPIX
+	db 28,VULPIX
+	db 29,VULPIX
+	db 30,VULPIX
+	db 26,DODUO
+	db 27,DODUO
+	db 28,DODUO
+	db 29,DODUO
+	db 30,DODUO
+	db 26,EXEGGCUTE
+	db 26,EXEGGCUTE
+	db 28,EXEGGCUTE
+	db 28,EXEGGCUTE
+	db 30,EXEGGCUTE
+	db 26,TANGELA
+	db 26,TANGELA
+	db 28,TANGELA
+	db 30,TANGELA
+	db 30,TANGELA
+	db 27,ABRA
+	db 29,ABRA
+	db 29,ABRA
+	db 30,GLOOM
+	db 30,GLOOM
 
 ; Water Mons
 	db $00
